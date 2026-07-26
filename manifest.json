@@ -1,0 +1,38 @@
+{
+  "name": "Malgari — Teacher's Companion for KP Schools",
+  "short_name": "Malgari",
+  "description": "Malgari — Teacher's Companion for KP Schools. HRIS, e-Transfer Plus 2026, leave, pension, notifications and DCTE resources for Khyber Pakhtunkhwa E&SE Department staff. Unofficial.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A5C33",
+  "theme_color": "#0A5C33",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "government",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "malgari-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "malgari-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "malgari-icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
