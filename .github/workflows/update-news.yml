@@ -1,0 +1,54 @@
+name: Update news feed
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_news.py"
+      - "scripts/enrich_news.py"
+      - ".github/workflows/update-news.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest notifications from kpese.gov.pk
+        run: python3 scripts/fetch_news.py
+
+      - name: Brief the notifications for teachers
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODEL: claude-haiku-4-5-20251001
+        run: python3 scripts/enrich_news.py
+
+      - name: Commit news.json if it changed
+        run: |
+          git config user.name  "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          if git diff --quiet -- news.json; then
+            echo "No change in news.json — nothing to commit."
+          else
+            git add news.json
+            git commit -m "Update news feed ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+            echo "news.json updated and pushed."
+          fi
