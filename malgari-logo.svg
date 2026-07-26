@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="field" cx="50%" cy="26%" r="84%">
+      <stop offset="0%"   stop-color="#13904F"/>
+      <stop offset="56%"  stop-color="#0A5C33"/>
+      <stop offset="100%" stop-color="#042E1A"/>
+    </radialGradient>
+    <radialGradient id="dawn" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FFD469" stop-opacity=".50"/>
+      <stop offset="60%"  stop-color="#F5C64E" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#F5C64E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pageL" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%"   stop-color="#FFE092"/>
+      <stop offset="52%"  stop-color="#F7C851"/>
+      <stop offset="100%" stop-color="#DFAE38"/>
+    </linearGradient>
+    <linearGradient id="pageR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#D5A32E"/>
+      <stop offset="100%" stop-color="#B0821E"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="512" height="512" rx="114" ry="114"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="512" height="512" fill="url(#field)"/>
+    <circle cx="256" cy="206" r="215" fill="url(#dawn)"/>
+    <g transform="translate(256,268) scale(1.21) translate(-256,-256)">
+      <path d="M-60 374 Q 256 342 572 374 L572 560 L-60 560 Z" fill="#042E1A" opacity=".5"/>
+      <path d="M256 216 L328 178 L440 330 Q 348 392 256 372 Z" fill="url(#pageR)"/>
+      <path d="M256 216 L194 142 L72 330 Q 164 392 256 372 Z" fill="url(#pageL)"/>
+      <path d="M194 142 L221 176 L208 170 L194 186 L179 168 L166 176 Z" fill="#FFFFFF"/>
+      <path d="M328 178 L346 202 L336 198 L326 210 L316 197 Z" fill="#FFFFFF" opacity=".7"/>
+      <path d="M256 216 L256 372" stroke="#042E1A" stroke-width="7" stroke-linecap="round" opacity=".36"/>
+    </g>
+    <path d="M388 128 l8.4 17.5 19.2 2.7 -13.9 13.3 3.3 19.1 -17 -9 -17.1 9 3.3 -19.1 -13.9 -13.3 19.3 -2.7 Z" fill="#FFD469"/>
+  </g>
+</svg>
