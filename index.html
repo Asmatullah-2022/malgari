@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A5C33">
+<title>Malgari — Teacher’s Companion for KP Schools</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="malgari-icon-192.png">
+<link rel="shortcut icon" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="malgari-icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Malgari — Teacher’s Companion for KP Schools. For Khyber Pakhtunkhwa Elementary &amp; Secondary Education Department staff — HRIS, e-Transfer Plus 2026, leave, pension, notifications and DCTE resources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#052A18;--green-900:#053E23;--green-800:#0A5C33;--green-700:#0E7040;--green-600:#13854D;--gold:#F5C64E;--paper:#F3F7F4;--line:rgba(255,255,255,.22)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{background:var(--green-800);color:#fff;font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;min-height:100vh;overscroll-behavior-y:none}
+body.urdu .u{font-family:'Noto Nastaliq Urdu',serif;line-height:2.1}
+.wrap{max-width:520px;margin:0 auto;padding:0 16px 48px;position:relative}
+header{padding:calc(env(safe-area-inset-top) + 18px) 0 6px;text-align:center;position:relative}
+.crest{width:82px;height:82px;margin:0 auto 12px;border-radius:22px;overflow:hidden;border:2.5px solid rgba(245,198,78,.85);box-shadow:0 8px 24px rgba(0,0,0,.38), 0 0 0 1px rgba(0,0,0,.18);background:#0d6b3c;animation:crestIn .55s cubic-bezier(.2,.8,.3,1) both}
+.crest img{width:100%;height:100%;object-fit:cover;display:block}
+@keyframes crestIn{from{opacity:0;transform:scale(.86)}to{opacity:1;transform:none}}
+h1{font-family:'Barlow Condensed',sans-serif;font-size:44px;letter-spacing:3px;font-weight:700;margin:0;line-height:1.05;text-transform:uppercase}
+.sub{font-size:11.5px;letter-spacing:2.4px;text-transform:uppercase;color:var(--gold);margin-top:6px;font-weight:600}
+.rule{height:2px;width:64px;background:var(--gold);margin:14px auto 0;border-radius:2px;opacity:.85}
+.langbtn{position:absolute;top:calc(env(safe-area-inset-top) + 18px);right:0;background:rgba(255,255,255,.12);border:1px solid var(--line);color:#fff;border-radius:20px;padding:6px 13px;font-size:12px;font-weight:600;cursor:pointer}
+.search{margin:20px 0 4px;display:flex;align-items:center;gap:10px;background:rgba(0,0,0,.18);border:1px solid var(--line);border-radius:14px;padding:11px 14px}
+.search svg{width:17px;height:17px;stroke:rgba(255,255,255,.65);fill:none;stroke-width:2;flex:none}
+.search input{background:none;border:0;outline:0;color:#fff;font-size:15px;width:100%;font-family:inherit}
+.search input::placeholder{color:rgba(255,255,255,.5)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:14px 0 2px;margin:0 -16px;padding-inline:16px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;background:rgba(255,255,255,.1);border:1px solid var(--line);color:#fff;border-radius:20px;padding:7px 14px;font-size:12.5px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:inherit}
+.chip:active{background:rgba(255,255,255,.2)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.tile{position:relative;background:linear-gradient(160deg,var(--green-700),var(--green-900));border:1.5px solid var(--line);border-radius:18px;padding:22px 12px 16px;display:flex;flex-direction:column;align-items:center;gap:12px;cursor:pointer;transition:transform .16s ease;box-shadow:0 4px 14px rgba(0,0,0,.22);min-height:150px;justify-content:center;color:#fff;font:inherit;text-align:center;animation:rise .45s cubic-bezier(.2,.8,.3,1) both}
+.tile:nth-child(2){animation-delay:.06s}.tile:nth-child(3){animation-delay:.11s}.tile:nth-child(4){animation-delay:.16s}.tile:nth-child(5){animation-delay:.21s}.tile:nth-child(6){animation-delay:.26s}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.tile:active{transform:scale(.97)}
+.tile:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.tile svg.ic{width:44px;height:44px;stroke:#fff;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.tile .label{font-size:15.5px;font-weight:600;line-height:1.25}
+.tile .count{position:absolute;top:10px;right:12px;font-size:10px;font-weight:700;color:var(--gold);letter-spacing:1px}
+.tile::after{content:"";position:absolute;left:50%;bottom:10px;transform:translateX(-50%);width:26px;height:2px;background:var(--gold);opacity:.55;border-radius:2px}
+.notice{margin-top:20px;border-radius:14px;padding:14px 16px;background:rgba(0,0,0,.2);border-left:3px solid var(--gold)}
+.notice .tag{font-size:10px;letter-spacing:1.8px;color:var(--gold);font-weight:700;text-transform:uppercase}
+.notice p{margin:6px 0 0;font-size:13.5px;line-height:1.55;color:rgba(255,255,255,.9)}
+footer{margin-top:26px;text-align:center;font-size:12.5px;line-height:1.7;color:var(--gold);font-style:italic}
+footer .dept{color:rgba(255,255,255,.75);font-style:normal;font-size:11px;margin-top:8px}
+.sheet{position:fixed;inset:0;z-index:50;display:none}
+.sheet.open{display:block}
+.scrim{position:absolute;inset:0;background:rgba(2,20,11,.62);animation:fade .2s both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.panel{position:absolute;left:0;right:0;bottom:0;max-height:90vh;background:var(--paper);color:var(--ink);border-radius:24px 24px 0 0;overflow-y:auto;animation:slide .3s cubic-bezier(.2,.8,.3,1) both;padding-bottom:calc(env(safe-area-inset-bottom) + 30px);-webkit-overflow-scrolling:touch}
+@keyframes slide{from{transform:translateY(100%)}to{transform:none}}
+.grab{width:40px;height:4px;border-radius:4px;background:#c8d6cd;margin:10px auto 0}
+.phead{padding:12px 20px 14px;border-bottom:1px solid #dfe8e2;position:sticky;top:0;background:var(--paper);z-index:2}
+.phead h2{font-family:'Barlow Condensed',sans-serif;font-size:25px;margin:0;text-transform:uppercase;letter-spacing:.6px;color:var(--green-800);padding-right:40px}
+.phead .desc{font-size:13px;color:#4a6155;margin-top:4px;line-height:1.5}
+.close{position:absolute;top:12px;right:16px;width:32px;height:32px;border-radius:50%;background:#e2ebe5;border:0;font-size:18px;color:#3a5145;cursor:pointer;line-height:1}
+.back{background:none;border:0;color:var(--green-700);font:inherit;font-size:13px;font-weight:600;padding:0 0 8px;cursor:pointer}
+.plist{padding:10px 16px 0}
+.item{display:flex;gap:13px;align-items:flex-start;width:100%;text-align:left;background:#fff;border:1px solid #e2ebe5;border-radius:14px;padding:14px;margin-bottom:10px;text-decoration:none;color:inherit;font:inherit;cursor:pointer;transition:background .12s}
+.item:active{background:#eef4f0}
+.item:focus-visible{outline:2px solid var(--green-700);outline-offset:2px}
+.item .dot{flex:none;width:34px;height:34px;border-radius:10px;background:var(--green-800);display:grid;place-items:center;color:var(--gold);font-size:13px;font-weight:700}
+.item h3{margin:0;font-size:15px;font-weight:600;color:var(--green-900)}
+.item p{margin:3px 0 0;font-size:12.5px;line-height:1.5;color:#556b5e}
+.item .go{margin-left:auto;align-self:center;color:#9bb0a4;font-size:19px;flex:none}
+.badge{display:inline-block;font-size:9.5px;letter-spacing:1px;text-transform:uppercase;background:#e8f2eb;color:var(--green-700);border-radius:5px;padding:2px 6px;font-weight:700;margin-top:6px}
+.badge.live{background:#fdf1d4;color:#8a6512}
+ .digest{margin:12px 16px 0;padding:15px 17px;background:linear-gradient(160deg,#0E7040,#053E23);border-radius:15px;color:#fff}
+.digest .lbl{font-size:9.5px;letter-spacing:1.8px;text-transform:uppercase;color:var(--gold);font-weight:700;display:flex;align-items:center;gap:7px}
+.digest .lbl span{background:rgba(245,198,78,.16);border:1px solid rgba(245,198,78,.4);border-radius:5px;padding:2px 6px;letter-spacing:.6px}
+.digest p{margin:9px 0 0;font-size:13.5px;line-height:1.65;color:rgba(255,255,255,.94)}
+.item .brief{margin:5px 0 0;font-size:13px;line-height:1.55;color:#33493e;font-weight:500}
+.item .meta{margin:7px 0 0;font-size:11.5px;line-height:1.5;color:#6c8377}
+.item .meta b{color:var(--green-700);font-weight:600}
+.item .raw{margin:6px 0 0;font-size:11px;line-height:1.45;color:#93a89c}
+.u-pill{display:inline-block;font-size:9px;letter-spacing:1px;text-transform:uppercase;font-weight:700;border-radius:5px;padding:2px 7px;margin-top:7px;margin-right:5px}
+.u-action{background:#fde8e5;color:#a33224}
+.u-watch{background:#fdf1d4;color:#8a6512}
+.u-info{background:#e8f2eb;color:var(--green-700)}
+.livebar{display:flex;align-items:center;gap:8px;margin:10px 16px 0;padding:9px 13px;background:#e8f2eb;border:1px solid #d3e3d9;border-radius:11px;font-size:11.5px;color:#4a6155}
+.livebar .dotlive{width:7px;height:7px;border-radius:50%;background:#1f9d55;flex:none;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.livebar.stale .dotlive{background:#b8862b;animation:none}
+.livebar.err .dotlive{background:#a33;animation:none}
+.livebar button{margin-left:auto;background:none;border:0;color:var(--green-700);font:inherit;font-size:11.5px;font-weight:700;cursor:pointer}
+.grouphead{font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;color:#7d9187;font-weight:700;margin:14px 2px 8px}
+.detail{padding:16px 20px 0}
+.detail .lead{font-size:14px;line-height:1.7;color:#3c5449;margin:0 0 16px}
+.detail h4{font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:var(--green-700);margin:20px 0 10px;font-weight:700}
+ol.steps{margin:0;padding:0;list-style:none;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 34px;font-size:13.5px;line-height:1.65;color:#3c5449}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:23px;height:23px;border-radius:50%;background:var(--green-800);color:var(--gold);font-size:11px;font-weight:700;display:grid;place-items:center}
+ol.steps li::after{content:"";position:absolute;left:11px;top:26px;bottom:2px;width:1.5px;background:#d6e3db}
+ol.steps li:last-child::after{display:none}
+.tips{background:#fff8e6;border:1px solid #f0dfae;border-radius:12px;padding:13px 15px}
+.tips p{margin:0 0 7px;font-size:12.5px;line-height:1.6;color:#6b5518;padding-left:16px;position:relative}
+.tips p:last-child{margin:0}
+.tips p::before{content:"!";position:absolute;left:0;top:0;font-weight:700;color:#c9a03a}
+.facts{border:1px solid #e2ebe5;border-radius:12px;overflow:hidden;background:#fff}
+.facts div{display:flex;gap:10px;padding:10px 13px;border-bottom:1px solid #eef3f0;font-size:12.5px;line-height:1.5}
+.facts div:last-child{border-bottom:0}
+.facts b{flex:none;width:38%;color:var(--green-800);font-weight:600}
+.facts span{color:#4a6155}
+.cta{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--green-800);color:#fff;border-radius:13px;padding:15px;font-size:14.5px;font-weight:600;text-decoration:none;margin-top:20px}
+.cta:active{background:var(--green-900)}
+.cta.watch{background:#b3261e;color:#fff;margin-top:20px}
+.cta.watch:active{background:#8f1c17}
+.cta.watch .play{font-size:12px;background:rgba(255,255,255,.22);border-radius:4px;padding:2px 7px}
+.cta.ghost{background:#e6efe9;color:var(--green-800);margin-top:10px}
+.linkurl{font-size:11px;color:#7d9187;text-align:center;margin-top:8px;word-break:break-all}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:6px 16px 0}
+.stat{background:#fff;border:1px solid #e2ebe5;border-radius:14px;padding:14px}
+.stat .n{font-family:'Barlow Condensed',sans-serif;font-size:25px;color:var(--green-700);font-weight:700;line-height:1}
+.stat .l{font-size:11px;color:#607a6c;margin-top:4px;line-height:1.4}
+.dept-mark{display:flex;gap:13px;align-items:center;margin:14px 16px 0;padding:13px 15px;background:#fff;border:1px solid #e2ebe5;border-radius:14px}
+.dept-mark img{width:54px;height:54px;object-fit:contain;flex:none;border-radius:8px}
+.dept-mark div{font-size:12px;line-height:1.55;color:#556b5e}
+.dept-mark b{display:block;color:var(--green-800);font-size:13px;font-weight:600;margin-bottom:2px}
+.prose{padding:14px 20px 0;font-size:13.5px;line-height:1.7;color:#3c5449}
+.prose b{color:var(--green-800)}
+#net{position:fixed;left:50%;transform:translateX(-50%);bottom:16px;z-index:60;background:#7a1f1f;color:#fff;font-size:12px;padding:7px 14px;border-radius:20px;display:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <button class="langbtn" id="lang">اردو</button>
+  <div class="crest"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAC0ALQDASIAAhEBAxEB/8QAHQAAAQQDAQEAAAAAAAAAAAAABAACAwUBBgcICf/EAEIQAAEDAgQFAAUJBQYHAAAAAAEAAgMEEQUGITEHEkFRYQgTInGBIyUyQmJ0kaHBFBUkUoIWFzNDsfBjZHOSorLC/8QAHAEAAgIDAQEAAAAAAAAAAAAAAgQBAwAGBwUI/8QAOREAAQMCAgcGBQIFBQAAAAAAAQACAwQRBSEGEjFBUWGBEyJxobHRFSMzgpEU8DJSksHhB0KywvH/2gAMAwEAAhEDEQA/APIcbUTG3qoo27IljV5xXH3lSRtRDG9UxjURG1ClXFOYzqVOxqwxqJiiLuiElUOKwxnYIiOAndSw0/cI2Kn8Ktz7Ku10Kym8KdtP4RsdNpsiG03hUmRTqqubTfZWf2bwrQU3hZ/ZvH5Ie0Waip3U32VE+n8K7dTeFC+m8KRIs1FRSU9uiGfER0V5JT26ISWn8K1sl1Gqqd7FC9qsJYCL6ISRllaDdE0kIJ7Oige1GyNuEO9vVGCr2lBPahpG7hHSNQ0reqkJljkG5tzskpHN1SRJjWU8Q6omMKCIaImMISlnlTRhExt0UMY2CKibc2QlLOKmhjLraKwgh2uFFTxaKzp4drqh77IA1Ohg8I6GDZZgh8I+GHbRKPejDFFHTg9ESyn8ImKDwio6fwqHSIwxAtpr9Fk01/qq0bSpxpVX2qzs1TOp9NlBJT+FdvprdENLBboiEizUVHLANdEFNBur6WDwgZ4d7hXsehLFQTw6HRV08JHRX88O+irp4iCdNE0x6AtVJI2x1Q8jdVYVEVigpAmWm6xuSDkCHkCLkCGkCNMMKEIF0k5zfaSRJi6mjGyJjQ8fREx9EKoeiIxqrCmj2JQUAu5WlM3ZVPNlTa5RlNHe2itaePZB0zNlaU7ElI5WNaiYI9tFYwQ7aKCnjvbRbPlLK2N5uxyiy3l3DpK3EcQkEUEEdrud1JJ0AABJJsAASSAEm9xOQTEcReQ1ouVXwU99wj4qbwjazBMQwbEanCMWo5aWto5XQTwSts6ORps5pHcEKeCnv0Sb5FcICDYoRlJ4TzSWGwVpHTeFI6lAGypMqLsVQSUtuiDmptNlsUtN4QE9P4RtlUGFa5PBa+ir54t9FsFTDa+iqqmKxOibjfdUOjsqOojVZUx7rYWUNTX1cNDRwumqKmRsUUbBcve42DR5JIQ2acv4lljG67L+MQeprcPmdBMy9xzN6g9QdweoITccrdbUvnwQGB+oZLd29r7r8PJanUR7iyrJ22JV3Us3VTVN3T8bksW2Vc9DSBFSIaXqmArGIZ/0kk47pKbpgJ8fREx7IWM6BExlQqXo+mGqtqVuqq6X3K2pUtIULQrSmbsrSmaNFW03RW1ML2SEhTDWq0w+mlqJY4IInySyODGMa0lznHQAAbklfRn0WfR8j4UYAMzZlpWnNWKwj1jSAf2CA2IhB/mOhee4DRoLnyH6MOD4hW5+ZitBh8LjhbRM6tnZzto7nR0bT7JmOzS64aOZwBcGke/ck5wfPIMIxacukefkJnuuXE/VJ79vw7JSkxahp69tLOe+7ZwB3A8zu6cV0DRnAJJaZ2JEXANh/cjjb36ct9KfgE3OVFJxEylQg47Qxfx0ETda6Bo+kAN5GDbq5otqQ0LxvBD0svonm3P9RTVwosCmYBTu+VlLQ4Pd/KL9PPf8/LPGvIMP7xnztl/DmU8FS71lfSw/QjkJ1kYOjSdx0J7HTysUxrDZK50ED+9ex4E8j5HZnsvdeljGi9QYPiEbebhvtxt68s+K5BHB1snmG42RcUNxspHQabKgvWoCmyVNNBYbKuqIRror+eK1xZVdTHvorWPVT4LLX6qLfRVhhp31MbauWSKAvAlfGwPc1t9SGkgOIHS4v3C2qhwHFcerI6DCaGSomleGNDRpzE2AJ2VfnfKWN5Jx2py5mCl9RWUxF7G7HtOoe09WkdfhuCE3FK1xLQcx5KiWjlbGJyw6hNr2NieF16D4QcAsg0VZhXETCs1VGPthvNS/JNjiEliLubq4OaTsSCHAX2R/Gn0fskZ4rqnPeNZkmwCSClArKgNY6EtYDaR4dY35bN32aFo/A/iZkvhXw3r6/MWJl9dX4jJJBh9P8pM9jY2NB5b2YC4O1cQDbrZZ4vcZMi8WuDWKUmF18lBjFHLT1X7tqyGSSBsrWu5CDyyABznWBv7NyAtQdDinxPtGvdqhwZr2GQJ4bLX32tddOiqcC+B9i6NmuWmTs9Y5uA43vcjYL3t+V5SzHS4TS4rV02B4jNX0EchbT1M1P6h8rR9Ys5nct+gve1r22GuVLd1c1PVVFT1XUIcgATdcWks5xIFuX/qqZtChZeqKn0dshJCnQq2hQuIBSTX/AEkkVkwFmI6IqI6hBxu1RMZ1CgoHhWtKdlb0vRUtK5W9K7bwlZVjQrmnIFle4NRVeKV1PhuH0756qqkbDDEwXc97jYAe8la9Tm9l6t9FDhZyxnibjdNvzQ4Sx4+D5/8AVrf6j2K8HFq5mHU7p39BxO4L3sCwmXGaxlLHvzJ4DefbnZdq4V8P6ThvlCmwSMMfWyfL10zf8ycjWx/lb9EeBfclbY6Q3uDa3VYe+6ie+y47U1L55DK83JzX0bSUsdHC2CEWa0WCTn2Q8wjmjfHMxr2PBa5rhcOB3BHZOc/qVA96898nBOBoO1cUz1kg5brzWUEZOG1DvY6+qd/IfHY9vctXkis269C4jS0uJUktDWRCSGZvK5p/3v5XBMPjjxDEcTpZGlkdBVGFlnXL27gnTQ23AW24bjbXU5NSc2Wz48Oq55jGir/1Q/Qjuv3bNU7+nD8cFUOpZ6l/qqeJz3HoB/uyPo8oxFwlxKTnO/qmGw+J6/BbFHFDAzkhjaxvYDdNc5I1mkNRPdkHcb5/nd0/K9fDNC6OlIkq/mO4f7R039cuS6DwPwfA345NNIYmVFFFzUlOG2BJ0c8dyBYf1X6J/pKZVynnLDWUgxCnpc04fEZqMu0E0Z1MD37N5t28xFj2DjfQMPxOtwivhxLD5zFUU7g9jh0P6g7EdlBX19XiVXNX107pp53l8j3buJTNBpGcPohBHGC/WuSd44nffd4L1cQwKLEtaOY/LItYbvDw2rzTWgtc5jmlpabEHcKmqXbrqnFLKhgc7MeHxfJvNqpjR9Fx2f7j18+9coqSuj4VXRYjTtnj37RwO8L5+xvCZsGq3Uk27YeI3EfvI5KtqraqoqtCQrSpduqiqfcle7EvCcFW1B1QTyiag6oOQ7p0KsDNQuN3JJpdqkjV1ko3fkiY3dUDG7YomN3RQVj2q2pX7K2pn7KhppLWV1hsdRWVENJSQvmnne2OKNgu573GwaANySQEtKN6hgJyC6lwT4b1nFHOlNgcYkjw+C1RiNQ3/KgB1AP8zj7I8m+wK+hFHR0eGUNPhuH07KelpYmwwxMFmsY0Wa0DsAFz3gPwrg4U5Hhw6pYx2M1/LU4nK3W8ttIwerWA2Hc8x6rob32XF9JMY+JVJbGfltyHPieu7kvoPQ/R/wCC0QdKPmvzdy4N6b+fRZe+3vULndSsOd3UL3rVHvW5Nak96ge9J71A96pRrL3rgWX3fPGYPv36Luz3rgmXnfO+YD/zv/ynaf6Ev2+qXk+vH19FfuconOWXOUTnKgBNpOconOWXOUbnIwFBKjqIoqmF9PPG2SOVpY9jhcOB0IK898QMrTZVxZ0TQ59FUXfTSHt1afI/0seq9BucqTNWXqPNODzYVV+yXDmiktrFINnD9e4JWwaP4wcJqQXfTdk4f36ei1TSzR5uP0dmfVZm0+rTyPkbHivMFS8WKqal26uMfw+twXEajC8Qi9XPTvLHi+h7EdwRYj3rX6mQartcBbI0PYbg7186TRuieWSCxGRB3EIKd1yg5HdFNK/UlCyO/NOgKpoUbjcpKNz9UkSvsmxvRMbkAxyJjf3WKXNVhBJYhet/Qw4OnFa08V8w0t6Ohe6HCI3t0lnGj5vIZ9EfaudCxeduDPDPFeLmfKDKOG88cLz66vqQLimpWkc7/fqGtHVzmhfUHA8FwvLGC0WXsDpGU1Bh8DKenibs1jRYe89zuTcrQ9NcbFFB+ihPfeM+Tf8AOzwvyW/aA6O/rqn4hOPlxnu83ezdvjbmj3vsoXO7pPfZQPeuPPfddwDUnvUL3rD3qF71SjSe9QvesPeoXvWIrJPeuEZePztj/wB9/Rdwe9cLy8751x777+iepvoS/b6paX68fX0V85yjc5JzlG5ypCZusOco3OSc5RucjCFYc5Ruck5yjc5EAsXPeLuRP7S4WcYwyG+J0TCeVo1niGpZ5I1I+I6rzXUy7he0XOXnnjnw+dg9Y7NuEQWoat/8Wxo0hmP1vDXH8D7wF0fQvHNVww6oOR/gP/X2/HBcm/1B0Z1wcWpW5j+MD/l02H88VySR90NI9Pe9DSPXT1yVjVgu1SURdqkpsrtVMY+6IhD5XtjjaXPcQ1rWi5JOwAQDH9l6D9DHLeRMe4rQ4hnHG6KGpwprZ8Iw6oPKa2rJPK5pPskx25g2/MXFpAIaUpiNY3D6V9U4EhovYbT++O7avQoaB2I1cdK0gFxtc7v3w37AvXHovcF2cIcgsmxama3MmONZU4k4j2oW2+TpwfsAm/2i7cALsTn23WHvsoHvXzriFdLiFQ+omN3ON/8AHgNgX0hh9BDh1MylgFmtFh7+J2lZe/yoHvWHvUL3pBOpPeoXvSe9QPesRWWXvUD3pPeoHvUKUnvXDsuu+dMe++/ou1PeuI5cd854799/RP0v0Jft9UpN9ePr6K/c5ROcsuconOVYCYSc5ROcsuconORgLEnOUTnLLnKJzkYChJzkFiVDR4pQz4dXwNmpqlhjkjcNHNO6Jc5ROcrGEsIc02IQOaHtLXC4K8i8R8lVmRcwSYbLzSUkt5KOcj/EjvsftDY/jsQtPe5etOLOCZdxzKFSzMFdT0ApwZaarlNvVS20Hch2xaLk9BcBeRZH2uAbrt2jGLuxej1pR325E7jzHjvG48iFwDSvAWYJXasJ+W/NovmOR35bjvHMFJ0gukoS/VJbItc1VEx90RDM5jg9ji1zTcEGxBVS2sA2afxUgxA9I/zUkK90Tl6k4N+mlnfI7YcFz22bNGDMsxsskgFdTt+zIf8AFHh+u3tAaL2Tw+4xcPOKdEKrJ2Y6epmDOeWikPq6qHvzxH2rX05hdp6Er5KjEZBsxv4oqgzDieG1cVfhtTJSVMDg+KaF7mSRuHVrgQQfIWl4zoRQ4mTLB8qQ7xsPi32t1W4YNpliOFgRT/NjG4nvDwd735WX2Me9QPevnlw99N7ixlJsVFmVtJmqhZYfxZMdUG9hM29/e9rj5XonJvps8G8ziODG6ivy3VOFi2ugL4ebsJI+bTy4NXNcR0NxbDyT2eu3i3Py2+S6Th2l+FV4AMmo7g7Lz2ea7896ge9U+B51ylmuET5ZzPheKsIvejq45re8NJt8VYvetYfG+M6rxY81szHtkbrMNxyWXvUD3rD3qF70KNJ71xTLjvnLHfvv6Lsj3rimV6iGbEcdMMzJLVtjyuBsbeF6FIPkS/b6pSb68fX0WxOconOWXOUTnKsBMJOconOWXOUM0scTHSSyNYxou5zjYAe9GAoJWXOUTnLUcf4ucOsuBwxHNdC6Ru8VM/1779iI72PvsuV5p9KmmaHwZPy8+V2obU17uVt+4jYbke9w9y9yh0fxKvI7GI24nIfk28l4tdpDhtAD20wvwGZ/Av5rvdRUQ08T555WRRsHM573ANaO5J2XKc7cf8uYG2Sjy0G4vWi49YCRTsPl27/6dPK885n4n5yze8nHsXfPFe7YG+xC33MbYfE3Pla6cTlP1Gre8K0EihIkr3ax/lGQ6nafJc/xfTypnBiw5moP5jYu6DYPPotpzVnPMOcK39tx7EX1Dm39XH9GOIdmtGg9+56krX3vQbsQd1YPxUbq7m+pb4rfIoWQMEcTQGjYBkFz6Ttp3mWYlzjtJNyUSZNdEkEaxvYhJXWWdkUG1ykDrqAG6cHIrJkhEB1k8G6gDk4HsVCEhThxCeHAqAPTg4KEBCIimkhe2WGRzHsN2uabEHwVtWF8WeJ+CtEeF8Q8x00bdo48Tm5P+3mt+S08OKyHqqWCKcWlaHDmLoo5ZYTeNxHgbei6ZF6RvG2JvK3iPixH23NcfxLSo6n0g+M9W0tl4j4yB/w5vVn8WgLnAeFnmCVGE0ANxAz+lvsmTidcRbt3/wBR91sOLZ7zpj4c3Hc3Y1iDXbtqq+WUH4OcVVUtdVUMonoqmWnlGz4nljvxCDuErhNshjjbqMaAOFko6SR7tdziTxW2UfFHiJQNDKXO+NtaNmurZHgfBxIR399vFMC39ta/48h/RaLcJcwSzsNonm7oWn7R7JlmI1rBZszh9x91uFVxb4l1YtLnfFx/06l0f/rZa7iGN4zizubFMWrKw3veonfIf/IlAF6aXEq2Kkp4M4ow3wAHoq5aqonyle53iSfVPJCaX9k0nuU0uCYVIanE90wuWC4lMLgsRgJxPdMc5Nc9MJvupRgLJckmFySmyKyjBTw5RA2WQVKsLVOCnteoA6ycHAqLKstRAddZB7FQApweoshIU4cQsh6hD04OCxDZS8wWbjuorhK/lYo1VNfylfyouY90rnuoUWUnN5S5goubylcd1KnVUhcFgvUfMFgvWKdVPLimlwTC9NLiVllNk8vTC66aT3TS9TZEAnE2TC5NJTSeylWBqdcd0kxJYiskkkksUrIJ2TkkliEpzSU4G6SSxAVlZuUklCErIJTrnukkoUJXKVykksWJXKxc90klixN5ilcpJKVKwm3KSSlEm3JWDoEkliMJqwkksRJJJJLFi//Z" alt="Malgari"></div>
+  <h1 id="t-title">Malgari</h1>
+  <div class="sub" id="t-sub">Teacher’s Companion · KP Schools</div>
+  <div class="rule"></div>
+</header>
+<label class="search">
+  <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+  <input id="q" type="search" placeholder="Search — leave, transfer, pension, DCTE…" autocomplete="off">
+</label>
+<div class="chips" id="chips"></div>
+<div class="grid" id="grid"></div>
+<div class="notice">
+  <div class="tag" id="t-notice-tag">Current notice</div>
+  <p id="t-notice">e-Transfer Plus 2026 launched 1 June 2026 for Teaching Cadre (BPS-12 to 18), Education Management, IT and Ministerial cadres. Apply through the eTransfer portal.</p>
+</div>
+<footer>
+  <div id="t-foot">EMIS Section — Elementary and Secondary Education Department<br>Govt of Khyber Pakhtunkhwa</div>
+  <div class="dept">Malgari · v1.9 — unofficial companion app<br>Not an official product of the Department. Department logo shown for reference only.</div>
+</footer>
+</div>
+<div class="sheet" id="sheet">
+  <div class="scrim" data-close></div>
+  <div class="panel" id="panel" role="dialog" aria-modal="true">
+    <div class="grab"></div>
+    <div class="phead">
+      <button class="close" data-close aria-label="Close">×</button>
+      <div id="sh-back"></div>
+      <h2 id="sh-title"></h2>
+      <div class="desc" id="sh-desc"></div>
+    </div>
+    <div id="sh-body"></div>
+  </div>
+</div>
+<div id="net">You're offline — showing saved copy</div>
+
+<script>
+const ICON={
+ office:'<svg class="ic" viewBox="0 0 24 24"><path d="M3 21h18"/><path d="M4 21V8l8-5 8 5v13"/><path d="M9.5 21v-6h5v6"/></svg>',
+ teacher:'<svg class="ic" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><circle cx="9.5" cy="9.5" r="1.8"/><path d="M7 14.5c.6-1.4 1.7-2.2 2.9-2.2 1 0 1.8.5 2.4 1.3"/><path d="M13.5 12.5 18 8"/><path d="M12 21h5"/></svg>',
+ video:'<svg class="ic" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="m10 9.5 5 2.5-5 2.5z"/></svg>',
+ doc:'<svg class="ic" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg>',
+ org:'<svg class="ic" viewBox="0 0 24 24"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="2.5" y="16.5" width="6" height="5" rx="1"/><rect x="15.5" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5v5"/><path d="M5.5 16.5v-4h13v4"/></svg>',
+ lead:'<svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="6.4" r="3.1"/><path d="M5.5 20.5v-1.4a4.2 4.2 0 0 1 4.2-4.2h4.6a4.2 4.2 0 0 1 4.2 4.2v1.4"/><path d="M3 12.5h1.8M19.2 12.5H21"/><path d="m5.4 8.2 1.3.9M17.3 9.1l1.3-.9"/></svg>',
+ wallet:'<svg class="ic" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="13" rx="2.5"/><path d="M2.5 10h19"/><circle cx="16.5" cy="14.2" r="1.4" fill="currentColor" stroke="none"/></svg>',
+ cap:'<svg class="ic" viewBox="0 0 24 24"><path d="M2.8 8.6 12 4.2l9.2 4.4L12 13z"/><path d="M6.6 10.6V16c0 1.6 2.4 2.9 5.4 2.9s5.4-1.3 5.4-2.9v-5.4"/><path d="M21.2 8.6v6.2"/></svg>',
+ news:'<svg class="ic" viewBox="0 0 24 24"><path d="M4 5h13a1 1 0 0 1 1 1v13H6a2 2 0 0 1-2-2z"/><path d="M18 9h2v8a2 2 0 0 1-2 2"/><path d="M7.5 8.5h6"/><path d="M7.5 12h6"/><path d="M7.5 15.5h4"/></svg>',
+ about:'<svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.2"/><path d="M12 11v6"/><circle cx="12" cy="7.6" r=".9" fill="currentColor" stroke="none"/></svg>'};
+
+/* ===== VERIFIED ENDPOINTS ===== */
+const U={
+ hrmis:"https://iemis.kpese.gov.pk/ords/r/emis/hrmis/login",
+ hrmisHome:"http://staff.kpese.gov.pk:9090/ords/r/emis/hrmis/home",
+ iemis:"https://iemis.kpese.gov.pk/",
+ etransferInfo:"https://kpese.gov.pk/etransfer/",
+ etransferPortal:"http://etransfer.kpese.gov.pk/login.aspx",
+ etransferApp:"https://play.google.com/store/apps/details?id=com.AZainapps.e_transfer",
+ talentPool:"https://iemis.kpese.gov.pk/ords/emis/r/tp/login",
+ talentPoolPage:"https://kpese.gov.pk/talent-pool",
+ epension:"http://epension.kpese.gov.pk:8081/",
+ bas:"http://bas.kpese.gov.pk/",
+ iemisHrmis:"https://iemis.kpese.gov.pk/ords/r/emis/human-resource-management-information-system-hrmis/login",
+ etransferPolicy:"https://kpese.gov.pk/e-transfer-plus-policy-2026/",
+ rti:"https://kpese.gov.pk/rti/",
+ organogram:"https://kpese.gov.pk/organogram/",
+ dpd:"https://kpese.gov.pk/directorate-of-professional-development/",
+ dirEse:"https://kpese.gov.pk/directorate-of-elementary-secondary-education/",
+ deoOffices:"https://kpese.gov.pk/district-education-offices/",
+ ema:"https://kpese.gov.pk/education-monitoring-authority-ema/",
+ esefPage:"https://kpese.gov.pk/elementary-secondary-education-foundation-esef/",
+ maef:"https://kpese.gov.pk/merged-areas-education-foundation-maef/",
+ psra:"https://kpese.gov.pk/private-schools-regulatory-authority-psra/",
+ tbb:"https://kpese.gov.pk/textbook-board-tbb/",
+ biseDik:"https://kpese.gov.pk/bise-d-i-khan/",
+ ggr:"https://kpese.gov.pk/good-governance-roadmap-ggr/",
+ acts:"https://kpese.gov.pk/category/acts/",
+ census:"https://kpese.gov.pk/category/annual-school-census/",
+ tenders:"https://kpese.gov.pk/category/tender/",
+ pension:"https://dese.kp.gov.pk/",
+ site:"https://kpese.gov.pk/",
+ notif:"https://kpese.gov.pk/all-notifications/",
+ seniority:"https://kpese.gov.pk/category/seniority-list/",
+ seniorSst:"https://kpese.gov.pk/category/seniority-list/sst/",
+ appoint:"https://kpese.gov.pk/category/appointments/",
+ careers:"https://kpese.gov.pk/category/careers/",
+ edo:"https://kpese.gov.pk/edo/",
+ departments:"https://kpese.gov.pk/all-departments/",
+ dcte:"https://kpese.gov.pk/directorate-of-curriculum-teacher-education/",
+ dcteCurr:"https://dcte.kpese.gov.pk/curriculum/",
+ dcteSite:"https://dctekp.edu.pk/",
+ dese:"https://dese.kp.gov.pk/",
+ kpPortal:"https://ese.kp.gov.pk/",
+ contact:"https://kpese.gov.pk/contact/",
+ onepage:"https://kpese.gov.pk/onepage-version/",
+ summerVac:"https://kpese.gov.pk/notification-summer-vacations-for-summer-winter-zones-for-all-public-private-institutions-in-khyber-pakhtunkhwa/",
+ summerCamp:"https://kpese.gov.pk/notification-guidelines-instructions-of-summer-camp-in-all-summer-zone-schools-public-private-of-khyber-pakhtunkhwa/",
+ ip5reg:"https://rebrand.ly/IP5Registration",
+ ip5venue:"https://rebrand.ly/Check-Your-Venue",
+ slPolicy:"school-leaders-policy.pdf",
+ eacr:"https://pmru.kp.gov.pk/acr.php",
+ gpFundAG:"https://agkhyberpakhtunkhwa.gov.pk/g-p-fund/",
+ gpFundRules:"https://kpcode.kp.gov.pk/uploads/Khyber_Pakhtunkhwa_General_Provident_Fund_Rules_20081.pdf",
+ bfkp:"https://bfkp.org/",
+ bfkpForms:"https://bfkp.org/forms.html",
+ sehatCard:"https://sehatsahulat.com.pk/",
+ sehatCheck:"https://www.sehatinsafcard.com/",
+ agkp:"https://agkhyberpakhtunkhwa.gov.pk/",
+ pmru:"https://pmru.kp.gov.pk/",
+ induction:"http://induction.kpese.gov.pk/",
+ inductionLogin:"http://induction.kpese.gov.pk/Login.aspx",
+ dpdSite:"https://dpd.kp.gov.pk/",
+ dpdOld:"http://www.dpd.gkp.pk/",
+ dpdList:"http://www.dpd.gkp.pk/Main/InductionProgramList",
+ dpdTotV:"https://dpd.kp.gov.pk/page/tot_for_ses_of_induction_v/page_type/event",
+ ytLectures:"https://www.youtube.com/channel/UCiHheDKhebGDZv51eGEjGbQ",
+ ytOfficial:"https://www.youtube.com/channel/UCsP_DiZg1PrBpdHUc9BrzNw",
+ distance:"https://kpese.gov.pk/distance-learning/",
+ aboutDept:"https://kpese.gov.pk/about/",
+ ePostPolicy:"https://kpese.gov.pk/e-posting-transfer-policy-of-teaching-cadre-bps-12-to-18-in-ese-department-khyber-pakhtunkhwa/",
+ recruit:"https://kpese.gov.pk/recruitment-of-teachers-district-cadre-posts-all-advertisements/",
+ yt:function(q){return "https://www.youtube.com/results?search_query="+encodeURIComponent(q)},
+ newsCat:"https://kpese.gov.pk/category/news/",
+ notifCat:"https://kpese.gov.pk/category/notifications/",
+ reforms:"https://kpese.gov.pk/reforms/",
+ schoolOpen:"https://kpese.gov.pk/government-schools-opening-notification/",
+ esef:"https://esef.gkp.pk/",
+ y2026:"https://kpese.gov.pk/2026/",
+ winterVac:"https://kpese.gov.pk/notification-winter-vacations-summer-winter-zones-for-the-academic-year-2024-25-for-all-public-private-educational-institutions-of-khyber-pakhtunkhwa/"
+};
+
+const DATA={
+/* ============ 1. OFFICES ============ */
+offices:{
+ en:{title:"For Offices",desc:"Tools used by DEO, SDEO, ADEO and school heads to manage staff records, postings and verification."},
+ ur:{title:"دفاتر کے لیے",desc:"ڈی ای او، ایس ڈی ای او اور ہیڈ ٹیچرز کے لیے ریکارڈ، تقرری و تصدیق کے امور۔"},
+ items:[
+ {n:"01",h:"HRMIS office login",p:"Oracle APEX portal for district offices to open, verify and update employee service records.",b:"Live portal",url:U.hrmis},
+ {n:"02",h:"Employee record verification",p:"Confirm CNIC, personal number, cadre, BPS and appointment dates before any office order.",b:"Office use",
+  detail:{lead:"Before a DEO/SDEO office issues any posting, promotion or pay order, the employee's HRIS record must be verified. A wrong entry here becomes a pension dispute fifteen years later.",
+  steps:["Log in to HRMIS with your office credentials and open the employee by CNIC or personal number.","Match CNIC with the NADRA card — spelling of name and father name must be identical.","Check date of birth against the matric certificate, not the CNIC alone.","Verify date of first appointment and the original appointment order number.","Confirm current cadre (PST/CT/SST/AT), BPS and sanctioned post against the school's staff strength.","Check qualification entries — B.Ed / M.Ed / induction certificate affect promotion eligibility.","Mark the record verified and generate the verification slip for the office file."],
+  tips:["Never verify on a photocopy alone — call for the original service book.","If the date of first appointment is wrong, correct it before any seniority list is published."],cta:{t:"Open HRMIS portal",u:U.hrmis}}},
+ {n:"03",h:"Posting, transfer & vacancy control",p:"Mark real vacancies against sanctioned posts so e-Transfer Plus shows correct seats.",b:"e-Transfer Plus",
+  detail:{lead:"E-Transfer Plus works only if the vacancy data is honest. A seat wrongly shown filled blocks a genuine applicant; a seat wrongly shown vacant produces an allotment nobody can join.",
+  steps:["Pull the sanctioned strength for each school in your jurisdiction.","Mark against it the staff actually present and drawing salary.","Reconcile with the biometric attendance record — a long-absent post is not a vacancy until formally declared.","Enter retirements, deaths and resignations the same month they occur.","Flag posts frozen or under litigation so they are excluded from the transfer pool.","Publish the vacancy list before the transfer window opens.","Recheck after allotment that every allotted teacher has actually joined."],
+  tips:["A vacancy not entered on time simply does not exist for that transfer cycle.","Litigation-bound posts must be excluded, or the allotment will be challenged."],cta:{t:"e-Transfer Plus 2026 policy",u:U.etransferInfo}}},
+ {n:"04",h:"QR e-Notification system",p:"Every posting/transfer order carries a unique QR code so a school head can verify it is genuine.",b:"Anti-fraud",
+  detail:{lead:"E&SED has launched a QR-based E-Notification System for staff posting and transfer orders. Each notification carries a unique QR code, so a fake or altered order can be caught at the school level.",
+  steps:["Receive the order — printed copy or WhatsApp forward.","Open your phone camera or any QR scanner and scan the code printed on the order.","The scan opens the department's record for that notification.","Compare the name, personal number, school and date on screen with the paper in your hand.","If anything differs, or the QR does not resolve, treat the order as unverified and report it to the DEO office.","Record the verification in your school's inward register before allowing joining or relieving."],
+  tips:["A forwarded photo can be edited; the QR record cannot.","Orders without a QR code should be confirmed by phone with the issuing office."],cta:{t:"View all notifications",u:U.notif}}},
+ {n:"05",h:"Biometric attendance monitoring",p:"Track daily staff attendance by school and reconcile it with salary and leave records.",b:"Daily",
+  detail:{lead:"The Biometric Attendance System records staff presence at the school level and feeds absence data into salary and leave processing.",
+  steps:["Ensure every staff member's thumb impression is enrolled and readable — re-enrol worn impressions.","Confirm the device shows the correct date and time each morning.","Review the daily absentee list before 11:00 AM.","Match unexplained absences against approved leave in HRIS.","Submit corrections for genuine device failures with a written report, not verbally.","Keep a manual register as backup for days the device or connection fails."],
+  tips:["Device failure days must be reported the same day, otherwise absence stands.","Long-leave staff should be flagged in HRIS so they are not marked absent daily."],cta:{t:"Biometric attendance system",u:U.bas}}},
+ {n:"06",h:"School Self-Reporting (SSR) portal",p:"Online portal for collecting data directly from schools.",b:"Initiative",
+  detail:{lead:"An online School Self-Reporting portal was developed and implemented so that schools report their own data directly, instead of waiting for a survey team.",
+  steps:["Identify the staff member responsible for reporting in your school — one person, not whoever is free.","Collect the required figures before opening the portal: enrolment by class and gender, staff present, functional facilities.","Enter figures that match your own registers — the portal is checked against the annual census.","Report missing facilities honestly; under-reporting removes your school from the repair list.","Submit within the reporting window.","Keep a printed copy of what you submitted, signed by the head teacher.","Correct any error immediately rather than waiting for the next cycle."],
+  tips:["Inflated enrolment shows up when census and SSR figures are compared.","Facilities marked functional will not be funded for repair."],cta:{t:"Department site",u:U.site}}},
+ {n:"07",h:"Seniority lists",p:"Published PST, CT, SST and management-cadre seniority lists for promotion cases.",b:"Live",url:U.seniority},
+ {n:"08",h:"Integrated EMIS (iEMIS)",p:"School census, enrolment, infrastructure and staff data feeding HRIS and planning.",b:"Live portal",url:U.iemis},
+ {n:"09",h:"Talent Pool recruitment",p:"Applications where candidates choose the school they wish to teach in.",b:"Live portal",url:U.talentPool},
+ {n:"10",h:"District Education Offices",p:"Contact details and office directory for all district education offices in KP.",b:"Directory",url:U.edo},
+ {n:"11",h:"Appointments",p:"Current appointment notifications issued by the department.",b:"Live",url:U.appoint},
+ {n:"12",h:"Careers & recruitment",p:"Departmental job openings and recruitment announcements.",b:"Live",url:U.careers}
+]},
+
+/* ============ 2. TEACHERS ============ */
+teachers:{
+ en:{title:"For Teachers",desc:"Everything a PST, CT, SST or AT can do with their own HRIS profile — from your phone."},
+ ur:{title:"اساتذہ کے لیے",desc:"پی ایس ٹی، سی ٹی، ایس ایس ٹی اساتذہ اپنے پروفائل سے کیا کر سکتے ہیں۔"},
+ items:[
+ {n:"00",h:"Your district — zone, dates and board",p:"Pick your district to see your vacation schedule and examination board. All 38 KP districts.",b:"All districts",
+  detail:{picker:true,
+   lead:"Khyber Pakhtunkhwa runs a zone-based calendar, so your reopening date depends on where your school is, not on what the rest of the province is doing. Pick your district below.",
+   steps:["Select your district from the list.","Note the zone and reopening date shown.","Confirm it against the official vacation notification — the link is below the result.","If your district shows 'Confirm with your office', ring your DEO/SDEO office. Some districts are split by tehsil.","Plan your scheme of work on your own zone's teaching days."],
+   tips:["Districts split across tehsils do exist. Where the app is unsure, it says so rather than guessing.","Extensions are usually announced only three to five days before the reopening date."]}},
+ {n:"01",h:"Register & open your profile",p:"Register once with CNIC and personal number. Your OTP mobile number becomes your permanent login.",b:"Start here",
+  detail:{lead:"Your HRIS profile is the master record for your service, pay, leave, transfer and pension. Everything else in this app depends on this one step.",
+  steps:["Sit where your mobile signal is strong — most OTP failures are signal failures.","Open the HRMIS login page and choose the registration option.","Enter your CNIC without dashes, exactly as printed.","Enter your personal number from your pay slip — not your school code.","Enter a mobile number registered in your own name and currently active.","Receive the OTP by SMS and enter it before it expires.","Set a password you can remember and write it down offline.","Log in and check that the name and school shown are actually yours."],
+  tips:["If the CNIC is rejected, your record may sit under a different personal number — ask the SDEO office.","Do not register with someone else's mobile number. You will lose access when they change SIM."],cta:{t:"Open HRMIS login",u:U.hrmis}}},
+ {n:"02",h:"Check & correct service data",p:"Name, father name, DOB, date of first appointment, BPS, qualification, domicile.",b:"Do it early",
+  detail:{lead:"A wrong date of birth or date of first appointment will damage your seniority and delay your pension. Fix it now, while you have years to prove it — not at retirement.",
+  steps:["Open your profile and read every field slowly, comparing with your CNIC and appointment order.","Note which fields you can edit yourself and which are locked.","For locked fields, write an application to the SDEO/DEO office with attested copies attached.","For date of birth: attach matric certificate and CNIC.","For date of first appointment: attach the original appointment order and joining report.","Follow up in person after one week — applications sit in trays.","Log back in and confirm the change actually appears on screen."],
+  tips:["Take a screenshot of your profile before and after any correction.","Seniority disputes are decided on what HRIS shows, not what you remember."],cta:{t:"Open your profile",u:U.hrmis}}},
+ {n:"03",h:"Upload your documents",p:"CNIC, appointment order, joining report, degrees, B.Ed/M.Ed, induction certificate.",b:"Documents",
+  detail:{lead:"Scanned documents are what an office uses when you are not present. Poor scans get rejected and cost you weeks.",
+  steps:["Photograph each document in daylight, flat on a table, no shadow of your hand.","Use a scanner app so the page is cropped square, not tilted.","Keep each file under the size limit shown on the upload page — compress if needed.","Rename files clearly: CNIC.jpg, AppointmentOrder.pdf, BEd.pdf.","Upload one file at a time; wait for each to finish before starting the next.","Reopen each document from the portal to confirm it is readable.","Keep the same files in a phone folder and in email as backup."],
+  tips:["Do not upload a photo of a photocopy of a photocopy — it will be rejected.","Certificates in Urdu may need an attested English translation."],cta:{t:"Open HRMIS",u:U.hrmis}}},
+ {n:"04",h:"Apply for e-Transfer Plus 2026",p:"Open for teaching cadre BPS-12 to 18, management, IT and ministerial cadres.",b:"Open now",
+  detail:{lead:"E-Transfer Plus 2026 is a merit-based, automated system. Eligible teaching, management, ministerial and IT staff apply online for transfers on defined criteria — tenure, performance, student-teacher ratio, domicile and other grounds. It launched on 1 June 2026 for BPS-12 to 18.",
+  facts:[["Launched","1 June 2026"],["Eligible","Teaching BPS-12 to 18, Education Management, IT, Ministerial"],["Decided on","Tenure, performance, student-teacher ratio, domicile, other grounds"],["Mode","Automated allotment through the eTransfer Portal"]],
+  steps:["Read the policy page first so you know which grounds apply to you.","Log in to the eTransfer portal with your HRIS credentials.","Confirm your current posting and tenure shown on screen are correct — dispute them before applying.","Browse the vacant seats list for your cadre and district.","Add seats in order of genuine preference. The system allots by score, not by wish order.","Review your score breakdown — tenure, ratio, domicile, performance.","Submit and download the confirmation slip. Keep it.","Wait for the automated allotment; do not approach offices in between."],
+  tips:["Preferences usually cannot be changed after final submission — check twice.","The system decides on score. No office can override an automated allotment.","Never apply for a seat you would refuse — you may be allotted there."],cta:{t:"Open eTransfer portal",u:U.etransferPortal},cta2:{t:"Read the 2026 policy",u:U.etransferInfo}}},
+ {n:"05",h:"Leave application",p:"Casual, earned, medical or maternity leave recorded against your service book.",b:"Leave",
+  detail:{lead:"Leave taken through the system is recorded automatically against your service book. Leave taken by verbal permission is not — and shows as absence in the biometric record.",
+  steps:["Decide the correct leave type before applying — casual, earned, medical, or maternity.","Check your remaining balance on the profile first.","Apply before the leave starts wherever possible; emergency medical leave is the exception.","Attach a medical certificate from a recognised doctor for medical leave.","Submit and note the application number.","Confirm your head teacher has forwarded it — an unforwarded application is not approved leave.","After the leave, check that the biometric record shows leave and not absence."],
+  tips:["Never leave station on a verbal 'theek hai' — get it in the system.","Medical leave without a certificate is usually converted to leave without pay."],cta:{t:"Apply through HRMIS",u:U.hrmis}}},
+ {n:"06",h:"Service book & pay history",p:"Posting history, promotions and pay-scale movement — needed for pension and promotion.",b:"Records",
+  detail:{lead:"Your service book is the legal history of your career. Check it once a year, not once at retirement.",
+  steps:["Open the service record section of your profile.","List every posting you have held and compare with the entries shown.","Check that each transfer has both a relieving and a joining date — a gap becomes 'break in service'.","Verify every promotion and pay-scale upgrade with its notification number.","Confirm annual increments appear for each year.","Report any missing entry to your DEO office in writing with the supporting order attached.","Save a PDF or screenshots of the full record each year."],
+  tips:["A missing joining date is the most common cause of pension delay in KP.","Keep photocopies of every order you receive, in date order, in one file."],cta:{t:"Open service record",u:U.hrmis}}},
+ {n:"07",h:"E-Pension system",p:"Digital platform for processing retirement and pension applications for E&SED employees.",b:"Live portal",url:U.epension},
+ {n:"08",h:"Biometric attendance record",p:"See your own attendance and request correction if a day is wrongly marked absent.",b:"Attendance",
+  detail:{lead:"Your marked attendance affects salary. If a day is wrongly shown absent, it is your responsibility to get it corrected — quickly.",
+  steps:["Check your attendance summary at least once a month, not at the end of the year.","Note the exact dates that are wrong.","Establish what actually happened: approved leave, official duty, or device failure?","Collect the proof — leave approval, duty order, or the head teacher's written note about device failure.","Submit a correction request through your head teacher to the SDEO office.","Follow up until the corrected record shows on screen.","Keep the approval copy in case salary is already deducted."],
+  tips:["Corrections get harder after the salary bill is passed — check monthly.","Official duty must be covered by a written order, not a phone call."],cta:{t:"Biometric attendance system",u:U.bas}}},
+ {n:"09",h:"Induction & training records",p:"Your Induction Programme phase, RPDC centre and completed trainings count in scoring.",b:"Training",
+  detail:{lead:"The Directorate of Professional Development (DPD) Peshawar runs the Induction Programme, professional development, material development and quality assurance. DCTE develops the items for the Induction Programme final examination. Completed trainings sit on your HRIS profile and carry weight in transfer and promotion scoring.",
+  steps:["Open the training section of your HRIS profile.","Check that your Induction Programme phase and RPDC centre are correctly listed.","Confirm your final induction examination result is recorded.","Add any DCTE/DPD training you completed that is missing.","Attach the certificate for each training you add.","Get the entry endorsed by your DEO office if it stays 'pending'.","Recheck before applying for transfer or promotion — unverified training does not score."],
+  tips:["A certificate in your drawer scores nothing. It must be on the profile.","Keep the original; offices ask for it during verification."],cta:{t:"DCTE curriculum & training",u:U.dcteCurr},cta2:{t:"All directorates",u:U.departments}}},
+ {n:"10",h:"Academic calendar & vacations",p:"Summer and winter zone vacation schedules and the new academic year policy.",b:"Calendar",
+  detail:{lead:"KP runs a zone-based calendar. Summer Zone (plains) and Winter Zone (hilly areas) have different vacation dates, and the same schedule applies to both public and private institutions under provincial authority. Always confirm dates on the official notification — extensions are common and are usually announced a few days before reopening.",
+  facts:[["Zones","Summer Zone (plains) and Winter Zone (hilly areas)"],["Applies to","All public and private institutions under provincial authority"],["Summer break","Long break in Summer Zone; a shorter break in Winter Zone"],["Winter break","Long break in Winter Zone; a short break in Summer Zone"],["Extensions","Usually announced 3–5 days before the reopening date"]],
+  steps:["Identify whether your school is in the Summer Zone or the Winter Zone — this decides everything.","Open the official vacation notification on the department site rather than relying on a WhatsApp forward.","Note the reopening date, not just the closing date.","Check whether a summer camp has been notified for your zone.","Watch the notifications page in the last week before reopening for any extension.","Plan syllabus coverage around your zone's actual teaching days, not the other zone's."],
+  tips:["A vacation forward without a QR-verified notification behind it is not an order.","Winter Zone schools lose teaching days to snow — build slack into your scheme of work."],cta:{t:"Summer vacation notification",u:U.summerVac},cta2:{t:"Summer camp guidelines",u:U.summerCamp}}},
+ {n:"11",h:"Talent Pool — school of your choice",p:"Apply for teaching posts and select your preferred school.",b:"Live portal",url:U.talentPool},
+ {n:"12",h:"Seniority list — SST cadre",p:"Check where you stand in the published SST seniority list.",b:"Live",url:U.seniorSst}
+]},
+
+/* ============ 3. TUTORIALS ============ */
+tutorials:{
+ en:{title:"Video Tutorials",desc:"Step-by-step guides. Read the steps, then do it on your own phone."},
+ ur:{title:"ویڈیو ٹیوٹوریلز",desc:"مرحلہ وار رہنمائی — پڑھیں، پھر خود اپنے موبائل پر کریں۔"},
+ items:[
+ {n:"▶",h:"HRIS registration in 5 minutes",p:"CNIC entry, OTP verification, setting a password, first login.",b:"Beginner",
+  detail:{lead:"The single most common reason teachers cannot use HRIS is a failed first registration. Follow this exactly.",
+  steps:["Sit where your mobile signal is strong.","Open the HRMIS login page and choose register.","Enter CNIC without dashes.","Enter your personal number from the pay slip.","Enter your own active mobile number.","Wait for the SMS OTP and enter it immediately.","Set a password with letters and numbers and write it down offline.","Log in and verify your name and school appear correctly."],
+  tips:["If the OTP does not arrive, wait two minutes before requesting again — repeated requests can lock you out.","Do not use a friend's number 'just for now'."],cta:{t:"Start registration",u:U.hrmis},watch:"KPESE HRIS registration teacher Khyber Pakhtunkhwa"}},
+ {n:"▶",h:"Fixing wrong service data",p:"Which fields you can edit yourself and which need an office correction.",b:"Beginner",
+  detail:{lead:"Self-editable fields change instantly. Locked fields — date of birth, appointment date, cadre — need a written office correction.",
+  steps:["Open your profile and identify greyed-out (locked) fields.","Edit and save what you can change yourself: contact number, address, qualification.","For each locked field that is wrong, write a separate correction application.","Attach attested copies of the supporting document to each application.","Submit through your head teacher to the SDEO office and keep a receiving copy.","Follow up after a week.","Confirm on screen that the correction has appeared."],
+  tips:["One application per field — mixing three corrections in one letter slows all three.","Always keep a receiving copy with a date stamp."],cta:{t:"Open your profile",u:U.hrmis},watch:"HRIS profile correction KPESE teacher service data"}},
+ {n:"▶",h:"Uploading documents on a slow connection",p:"Compress, rename and upload without the page timing out.",b:"Practical",
+  detail:{lead:"Most upload failures in rural KP are file-size failures, not portal failures.",
+  steps:["Photograph the document in daylight with a scanner app.","Export as PDF or JPG, not as a screenshot.","Compress the file if it is larger than the stated limit.","Rename it clearly before uploading.","Close other apps so the browser keeps its connection.","Upload one file, wait for the success message, then start the next.","Reopen each uploaded file to confirm it is readable."],
+  tips:["Wi-Fi at a school or town centre beats mobile data at 5 PM.","If a page times out, do not press upload twice — reload and check whether it already saved."],cta:{t:"Open HRMIS",u:U.hrmis},watch:"HRIS document upload KPESE teacher"}},
+ {n:"▶",h:"e-Transfer Plus 2026 — full walkthrough",p:"Preferences, score, and final submission.",b:"Most asked",
+  detail:{lead:"Applying correctly matters more than applying early. The allotment is automated on score.",
+  steps:["Read the e-Transfer Plus 2026 policy page in full.","Confirm you are in an eligible cadre — teaching BPS-12 to 18, management, IT or ministerial.","Log in to the eTransfer portal.","Verify your tenure, current school and student-teacher ratio shown on screen.","Dispute any wrong figure before applying.","Select vacant seats in true order of preference.","Read your score breakdown carefully.","Submit and download the confirmation slip."],
+  tips:["Applying to a seat you do not want can result in being allotted there.","Keep the confirmation slip — it is your only proof of submission."],cta:{t:"Open eTransfer portal",u:U.etransferPortal},cta2:{t:"Official Android app",u:U.etransferApp},watch:"e-Transfer Plus 2026 KP teachers apply online"}},
+ {n:"▶",h:"Applying for leave correctly",p:"Choosing leave type and attaching a medical certificate.",b:"Beginner",
+  detail:{lead:"The type of leave you choose decides whether it is paid, and whether it counts against your service.",
+  steps:["Check your leave balance before applying.","Choose the correct type — casual for short personal need, earned for planned longer leave, medical with certificate, maternity as per rules.","Enter exact start and end dates including travel days.","Attach the medical certificate as a clear scan if applicable.","Submit and note the application number.","Confirm your head teacher forwards it the same day.","Check after your return that the leave is recorded and not shown as absence."],
+  tips:["Casual leave used for a long illness is usually rejected — apply for medical leave properly.","Applying after returning is treated as absence in most cases."],cta:{t:"Apply through HRMIS",u:U.hrmis},watch:"HRIS leave application KPESE teacher online"}},
+ {n:"▶",h:"Reading your service book",p:"Spot a missing posting entry before it becomes a pension problem.",b:"Advanced",
+  detail:{lead:"Your pension is calculated from what is written, not from what you did. Audit it yourself once a year.",
+  steps:["Print or screenshot your full service record.","Write your actual career on paper from memory and from your own file of orders.","Compare the two, line by line.","Circle every gap: missing posting, joining date, increment or promotion.","For each gap, find the original order in your personal file.","Submit one correction application per gap with the order attached.","Repeat this audit every year in the same month."],
+  tips:["'Break in service' from a missing joining date can reduce your qualifying service.","If you cannot find an order, apply to the issuing office for a certified copy."],cta:{t:"Open service record",u:U.hrmis},watch:"service book KP government teacher pension record"}},
+ {n:"▶",h:"E-Pension case submission",p:"Documents checklist and the order in which to upload them.",b:"Retirement",
+  detail:{lead:"The E-Pension platform processes retirement and pension applications digitally for E&SED employees, replacing the practice of carrying files between offices.",
+  steps:["Begin your case at least six months before retirement date.","Audit your service book first — fix every gap before starting the pension case.","Collect: CNIC, service book, last pay certificate, no-demand certificate, appointment and promotion orders.","Arrange medical and character documentation where required.","Scan everything clearly and name each file.","Submit on the E-Pension platform and note the case number.","Track the status weekly and answer any objection immediately."],
+  tips:["Six months is not too early. Service book corrections take longer than the pension case itself.","One unanswered objection can hold a case for months."],cta:{t:"Open E-Pension platform",u:U.epension},watch:"e-pension KP Elementary Secondary Education case submission"}},
+ {n:"▶",h:"Verifying an order with its QR code",p:"Catch a fake posting or transfer order in thirty seconds.",b:"Anti-fraud",
+  detail:{lead:"Every posting and transfer notification now carries a unique QR code. If somebody hands you an order, verify it before you act on it.",
+  steps:["Look for the QR code printed on the order.","Scan it with your phone camera or any QR app.","Confirm the record opens on a department domain — not a lookalike site.","Match name, personal number, school and date exactly.","If the QR is missing, blurred, or resolves to nothing, do not act on the order.","Report a suspicious order to the DEO office in writing.","Log the verification in the school inward register."],
+  tips:["An edited WhatsApp image will still show an old, valid-looking QR — check the details on screen, not just that it scans.","Never relieve or accept joining on an unverified order."],cta:{t:"View notifications",u:U.notif},watch:"QR e-notification system KPESE verify order"}},
+ {n:"▶",h:"Official channel — video lectures, Grades 1–10",p:"The department's YouTube channel of subject lectures for students, useful for lesson preparation.",b:"YouTube",url:U.ytLectures},
+ {n:"▶",h:"Official channel — department updates",p:"KP E&SE Department's channel for announcements and news stories.",b:"YouTube",url:U.ytOfficial},
+ {n:"▶",h:"Digital schooling & distance learning",p:"Learning portal, Learn Smart Pakistan, Grade 1–8 digital content and the KPESE-Virtual Teacher platform.",b:"Official",url:U.distance},
+ {n:"▶",h:"DCTE curriculum & teacher education",p:"Curriculum, scheme of studies, textbook approval and induction exam items.",b:"Official",url:U.dcteCurr},
+ {n:"▶",h:"e-Posting/Transfer policy (BPS-12 to 18)",p:"The underlying posting and transfer policy document for the teaching cadre.",b:"Official",url:U.ePostPolicy},
+ {n:"▶",h:"Teacher recruitment advertisements",p:"District cadre post advertisements, all in one place.",b:"Official",url:U.recruit}
+]},
+
+/* ============ 4. NOTIFICATIONS & DOWNLOADS ============ */
+notices:{
+ en:{title:"Notices & Downloads",desc:"Official notifications, policies, seniority lists, acts and census data — straight from the department."},
+ ur:{title:"اطلاعات و ڈاؤن لوڈ",desc:"سرکاری نوٹیفکیشن، پالیسیاں، سنیارٹی لسٹ اور ایکٹس۔"},
+ items:[
+ {n:"01",h:"All notifications",p:"Every notification issued by the department, newest first.",b:"Live",url:U.notif},
+ {n:"02",h:"e-Transfer Plus Policy 2026",p:"The full transfer policy — eligibility, criteria and process.",b:"Live",url:U.etransferInfo},
+ {n:"03",h:"Summer vacations notification",p:"Summer and Winter Zone vacation schedule for all public and private institutions.",b:"Live",url:U.summerVac},
+ {n:"04",h:"Summer camp guidelines",p:"Instructions for summer camps in Summer Zone schools.",b:"Live",url:U.summerCamp},
+ {n:"05",h:"Winter vacations notification",p:"Zone-wise winter vacation schedule.",b:"Live",url:U.winterVac},
+ {n:"06",h:"Seniority lists — all cadres",p:"PST, CT, SST and management cadre lists.",b:"Live",url:U.seniority},
+ {n:"07",h:"Seniority list — SST",p:"Secondary School Teacher cadre seniority.",b:"Live",url:U.seniorSst},
+ {n:"08",h:"Appointments",p:"Appointment notifications issued by the department.",b:"Live",url:U.appoint},
+ {n:"09",h:"Careers",p:"Departmental job openings and recruitment.",b:"Live",url:U.careers},
+ {n:"10",h:"Department at a glance",p:"One-page overview: scale, initiatives, learning portal and Virtual Teacher platform.",b:"Live",url:U.onepage},
+ {n:"11",h:"How to read a notification safely",p:"Three checks before you act on any forwarded order.",b:"Guide",
+  detail:{lead:"Most wrong action in schools comes from acting on an unverified forward. Three checks take a minute and save months.",
+  steps:["Check the source: does it open on the department's own site, or is it only an image?","Check the QR code: scan it and confirm the details match.","Check the date and the diary number against the notifications page.","Read the full text, not the WhatsApp caption someone wrote above it.","Identify exactly who it applies to — zone, cadre, BPS range, district.","If it affects your school, record it in the inward register.","If you are unsure, ring the DEO office before acting."],
+  tips:["A caption is not the notification. Read the actual document.","'Sab jagah aa raha hai' is not verification."],cta:{t:"Open notifications page",u:U.notif}}},
+ {n:"12",h:"Right to Information (RTI)",p:"Request departmental information formally when it is not published.",b:"Guide",
+  detail:{lead:"If information that should be public is not available to you, RTI is the formal route. Use it properly and it works.",
+  steps:["First check whether the information is already published on the department site — most seniority and notification data is.","Write your request in clear, specific terms: name the document, the period, and the office holding it.","Address it to the designated public information officer of the relevant office.","Keep the request to information, not to opinion or grievance — RTI covers records.","Submit and keep a dated receiving copy.","Note the statutory response period and follow up when it passes.","If refused without valid reason, escalate as provided under the law."],
+  tips:["A vague request ('all records about my case') is easy to refuse. Be specific.","RTI is for records that exist — it does not compel an office to create new analysis."],cta:{t:"RTI page",u:U.rti}}}
+]},
+
+/* ============ 5. DIRECTORATES & BODIES ============ */
+bodies:{
+ en:{title:"Directorates & Bodies",desc:"Every directorate, autonomous body and board working under the department."},
+ ur:{title:"ڈائریکٹوریٹس و ادارے",desc:"محکمے کے تحت کام کرنے والے تمام ڈائریکٹوریٹس اور خودمختار ادارے۔"},
+ items:[
+ {n:"01",h:"Directorate of Curriculum & Teacher Education (DCTE)",p:"Abbottabad. Curriculum for Pre-I to XII, textbook and manual approval, assessment studies, induction exam items.",b:"Directorate",
+  detail:{lead:"DCTE Khyber Pakhtunkhwa is the competent authority under the Khyber Pakhtunkhwa Supervision of Curricula, Textbooks and Maintenance of Standard of Education Act 2011.",
+  facts:[["Location","Abbottabad"],["Curriculum","Development, revision and approval for Grades Pre-I to XII"],["Textbooks","Review and approval of textbooks for Pre-I to XII"],["Materials","NOCs for textbooks, training manuals and supplementary reading material"],["Assessment","Conduct of assessment studies and impact studies of programmes"],["Induction","Development of items for the Induction Programme final examination"],["Standards","Standard setting for curriculum, assessment, teachers and learners; National Standards for School Heads"]],
+  steps:["Use the DCTE curriculum page to download the scheme of studies for your grade and subject.","Match your yearly plan to the notified scheme, not to the textbook's chapter order alone.","Check that any supplementary material you use carries a DCTE NOC.","For induction preparation, note that DCTE develops the examination items — study the notified curriculum, not guess papers.","Refer to the National Standards for School Heads if you are in a supervisory role."],
+  cta:{t:"DCTE curriculum",u:U.dcteCurr},cta2:{t:"DCTE Abbottabad site",u:U.dcteSite}}},
+ {n:"02",h:"Directorate of Elementary & Secondary Education",p:"Financial management, HR development, planning, personnel management, school supervision and inspection.",b:"Directorate",url:U.dirEse},
+ {n:"03",h:"Directorate of Professional Development (DPD)",p:"Peshawar. Professional development, Induction Programme, material development, monitoring and quality assurance.",b:"Directorate",url:U.dpd},
+ {n:"04",h:"District Education Offices",p:"Directory of DEO offices across all districts of Khyber Pakhtunkhwa.",b:"Directory",url:U.deoOffices},
+ {n:"05",h:"Education Monitoring Authority (EMA)",p:"Independent monitoring of schools, staff presence and facilities.",b:"Autonomous",url:U.ema},
+ {n:"06",h:"Elementary & Secondary Education Foundation (ESEF)",p:"Community and public-private schooling initiatives.",b:"Autonomous",url:U.esefPage},
+ {n:"07",h:"Merged Areas Education Foundation (MAEF)",p:"Education support for the merged districts.",b:"Autonomous",url:U.maef},
+ {n:"08",h:"Private Schools Regulatory Authority (PSRA)",p:"Registration and regulation of private schools in KP.",b:"Autonomous",url:U.psra},
+ {n:"09",h:"KP Textbook Board (KPTBB)",p:"Development, printing and supply of provincial textbooks.",b:"Autonomous",url:U.tbb},
+ {n:"10",h:"Boards of Intermediate & Secondary Education",p:"BISE Abbottabad, Bannu, D.I. Khan, Kohat, Malakand, Mardan, Peshawar and Swat.",b:"Boards",
+  detail:{lead:"Eight regional boards conduct SSC and HSSC examinations across Khyber Pakhtunkhwa. Your district determines which board your school falls under.",
+  facts:[["Abbottabad","Hazara region"],["Bannu","Bannu region"],["D.I. Khan","Dera Ismail Khan region"],["Kohat","Kohat region"],["Malakand","Malakand region"],["Mardan","Mardan region"],["Peshawar","Peshawar region"],["Swat","Swat region"]],
+  steps:["Identify your district's board — for Dera Ismail Khan and Tank, that is BISE D.I. Khan.","Use the board's own site for registration, roll number slips, date sheets and results.","Note that board deadlines are separate from department deadlines.","For Class 9 registration, check the board's schedule at the start of the academic year, not near the exam.","Keep candidate registration data consistent with school records — a name mismatch delays certificates for years."],
+  cta:{t:"BISE D.I. Khan",u:U.biseDik},cta2:{t:"All directorates & bodies",u:U.departments}}},
+ {n:"11",h:"Good Governance Roadmap (GGR) reforms",p:"Provincial reform agenda for education governance.",b:"Initiative",url:U.ggr},
+ {n:"12",h:"All departments & bodies",p:"The complete official directory page.",b:"Live",url:U.departments}
+]},
+
+/* ============ 7. LATEST NEWS ============ */
+news:{
+ en:{title:"Latest News",desc:"What the department has announced recently. Compiled 26 July 2026 — always confirm on the official notification."},
+ ur:{title:"تازہ ترین خبریں",desc:"محکمے کے حالیہ اعلانات — تصدیق سرکاری نوٹیفکیشن سے کریں۔"},
+ items:[
+ {n:"NOW",h:"Where the vacations stand today",p:"Reopening dates by zone and school level, as of 26 July 2026.",b:"Right now",
+  detail:{lead:"KP runs a zone-based calendar, so your reopening date depends on your zone and your school level — not on what a neighbouring district is doing.",
+  facts:[["Winter Zone","Closed 1–31 July 2026 → reopens 1 August"],["Summer Zone: middle, high, higher secondary","Closed 15 June – 16 August → reopens 17 August"],["Summer Zone: primary","Closed 1 June – 31 August → reopens 1 September"],["Applies to","All public and private institutions under provincial authority"]],
+  steps:["Confirm whether your school is Summer Zone (plains) or Winter Zone (hilly).","Confirm your school level — primary schools in the Summer Zone reopen later than middle and high schools.","Check the notifications page in the last week of the break for any extension.","Plan your scheme of work on your zone's actual teaching days.","Do not act on a WhatsApp forward alone — open the notification itself."],
+  tips:["Earlier May reports of a 22 May closing for plains were later superseded by the department's own notification. Go by the official notification.","Extensions are usually announced only a few days before the reopening date."],
+  cta:{t:"Summer vacation notification",u:U.summerVac},cta2:{t:"School opening notifications",u:U.schoolOpen}}},
+ {n:"JUN",h:"Summer camps held in Summer Zone schools",p:"June camps ran Monday to Thursday with a fixed timetable.",b:"Completed",
+  detail:{lead:"To reduce learning loss over the long break, summer camps were made part of the Summer Zone calendar for June 2026, with a notified timetable and subjects.",
+  facts:[["Days","Monday to Thursday"],["Primary & middle","7:00 AM – 9:00 AM"],["High & higher secondary","Until 9:40 AM"],["Winter Zone","Heads may adjust subjects and duration, but no student engagement beyond 10:00 AM"],["HSSC students","Exempted only on days practical examinations are held by the board"]],
+  steps:["If you ran a camp, file the attendance and coverage record with your school documents now, not at inspection time.","Note which topics were actually covered so the new session does not repeat them.","Identify students who never attended — they are the ones at risk when school reopens.","Keep the camp notification with your inward register."],
+  tips:["Camp records are checked against the notified timetable, not against what was convenient.","Students who missed camp need a catch-up plan, not a repeat of the same lessons."],
+  cta:{t:"Summer camp guidelines",u:U.summerCamp}}},
+ {n:"JUN",h:"e-Transfer Plus 2026 went live",p:"Launched 1 June 2026 for Teaching (BPS-12 to 18), Education Management, IT and Ministerial cadres.",b:"Live",
+  detail:{lead:"E-Transfer Plus Policy 2026 is a transparent, merit-based and technology-driven system for staff postings and transfers. Eligible teaching, management, ministerial and IT staff apply online through the automated eTransfer Portal.",
+  facts:[["Live from","1 June 2026"],["Cadres","Teaching BPS-12 to 18, Education Management, IT, Ministerial"],["Criteria","Tenure, performance, student-teacher ratio, domicile and other defined grounds"],["Decision","Automated allotment — not office discretion"]],
+  steps:["Verify your tenure and current posting on the portal before applying.","Dispute any wrong figure first — it feeds directly into your score.","Choose seats in genuine order of preference.","Submit and keep the confirmation slip."],
+  tips:["Never list a seat you would refuse.","No office can override an automated allotment — do not pay anyone who claims otherwise."],
+  cta:{t:"Open eTransfer portal",u:U.etransferPortal},cta2:{t:"Read the policy",u:U.etransferInfo}}},
+ {n:"NEW",h:"QR-based E-Notification System launched",p:"Every posting and transfer order now carries a unique QR code.",b:"Anti-fraud",
+  detail:{lead:"E&SED has launched a QR-based E-Notification System for staff postings, transfer orders and notifications. Each notification contains a unique QR code that resolves to the department's own record.",
+  steps:["Scan the QR code on any order handed to you.","Confirm it opens on a department domain.","Match the name, personal number, school and date on screen with the paper.","Refuse to act on an order whose QR is missing or does not resolve.","Report a suspicious order to the DEO office in writing."],
+  tips:["An edited image can still carry a real-looking QR — check the details on screen, not just that it scans.","Never relieve or accept joining on an unverified order."],
+  cta:{t:"All notifications",u:U.notif}}},
+ {n:"JUL",h:"Chairman posts (BS-20) at four BISEs",p:"Notification issued 20 July 2026 — filling the post of Chairman at BISEs Swat, Mardan, Kohat and D.I. Khan on deputation basis.",b:"20 Jul 2026",url:U.notifCat},
+ {n:"JUL",h:"Auction notice for school buildings",p:"Notification issued 15 July 2026.",b:"15 Jul 2026",url:U.notifCat},
+ {n:"JUL",h:"Promotion of ASDEOs/ADEOs to SDEOs",p:"Notification issued 9 July 2026 — promotion of ASDEOs/ADEOs (EMC BS-16) to SDEOs/Assistant Directors (Female EMC BPS-17) on regular basis.",b:"9 Jul 2026",url:U.notifCat},
+ {n:"MAY",h:"Good Governance Roadmap accelerated",p:"Secretary E&SED Khalid Khan chaired a meeting; Peshawar, 12 May 2026 decision to speed up education reforms.",b:"Reform",url:U.newsCat},
+ {n:"2026",h:"Furniture and 3,500 new classrooms",p:"Chief Secretary Shahab Ali Shah: school furniture provision to complete by June 2026; planning finalised for 3,500 new classrooms.",b:"Infrastructure",
+  detail:{lead:"Under the governance roadmap, the provincial government reported that furniture provision to government schools across the province was underway for completion by June 2026, after which students in all schools would have access to quality furniture. Planning was also finalised for the construction of 3,500 new classrooms.",
+  steps:["Check whether your school's furniture entry in the census and SSR data matches what actually arrived.","Report shortfalls through the SSR portal and in writing — an unreported gap is an unfunded gap.","Photograph delivered furniture with the delivery challan for your school file.","For classroom construction, ensure your school's missing-facility data is accurate before the next planning cycle."],
+  tips:["Facilities marked functional in your own reporting will not be funded for repair or replacement.","Keep delivery documentation; verification teams ask for it later."],
+  cta:{t:"Reforms page",u:U.reforms}}},
+ {n:"2026",h:"Summer Learning & Grooming Festival 2026",p:"Provincial festival listed among the Directorate's current initiatives.",b:"Initiative",url:U.dese},
+ {n:"2025",h:"Semester System Policy 2025",p:"Semester policy listed among the Directorate's current policy documents.",b:"Policy",url:U.dese},
+ {n:"MAY",h:"E-Khuli Kacheri",p:"Open public grievance session held 13 May 2026, with working sheet published.",b:"Grievance",url:U.dese},
+ {n:"ESEF",h:"ESEF projects — ALP and KS-Relief",p:"Alternate Learning Pathways orientation for Programme Implementation Officers, and KS-Relief project review, under MD Qaisar Alam.",b:"Foundation",url:U.esef},
+ {n:"↗",h:"All department news",p:"The full news archive, newest first.",b:"Live",url:U.newsCat},
+ {n:"↗",h:"All notifications (2026)",p:"Everything issued this year.",b:"Live",url:U.y2026}
+]},
+
+/* ============ 8. INDUCTION PROGRAMME PHASE V ============ */
+induction:{
+ en:{title:"Induction Phase V",desc:"The Teacher Induction Programme run by DPD Peshawar — portal, structure, and what to keep on your record."},
+ ur:{title:"انڈکشن فیز V",desc:"ڈی پی ڈی پشاور کا ٹیچر انڈکشن پروگرام — پورٹل، ساخت اور ریکارڈ۔"},
+ items:[
+ {n:"01",h:"Check your training venue (RPDC / Camp Center)",p:"Enter your CNIC and the system shows the venue you selected. Issued by the IP Team, DPD Peshawar.",b:"Use this now",
+  detail:{lead:"If you are a trainee on Phase-V Pedagogy (Summer), this is the link to confirm which RPDC or Camp Center you were allotted. You enter your CNIC and the system displays your selected training venue. Circulated by the IP Team, DPD KP Peshawar.",
+  steps:["Open the venue check link below.","Enter your CNIC exactly as it appears on your card, and as it appears on your HRIS profile.","Note the RPDC or Camp Center shown.","If no venue appears, or the wrong one does, contact your DEO office — they were directed to send trainees to their venues.","If you have already missed sessions, speak to your DEO office rather than waiting; attendance is recorded against you.","Keep a screenshot of the result."],
+  tips:["The venue list was issued as Annex-A to the DPD notification. Your DEO office holds it.","If the page asks for anything beyond your CNIC — a password, a fee — stop and confirm with DPD."],
+  cta:{t:"Check your venue",u:U.ip5venue},cta2:{t:"Find your DEO office",u:U.deoOffices}}},
+ {n:"02",h:"Centre selection / change — this deadline has passed",p:"The centre selection window closed on 5 July 2026. Training began 6 July 2026.",b:"Closed",
+  detail:{lead:"This is the link the IP Team circulated for online centre selection and centre change under Phase-V. It is genuine. But the window it belongs to has closed: the deadline was extended to 5 July 2026 at midnight, and the training itself commenced on 6 July 2026.",
+  facts:[["Purpose","Online centre selection, or change of centre"],["Deadline","5 July 2026, 12 midnight (already extended once)"],["Training began","6 July 2026"],["Issued by","IP Team, DPD Peshawar"],["Status today","Closed — kept here so you recognise it if someone forwards it again"]],
+  steps:["If you are still seeing this link forwarded in a group, check the date on the message before acting on it.","If you missed centre selection entirely, do not rely on this link. Contact your DEO office and DPD directly.","If you selected a centre but have not attended, contact your DEO office now rather than waiting for the next phase.","Use the venue check link above to see what centre is recorded against your CNIC."],
+  tips:["Old WhatsApp forwards circulate for weeks after their deadline. Always check the date on the message, not just the link.","A closed window is not reopened by messaging the link again. Go through your DEO office."],
+  cta:{t:"Check what venue you have",u:U.ip5venue},cta2:{t:"Open the original link anyway",u:U.ip5reg}}},
+ {n:"03",h:"Induction Programme portal — log in",p:"The official portal where you access lessons and see your assessment.",b:"Live portal",url:U.inductionLogin},
+ {n:"04",h:"What Phase V actually is",p:"Where Phase V sits, who runs it, and what the programme is made of.",b:"Read first",
+  detail:{lead:"The Teacher Induction Programme is a nine-month mandatory in-service training programme for newly recruited teachers in KP, run by the Directorate of Professional Development (DPD) Peshawar. Phase V is the current iteration. Within it, DPD notified a two-month face-to-face Foundation / Pedagogy course commencing 6 July 2026 for newly recruited Primary and Elementary cadre teachers recruited through ETEA — Summer Zone, plus left-overs of Winter Zone.",
+  facts:[["Runs it","Directorate of Professional Development (DPD), Peshawar — the Director is the Competent Authority"],["Programme length","Nine months, mandatory in-service training for newly recruited teachers"],["Face-to-face component","02-month training of Foundation / Pedagogy Courses"],["Commenced","6 July 2026, per DPD Notification No. 2256/ToT-SZ/FC/IP-V/DPD/2026 dated 4 July 2026"],["Who","Newly recruited Primary and Elementary cadre teachers, recruited through ETEA"],["Zones covered","Summer Zone, plus left-overs of Winter Zone"],["Where","Already-notified Training Venues — RPDCs and Camp Centers — with nominated Subject Experts"],["Venue list","Issued as Annex-A to the notification; your DEO office holds it"],["Subject Experts","Prepared beforehand through a 6-day Training of Trainers on the Foundation Courses"],["DPD formed from","PITEs, RITEs, GCETs and GCPEs, merged into one attached department"],["Final examination","DCTE develops the items for the Induction Programme final examination"],["On your record","Your phase, RPDC centre and result sit on your HRIS profile and count in transfer and promotion scoring"]],
+  steps:["Confirm from the portal or your DEO office which phase and zone you are in — do not assume from what colleagues say.","Register on the induction portal as soon as your cadre is called.","Keep the CNIC and personal number you used on HRIS identical here — mismatches cause the two records to drift apart.","Work through the Foundation Course content as it is released rather than the night before a session.","Attend every face-to-face session; attendance is recorded against you.","Sit the final examination when notified.","Once your result is issued, check it has appeared on your HRIS training record."],
+  tips:["Older pages and blogs still describe induction as a six-month programme. That figure is out of date — the current programme is nine months.","Dates, eligibility and cadre calls are announced by DPD and the department. This app deliberately does not list them — a wrong induction date can cost you your confirmation. Always read the notification itself.","Your induction certificate scores nothing until it is recorded on your HRIS profile."],
+  cta:{t:"Open the induction portal",u:U.inductionLogin},cta2:{t:"DPD Phase-V ToT notice",u:U.dpdTotV}}},
+ {n:"05",h:"All induction programmes — DPD list",p:"DPD's own listing of induction programmes across phases.",b:"Live",url:U.dpdList},
+ {n:"06",h:"Register on the portal",p:"Getting your induction login working, and keeping it consistent with HRIS.",b:"Start here",
+  detail:{lead:"Your induction record and your HRIS record are two separate systems. If the CNIC, name spelling or personal number differ between them, your completed induction may not show on your service profile — and that is what counts at transfer and promotion time.",
+  steps:["Open your HRIS profile first and note exactly how your name, CNIC and personal number are recorded.","Open the induction portal and register using those exact details.","Use a mobile number in your own name that will stay active for the whole programme.","Set a password you can retrieve — you will need this portal for months, not once.","After registering, check that your cadre, district and zone shown on the portal are correct.","Report any mismatch to your DEO office in writing straight away, before sessions begin.","Keep a screenshot of your registration confirmation."],
+  tips:["A name spelled one way on HRIS and another on induction is the most common cause of a missing certificate later.","Do not register through anyone else's phone number or email."],
+  cta:{t:"Induction portal login",u:U.inductionLogin},cta2:{t:"Check your HRIS profile",u:U.hrmis},watch:"KP induction program registration teacher portal"}},
+ {n:"07",h:"Foundation Course (Pedagogy)",p:"The pedagogy component and how Subject Experts are prepared for it.",b:"Course",
+  detail:{lead:"The Foundation / Pedagogy course under Phase V runs as a two-month face-to-face programme at notified RPDCs and Camp Centers, delivered by nominated Subject Experts. Those Subject Experts are prepared first through a six-day Training of Trainers. For the Summer Zone and Winter Zone left-overs, DPD notified commencement on 6 July 2026.",
+  steps:["Confirm your RPDC or Camp Center using the venue check link in this section — enter your CNIC and it shows what is recorded against you.","Find out who your nominated Subject Expert is.","Read the Foundation Course material ahead of each session rather than during it.","Bring your own classroom problems to the session — the pedagogy content is worth more when tied to a class you actually teach.","Take notes in a single notebook kept only for induction; you will need them for the final examination.","Practise a taught technique in your own classroom the same week, while it is fresh.","Ask your Subject Expert what the assessment will actually cover."],
+  tips:["The final examination is set on the notified curriculum, not on guess papers circulating on WhatsApp.","Sessions attended but not applied fade within a month. Try one technique per session."],
+  cta:{t:"Phase-V ToT notification",u:U.dpdTotV},cta2:{t:"DCTE curriculum",u:U.dcteCurr}}},
+ {n:"08",h:"Preparing for the final examination",p:"DCTE develops the items — so prepare from the notified curriculum.",b:"Exam",
+  detail:{lead:"DCTE is responsible for the development of items for the Induction Programme final examination. That single fact should shape how you prepare: the questions come from the notified curriculum and scheme of studies, not from a guess paper.",
+  steps:["Download the induction syllabus or manual from the official portal.","List every topic in it and mark honestly which ones you cannot yet explain to a colleague.","Study the DCTE curriculum for the grades and subjects you actually teach — much of the content assessment sits there.","Work through past induction papers for format and question style, not for the expectation that questions repeat.","Revise pedagogy alongside content; both are examined.","Sit a timed practice attempt at least a week before, so the clock is not a surprise.","Confirm your examination centre and roll number from the portal, not from a forward."],
+  tips:["Guess papers sold before induction exams are usually recycled from earlier phases and are not reliable.","If you fail to appear, getting a re-sit arranged is far harder than sitting it on the day."],
+  cta:{t:"DCTE curriculum & scheme of studies",u:U.dcteCurr},cta2:{t:"Induction portal",u:U.induction},watch:"KP teacher induction program final exam preparation"}},
+ {n:"09",h:"Get your induction on your HRIS record",p:"A certificate in your drawer scores nothing at transfer or promotion.",b:"Important",
+  detail:{lead:"Completing induction is not the end of the job. Until the phase, centre and result appear on your HRIS training record, the programme does not count towards your transfer or promotion scoring.",
+  steps:["Open the training section of your HRIS profile after your result is issued.","Check that the phase, RPDC centre and result are all listed.","If anything is missing, apply in writing to your DEO office with a copy of the certificate attached.","Keep the original certificate — offices ask for it during verification.","Follow up until the entry shows on screen, then screenshot it.","Recheck before you apply for e-Transfer Plus or any promotion case."],
+  tips:["Entries that sit as 'pending' do not score. Get them endorsed.","Do this while your DEO office still has the phase records to hand."],
+  cta:{t:"Open your HRIS training record",u:U.hrmis}}},
+ {n:"10",h:"DPD Peshawar — directorate",p:"The directorate that runs the Induction Programme, CPD and professional development.",b:"Directorate",url:U.dpdSite},
+ {n:"11",h:"DPD notices archive",p:"Older DPD notices, including induction and CPD announcements.",b:"Archive",url:U.dpdOld},
+ {n:"12",h:"Contact DPD directly",p:"Phone & fax 091-9224783 · directordpdkp@gmail.com · director.dpd@kpese.gov.pk. Use this when the portal and your office disagree.",b:"Contact",url:U.dpdSite},
+ {n:"13",h:"DCTE — curriculum & exam items",p:"Curriculum, scheme of studies and the source of induction examination items.",b:"Official",url:U.dcteCurr},
+ {n:"14",h:"Latest induction notifications",p:"Watch the department's notifications page for Phase V calls, schedules and results.",b:"Live",url:U.notif}
+]},
+
+/* ============ 9. SCHOOL LEADERS ============ */
+leaders:{
+ en:{title:"School Leaders",desc:"The quality-monitoring cadre created from the ASDEO posts — structure, role, recruitment and the ETEA paper."},
+ ur:{title:"سکول لیڈرز",desc:"کوالٹی مانیٹرنگ کیڈر — ساخت، ذمہ داریاں، بھرتی اور ای ٹی ای اے ٹیسٹ۔"},
+ items:[
+ {n:"01",h:"The policy file — read the originals",p:"32 pages: the CM summary, Finance and Establishment objections, the ETEA recruitment notification, and the district posts annex.",b:"Source document",url:U.slPolicy},
+ {n:"02",h:"What the School Leaders cadre is",p:"2,919 ASDEO posts were re-designated into a specialised quality stream.",b:"Read first",
+  detail:{lead:"The Government of Khyber Pakhtunkhwa had sanctioned 2,919 ASDEO posts for E&SED. Because these posts were meant for quality rather than routine administration, the Department changed their nomenclature to School Leaders and built a separate specialised cadre around them, focused on assessing and improving the quality of education in public schools through evidence-based decision making.",
+  facts:[["School Leader (BS-16)","2,500 posts"],["Senior School Leader (BS-17)","190 posts"],["Deputy District Education Officer (Quality) (BS-18)","28 posts"],["Additional Director Quality (BS-19)","1 post"],["Support staff","56 Computer Operators, 28 Assistants, 28 Drivers, 28 Naib Qasids"],["Districts covered","28 settled districts"],["Separate from","EMA, which does quantitative monitoring; School Leaders monitor quality"]],
+  steps:["Understand the split: EMA visits every school once a month for quantitative monitoring — teacher and student attendance, physical assets.","School Leaders monitor the quality stream: teacher capacity, methodology, training programmes and student learning outcomes.","Note that the two are meant to complement each other, not duplicate.","If you are a head teacher, expect both kinds of visit and keep records that serve both."],
+  tips:["School Leaders sit outside the regular ASDEO line. They are a specialised cadre, not administrative officers.","The posts were created in 28 districts before the 24 sub-divisions of the 7 newly merged areas were sanctioned."],
+  cta:{t:"Department site",u:U.site}}},
+ {n:"03",h:"What a School Leader actually does",p:"Field role — twice-monthly school visits and two full days of learning-outcome observation.",b:"The role",
+  detail:{lead:"School Leaders are field staff, not desk officers. The role is built around being physically present in classrooms often enough to see what is actually happening.",
+  facts:[["School visits","Each primary school in the jurisdiction, twice a month"],["Learning outcomes","Observed physically for at least two complete school days in every school, every month"],["Professional development","Monitor PD day and record feedback on teacher trainings"],["Purpose of the feedback","Helps the department gauge teaching staff performance and redesign teacher training programmes"],["Mobility allowance","Rs 15,000/month male, Rs 20,000/month female"],["Tablet","Contractual obligation to purchase one under the KP Tablet Policy"]],
+  steps:["If a School Leader visits your school, understand they are observing quality — teaching method, assessment practice, learning outcomes — not just attendance.","Have your lesson plans, assessment records and training certificates available.","Use the visit: their feedback feeds directly into how teacher training is redesigned.","Ask what they observed and what they will report. It is your professional record too."],
+  tips:["Two full school days a month in one school is a lot of observation. Treat it as support rather than inspection.","Feedback recorded during these visits shapes the training you will later be sent on."],
+  cta:{t:"Department site",u:U.site}}},
+ {n:"04",h:"Posts in your district",p:"Sanctioned School Leader posts, district by district, male and female.",b:"All 28 districts",
+  detail:{slpicker:true,
+  lead:"The Directorate rationalised the 2,500 School Leader (BS-16) posts across 208 sub-divisions in 28 districts. Choose a district to see its sanctioned strength.",
+  steps:["Select a district from the list.","Note the male and female split — they are separate cadres with separate merit lists.","Remember these are sanctioned posts, not live vacancies.","For the current position in your sub-division, ask your DEO office."],
+  tips:["The rationalisation went from 174 sub-divisions to 208 after audit reconciliation.","Sanctioned strength on paper and filled posts on the ground are rarely the same number."],cta:{t:"See the full annex",u:U.slPolicy}}},
+ {n:"05",h:"Eligibility and how marks are counted",p:"Qualification, age limit, and the 150-mark formula.",b:"Recruitment",
+  detail:{lead:"Recruitment criteria were laid down by E&SED Notification No. SO(PE)/E&SED/9-16/ETEA/2022 dated 9 February 2022. Selection is on 150 marks: a 100-mark ETEA test plus 50 academic marks.",
+  facts:[["Qualification","At least 2nd Division Master's degree, or a four-year BS degree, from a recognised university or equivalent"],["Age limit (BS-16)","Maximum 30 years on the closing date, with relaxation under existing rules"],["Test marks","100, conducted by ETEA"],["Academic marks","50"],["Passing marks","50% in the test"],["Quota","Separate merit lists for 2% disabled and 5% minority candidates"],["After appointment","Compulsory training through DPD Khyber Pakhtunkhwa"]],
+  steps:["Academic marks are calculated as marks obtained divided by total marks, times a multiplier for each certificate.","SSC × 5, HSSC × 10, BA/BSc × 10, MA/MSc × 15, B.Ed × 5, M.Ed × 5.","A four-year BS degree is counted as 25 marks: marks obtained × 25 ÷ total marks.","A two-year MA Education counts as 10 marks, split as B.Ed 5 and M.Ed 5.","If your result is in CGPA, get it converted into marks by your university's controller of examinations first — CGPA alone is not accepted.","Tentative merit lists are displayed for ten days to receive appeals.","Final merit lists follow five working days after appeals are disposed of; DSC meetings and appointment orders complete within a fortnight."],
+  tips:["A criminal case is registered against candidates producing fake or forged documents.","Get the CGPA conversion done early. Candidates lose places over this every cycle."],
+  cta:{t:"Read the notification itself",u:U.slPolicy},cta2:{t:"Department notifications",u:U.notif}}},
+ {n:"06",h:"The ETEA paper — full breakdown",p:"Every subject and its weightage, plus cognitive and difficulty levels.",b:"Exam prep",
+  detail:{lead:"The assessment specification for the School Leader recruitment test is published in the notification. Prepare against these weightages rather than against guess papers — half the paper is not general subject knowledge at all.",
+  facts:[["Teaching Approach & Classroom Assessment","15 marks"],["Intelligence Quotient","15 marks"],["English","10 marks"],["Analytical Skills","10 marks"],["Leadership & Management Skills","8 marks"],["Mathematics","7 marks"],["Biology","5 marks"],["Chemistry","5 marks"],["Physics","5 marks"],["Pakistan Studies","5 marks"],["Islamyat","5 marks"],["Urdu","5 marks"],["General Knowledge","5 marks"],["Total","100 marks"]],
+  steps:["Look at where the marks actually are. Teaching Approach and Classroom Assessment, IQ, English and Analytical Skills together carry 50 of the 100 marks.","The three sciences together carry only 15 marks. Do not spend half your preparation there.","Cognitive levels are weighted: Knowledge 20%, Understanding 30%, Application 50% — so half the paper asks you to apply, not recall.","Difficulty is weighted: Easy 20%, Moderate 30%, Difficult 50%.","Practise applied classroom-assessment questions and IQ items under time pressure.","Passing is 50%, but selection is on merit against 150 marks, so aim well above the pass mark."],
+  tips:["Half the paper being at application level is the single most important line in the specification. Rote learning will not carry you.","Leadership and Management Skills carries 8 marks — more than any single science subject."],
+  cta:{t:"Read the recruitment notification",u:U.slPolicy},cta2:{t:"Department notifications",u:U.notif},watch:"ETEA School Leader BS-16 KP test preparation"}},
+ {n:"07",h:"Terms of service",p:"Contract basis, non-transferable, and what you do and do not get.",b:"Before you apply",
+  detail:{lead:"School Leaders are recruited on contract under the Contract Employment Policy 2002, not as regular government servants. The differences matter and are worth understanding before applying.",
+  facts:[["Basis","Contract, initial period of three years"],["Extension","Extendable every three years on satisfactory performance"],["Posting","Non-transferable"],["Recruited by","Directorate of E&SE, Khyber Pakhtunkhwa"],["Notice period","One month's notice, or one month's salary in lieu"],["Pay on first appointment","Minimum of the relevant pay scale"],["Annual increment","After one year of satisfactory service"],["Allowances","House rent, conveyance, medical, leave and TA/DA as per government rules"],["Pension and gratuity","Not entitled — contract employees do not contribute to the GP Fund"],["Training","Equal opportunity of local training and self-enhancement"]],
+  steps:["Read the pension line carefully. Contract employees do not contribute to the GP Fund and are not entitled to pension or gratuity benefits.","Weigh that against a regular teaching post before deciding.","Note the post is non-transferable — you serve where you are appointed.","The contract terminates automatically on expiry of the initial period; a fresh contract may be executed if the job still requires it."],
+  tips:["Non-transferable is significant if you have family constraints. Consider the district you apply to carefully.","The Establishment Department itself noted that contract employees ultimately seek regularisation. That is a policy debate, not a promise — do not apply expecting it."],
+  cta:{t:"Read the terms in the policy file",u:U.slPolicy}}},
+ {n:"08",h:"Career path and promotion",p:"How the cadre moves from BS-16 up to BS-18, and where it joins the Management Cadre.",b:"Progression",
+  detail:{lead:"The department set out a broad outline of service rules for the School Leadership stream, with defined promotion routes from BS-16 upward.",
+  facts:[["Senior School Leader (BS-17)","Initially 100% fresh recruitment, then 100% by promotion from School Leaders (BS-16) with at least 5 years' service"],["SSL age limit","Maximum 32 years for initial recruitment"],["SSL qualification","2nd class Master's or four-year Bachelor's, plus proficiency in computer office applications"],["DDEO Quality (BS-18)","Initially 100% fresh recruitment, then 100% by promotion on seniority-cum-fitness from Senior School Leaders (BS-17)"],["DDEO-Q age limit","Maximum 40 years for initial recruitment"],["DDEO-Q experience","5 years' teaching or management experience in government institutions or offices"],["Joint seniority","From BS-18, the Management Cadre and the School Leadership Cadre have joint seniority"],["Additional Director Quality (BS-19)","Re-designation of an existing Additional Director post, filled from the existing Management Cadre"]],
+  steps:["Note the five-year service requirement for promotion from BS-16 to BS-17.","Promotion to BS-17 also requires successful completion of the mandatory training required for Management Cadre officers.","Where no suitable candidate is available, posts may be filled by transfer from the Management Cadre, and failing that from the Teaching Cadre.","The joint seniority at BS-18 is the point where this cadre and the Management Cadre merge for career purposes."],
+  tips:["Five years is the gate. Plan your mandatory training well before you reach it.","Joint seniority from BS-18 means your competition widens considerably at that level."],
+  cta:{t:"Seniority lists",u:U.seniority}}},
+ {n:"09",h:"Who does what — the four tiers",p:"School Leader, Senior School Leader, DDEO Quality, Additional Director Quality.",b:"Structure",
+  detail:{lead:"Each tier of the quality stream has a distinct remit, from the classroom up to the province.",
+  facts:[["School Leader (BS-16)","Field staff. Visits each primary school in the jurisdiction twice a month, monitors professional development day, records feedback on teacher trainings"],["Senior School Leader (BS-17)","Sub-division level supervisory officer. Monitors the performance of School Leaders and coordinates professional development activities for them"],["DDEO Quality (BS-18)","District level. Overall supervision of field formation, maintains the district data repository, analyses teacher quality, coordinates with DEOs and DPD on training"],["Additional Director Quality (BS-19)","Provincial level. Supervises and coordinates the quality stream, working with the Directorate of E&SE, DPD and DCTE on improved teaching practice and enhanced student learning"]],
+  steps:["Work out which tier you would actually be dealing with in your role.","As a class teacher, your contact is the School Leader.","As a head teacher, also the Senior School Leader at sub-division level.","District-level data queries go to the DDEO Quality."],
+  cta:{t:"All directorates",u:U.departments}}},
+ {n:"10",h:"How the policy was decided",p:"The proposal took two years and drew serious objections before approval.",b:"Background",
+  detail:{lead:"This cadre was not created in a single step. The summary moved between departments from 2020 to 2021, gathering objections along the way, and the final shape reflects those arguments.",
+  steps:["The E&SE Department first proposed hiring 2,919 School Leaders (BS-16) on contract, to avoid pension liabilities and to keep the focus on quality.","The Finance Department supported the proposal as cost-effective compared with regular appointment.","The Establishment Department objected: under Contract Policy 2002, appointments in BS-16 and above are to be made through the Public Service Commission, whereas the department proposed ETEA.","It also objected that the eligibility criteria were too narrow to attract candidates, that the job descriptions were not aligned with those of Head Teachers, Head Masters, Principals, ASDEOs, SDOs and DEOs, and that the reporting structure was unclear.","A committee then found that creating another administrative structure alongside the Directorate and EMA would not be cost-effective, and that contract employees would ultimately seek regularisation.","The department reassessed and returned with the revised four-tier model of 2,500 + 190 + 28 + 1 posts.","A letter seeking NOC from the KP Public Service Commission was sent in December 2021 and withdrawn in January 2022; the ETEA recruitment notification followed in February 2022.","The committee recommended that if the initiative succeeds, the BS-16 to BS-18 stream may be made part of EMA as a quality monitoring stream."],
+  tips:["The recruitment route moved from Public Service Commission to ETEA. That shift was contested, not automatic.","Knowing this history helps if you are reading current notifications about the cadre — the structure is still described as an experiment to be evaluated."],
+  cta:{t:"Department notifications",u:U.notif}}},
+ {n:"11",h:"Sub-divisions and DDO codes",p:"208 sub-divisions across 28 districts hold the sanctioned posts.",b:"Reference",
+  detail:{lead:"The 2,500 posts are distributed by sub-division, each with its own DDO code, male and female separately. Your DEO office holds the full rationalisation list.",
+  steps:["Ask your DEO office for the DDO-wise break-up if you need the position for a specific sub-division.","Note that the list was revised from 174 to 208 sub-divisions after reconciliation with Finance audit copies.","Sanctioned posts per sub-division are tied to the number of primary schools in that sub-division.","For any official use, cite the rationalisation dated 10 August 2023 rather than this app."],
+  tips:["Sub-division figures move when new sub-divisions are notified. Confirm before relying on an old list.","Male and female sub-divisions are separate DDO codes with separate sanctioned strength."],
+  cta:{t:"District Education Offices",u:U.deoOffices},cta2:{t:"Rationalisation annex in the policy file",u:U.slPolicy}}},
+ {n:"12",h:"Latest notifications on this cadre",p:"Watch for recruitment, results and policy updates.",b:"Live",url:U.notif},
+ {n:"13",h:"ETEA — testing body",p:"The Educational Testing and Evaluation Agency conducts the recruitment test.",b:"Official",url:U.site}
+]},
+
+/* ============ 10. PAY, PENSION & WELFARE ============ */
+welfare:{
+ en:{title:"Pay, Pension & Welfare",desc:"Performance reports, GP Fund, retirement grants, benevolent fund and the Sehat Card — the money and welfare side of your service."},
+ ur:{title:"تنخواہ، پنشن و بہبود",desc:"کارکردگی رپورٹ، جی پی فنڈ، ریٹائرمنٹ گرانٹ، بینوولنٹ فنڈ اور صحت کارڈ۔"},
+ items:[
+ {n:"01",h:"e-ACR — your performance report",p:"The Annual Confidential Report, now digital. It decides promotion, selection grade and confirmation.",b:"Every year",
+  detail:{lead:"The Annual Confidential Report (ACR) is the yearly evaluation of your work, conduct and capability. It is one of the most consequential documents in a government career — it feeds directly into confirmation, promotion, selection grade, crossing the efficiency bar, and continuation in service. KP has digitised the process through the e-ACR Tracking System under the Performance Management & Reform Unit (PMRU), feeding into the e-PSB (Provincial Selection Board).",
+  facts:[["Purpose","Judges work, conduct, character and capability for the year"],["Feeds into","Confirmation, promotion, selection grade, efficiency bar, continuation in service"],["System","e-ACR Tracking System, Performance Management & Reform Unit (PMRU)"],["Flow","You submit → Reporting Officer reviews and forwards → Countersigning Officer → e-PSB when required"],["Old system","Manual, paper-based, prone to delay and loss"]],
+  steps:["Do not wait for a reminder. Note your own reporting year and prepare before the window opens.","List your actual work for the year — classes taught, results, trainings attended, additional responsibilities — before you sit down to write.","Fill your own portion honestly and specifically; vague self-assessment weakens the report.","Submit through the e-ACR system within the window given.","Follow up that your Reporting Officer has actually reviewed and forwarded it — an ACR stuck at this stage helps no one.","Check in later years that each year's ACR shows as complete, not pending.","If a report is adverse, you are ordinarily entitled to see it and represent against it — ask your DEO office about the process without delay."],
+  tips:["A missing or pending ACR for even one year can hold up a promotion case for all your years of service.","Keep your own yearly record of achievements — postings, trainings, results — so writing the ACR each year is fast, not a guess."],
+  cta:{t:"Open e-ACR system",u:U.eacr},cta2:{t:"PMRU Khyber Pakhtunkhwa",u:U.pmru}}},
+ {n:"02",h:"GP Fund — your provident fund",p:"Compulsory monthly savings from your salary, repaid with interest at retirement — or as an advance while serving.",b:"Savings",
+  detail:{lead:"The General Provident Fund (GP Fund) is a compulsory savings scheme for KP government employees, governed by the Khyber Pakhtunkhwa General Provident Fund Rules. A portion of your salary is deducted monthly, earns interest, and is paid out — as a full-and-final settlement at retirement, or as an advance during service for genuine need.",
+  facts:[["Governed by","Khyber Pakhtunkhwa General Provident Fund Rules, 2008"],["Managed by","Accountant General Khyber Pakhtunkhwa (AGKP)"],["Advances","Available for specified needs during service, on approved conditions"],["Nomination","You may nominate who receives the balance if you die before withdrawal"],["At retirement","Paid as a lump sum with accumulated interest"]],
+  steps:["Check your GP Fund statement periodically — do not wait until retirement to look at it for the first time.","File a nomination form early, and update it after any change in family — marriage, birth, death.","For an advance during service, check the specified permissible reasons and required forms before applying.","Keep your Form TR-58, pay bill records and GP Fund Claim Verification Proforma (GCVP) organised — these are asked for at withdrawal.","At retirement, file the GP Fund claim alongside your pension case, not after it — the two are often processed together.","Confirm the final amount against your own statement before accepting it."],
+  tips:["A wrong or missing nomination can delay payment to your family for months if something happens to you.","Start the retirement paperwork six months out, same as your pension case — GP Fund and pension share many of the same supporting documents."],
+  cta:{t:"AG KP — GP Fund",u:U.gpFundAG},cta2:{t:"GP Fund Rules 2008",u:U.gpFundRules}}},
+ {n:"03",h:"Benevolent Fund",p:"Welfare support for serving and retired employees and their families — retirement grant, scholarships, funeral charges, loans.",b:"Welfare",
+  detail:{lead:"The Benevolent Fund Cell, Khyber Pakhtunkhwa, exists for the welfare of serving and retired provincial government employees and their families, under the KP Benevolent Fund Provision Ordinance 1972. The old manual process has been digitised for faster, more transparent disbursement.",
+  facts:[["Covers","Serving and retired provincial government employees and their families"],["Headquarters","Benevolent Fund Building, Saddar Road, Peshawar"],["Phone","091-9211914 (Secretary, Benevolent Fund Cell)"],["Forms available","Retirement grant, funeral charges, merit scholarship, interest-free loan, single widow certificate"]],
+  steps:["Check which benefit applies to your situation — retirement grant is separate from scholarship or loan applications.","Download the correct form for that benefit rather than a generic one.","Complete supporting documents exactly as the form specifies; incomplete cases are the most common cause of delay.","Submit through your district office or directly at the Benevolent Fund Building, Saddar Road, Peshawar, as the form requires.","For a family in genuine urgent need after an employee's death, funeral charges and the retirement grant should be pursued promptly — these exist precisely for that situation.","Follow up by phone using the numbers on the department's contact page if a case sits without movement."],
+  tips:["Merit scholarships and interest-free loans are announced with specific yearly application windows — check the current year's form, not an old one.","KP has paid group insurance money to retiring employees since 2014, unlike the federal scheme, which pays only on death in service. Ask about this specifically when you retire."],
+  cta:{t:"Benevolent Fund KP",u:U.bfkp},cta2:{t:"Download BF forms",u:U.bfkpForms}}},
+ {n:"04",h:"Sehat Card — free hospital treatment",p:"Every KP resident is covered — up to Rs 1 million per family per year at empanelled hospitals, cashless.",b:"Health cover",
+  detail:{lead:"Sehat Card Plus is a health micro-insurance programme covering all permanent residents of Khyber Pakhtunkhwa — teachers, their families, everyone in the province — for free inpatient treatment at empanelled public and private hospitals, with no payment at the point of care.",
+  facts:[["Coverage","Up to Rs 1,000,000 per family per year"],["Who is covered","All permanent residents of KP — coverage is universal, not means-tested"],["Includes","Surgeries, cardiac and kidney treatment including dialysis and transplant, cancer treatment, maternity care, accident and emergency"],["Data source","Family data drawn from NADRA records"],["Cost to patient","Free at the point of care at empanelled hospitals"],["Helpline","0800-89898 (Khyber Pakhtunkhwa)"]],
+  steps:["Send your CNIC number by SMS to 8500 to check your eligibility and card status.","If eligible, visit your nearest Sehat Sahulat centre with your CNIC to collect the physical card, or use your CNIC directly at empanelled hospitals.","Before planned treatment, check the hospital is empanelled under the programme.","At the hospital, show your CNIC or card at the Sehat Sahulat desk — the process is cashless.","For a major or ongoing condition, ask the hospital's Sehat Sahulat desk specifically what portion of treatment is covered before proceeding.","Keep any card renewal notices — the card's validity is extended automatically each year, but check if you have moved or your family status changed."],
+  tips:["The card does not expire in the way a normal document does — validity renews automatically, but confirm at a Sehat Sahulat centre if in doubt.","If a hospital asks for payment for something that should be covered, contact the KP helpline before paying — that is exactly what it exists for."],
+  cta:{t:"Check eligibility & hospitals",u:U.sehatCard},cta2:{t:"Sehat card portal",u:U.sehatCheck}}},
+ {n:"05",h:"Accountant General KP — pay and pension records",p:"The office that actually holds your pay, GP Fund and pension records.",b:"Records office",url:U.agkp},
+ {n:"06",h:"PMRU — Performance Management & Reform Unit",p:"Runs the e-ACR system and other KP government reform initiatives.",b:"Official",url:U.pmru}
+]},
+
+/* ============ 6. ABOUT ============ */
+about:{
+ en:{title:"About Us",desc:"Elementary & Secondary Education Department, Government of Khyber Pakhtunkhwa."},
+ ur:{title:"ہمارے بارے میں",desc:"محکمہ ابتدائی و ثانوی تعلیم، حکومت خیبر پختونخوا۔"},
+ stats:[{n:"237,813+",l:"Employees in the department"},{n:"34,784+",l:"Government institutions"},{n:"5.94 M",l:"Students enrolled"},{n:"184,796+",l:"Teachers serving"}],
+ prose:"The Elementary &amp; Secondary Education Department is the largest department in Khyber Pakhtunkhwa. Its <b>EMIS Section</b> builds and runs the digital systems behind school and staff management — <b>HRIS/HRMIS</b>, <b>Integrated EMIS</b>, the <b>E-Pension system</b>, <b>biometric attendance</b>, the <b>QR e-Notification system</b>, the <b>School Self-Reporting portal</b>, <b>Talent Pool</b> and <b>e-Transfer Plus 2026</b>.<br><br><b>DCTE Abbottabad</b> handles curriculum and scheme of studies for Pre-I to XII, textbook and training-manual approval, assessment studies, and item development for the Induction Programme final examination. <b>DPD Peshawar</b> runs professional development and the Induction Programme.<br><br>This app is an independent, offline-friendly companion. It stores no password and sends your data nowhere — every official action opens the department's own portal.<br><br><b>EMIS Section:</b> Block A, 3rd Floor, Building A, Civil Secretariat, Peshawar<br><b>Phone:</b> (091) 9210480<br><b>Email:</b> emisesekp@gmail.com",
+ items:[
+ {n:"↗",h:"KPESE official website",p:"Notifications, policies, seniority lists and downloads.",b:"Official",url:U.site},
+ {n:"↗",h:"HRMIS login portal",p:"The live Human Resource Management Information System.",b:"Official",url:U.hrmis},
+ {n:"↗",h:"Integrated EMIS",p:"School census, enrolment and infrastructure data.",b:"Official",url:U.iemis},
+ {n:"↗",h:"Directorate of E&SE",p:"Directorate site and the E-Pension platform.",b:"Official",url:U.dese},
+ {n:"↗",h:"DCTE Abbottabad",p:"Curriculum, teacher education and standards for school heads.",b:"Official",url:U.dcteSite},
+ {n:"↗",h:"All directorates & bodies",p:"DCTE, DPD, DEO offices, EMA, ESEF, MAEF, PSRA, TBB and the BISEs.",b:"Directory",url:U.departments},
+ {n:"↗",h:"KP Government portal",p:"Provincial services, jobs and tenders.",b:"Official",url:U.kpPortal},
+ {n:"↗",h:"Contact EMIS Section",p:"Address, phone and email for the section that runs these systems.",b:"Contact",url:U.contact},
+ {n:"↗",h:"How this app was built",p:"What is inside, what it does not do, and how to report a wrong link.",b:"About",
+  detail:{lead:"This is an independent companion app for KP government teachers. It is not an official department product.",
+  steps:["Every service listed here links to the department's own portal — the app never asks for your HRIS password.","No data you type is stored or transmitted anywhere; the search box works entirely on your phone.","The app caches itself so it opens without internet after the first visit.","Content is compiled from the department's published pages and notifications.","Portals change. If a link is dead or a fact is outdated, treat the official site as correct, not this app.","For anything with legal or financial effect — transfer, pension, seniority — act on the official notification, never on this summary."],
+  tips:["Some government portals run on http and non-standard ports; your browser may warn before opening them.","Always verify dates and eligibility on the original notification."],cta:{t:"Official department site",u:U.site}}}
+]}};
+
+const TILES=[
+ {k:"offices",ic:ICON.office,en:"For Offices",ur:"دفاتر کے لیے",count:"12"},
+ {k:"teachers",ic:ICON.teacher,en:"For Teachers",ur:"اساتذہ کے لیے",count:"13"},
+ {k:"tutorials",ic:ICON.video,en:"Video Tutorials",ur:"ویڈیو گائیڈ",count:"14"},
+ {k:"notices",ic:ICON.doc,en:"Notices & Downloads",ur:"اطلاعات",count:"12"},
+ {k:"bodies",ic:ICON.org,en:"Directorates",ur:"ادارے",count:"12"},
+ {k:"news",ic:ICON.news,en:"Latest News",ur:"تازہ خبریں",count:"15"},
+ {k:"induction",ic:ICON.cap,en:"Induction Phase V",ur:"انڈکشن فیز V",count:"14"},
+ {k:"leaders",ic:ICON.lead,en:"School Leaders",ur:"سکول لیڈرز",count:"13"},
+ {k:"welfare",ic:ICON.wallet,en:"Pay, Pension & Welfare",ur:"تنخواہ و بہبود",count:"6"},
+ {k:"about",ic:ICON.about,en:"About Us",ur:"تعارف",count:"9"}];
+
+const CHIPS=[
+ {t:"My district",k:"teachers",i:0},
+ {t:"e-Transfer 2026",k:"teachers",i:4},
+ {t:"Leave",k:"teachers",i:5},
+ {t:"Pension",k:"tutorials",i:6},
+ {t:"Register on HRIS",k:"teachers",i:1},
+ {t:"Vacations",k:"teachers",i:10},
+ {t:"DCTE",k:"bodies",i:0},
+ {t:"Seniority",k:"notices",i:-1},
+ {t:"Reopening dates",k:"news",i:0},
+ {t:"Summer camps",k:"news",i:1},
+ {t:"Check my venue",k:"induction",i:0},
+ {t:"Induction Phase V",k:"induction",i:3},
+ {t:"Induction exam",k:"induction",i:7},
+ {t:"School Leaders",k:"leaders",i:1},
+ {t:"ETEA paper",k:"leaders",i:5},
+ {t:"SL posts by district",k:"leaders",i:3},
+ {t:"e-ACR",k:"welfare",i:0},
+ {t:"Sehat Card",k:"welfare",i:3},
+ {t:"GP Fund",k:"welfare",i:1}];
+
+const DEPT_MARK="data:image/jpeg;base64,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";
+
+
+/* School Leader (BS-16) sanctioned posts per district, from the Directorate's
+   rationalisation annex dated 10/08/2023. [female, male, total] — sums to 2500. */
+const SL_POSTS={
+ "Abbottabad":[61,85,146],"Bannu":[62,71,133],"Battagram":[29,54,83],"Buner":[25,51,76],
+ "Charsadda":[50,53,103],"Dera Ismail Khan":[52,84,136],"Hangu":[13,23,36],"Haripur":[40,54,94],
+ "Karak":[38,46,84],"Kohat":[41,33,74],"Kohistan Lower":[11,19,30],"Kohistan Upper":[5,28,33],
+ "Kolai-Palas":[10,17,27],"Lakki Marwat":[43,75,118],"Chitral Lower":[12,30,42],"Dir Lower":[54,79,133],
+ "Malakand":[26,35,61],"Mansehra":[74,126,200],"Mardan":[69,90,159],"Nowshera":[40,46,86],
+ "Peshawar":[53,67,120],"Shangla":[22,48,70],"Swabi":[52,63,115],"Swat":[59,91,150],
+ "Tank":[17,23,40],"Torghar":[8,18,26],"Chitral Upper":[11,20,31],"Dir Upper":[30,64,94]};
+
+/* ---------- All 38 KP districts ----------
+   zone: 'S' summer, 'W' winter, '?' varies by tehsil / confirm on notification
+   Zone and board are shown as guidance with a verify link, never as a ruling.  */
+const DISTRICTS=[
+ ["Abbottabad","W","Abbottabad"],["Allai","W","Abbottabad"],["Bajaur","?","Malakand"],
+ ["Bannu","S","Bannu"],["Battagram","W","Abbottabad"],["Central Kurram","?","Kohat"],["Buner","W","Swat"],
+ ["Charsadda","S","Peshawar"],["Chitral Lower","W","Malakand"],["Chitral Upper","W","Malakand"],
+ ["Dera Ismail Khan","S","D.I. Khan"],["Dir Lower","W","Malakand"],["Dir Upper","W","Malakand"],
+ ["Hangu","S","Kohat"],["Haripur","?","Abbottabad"],["Karak","S","Kohat"],
+ ["Khyber","S","Peshawar"],["Kohat","S","Kohat"],["Kohistan Lower","W","Abbottabad"],
+ ["Kohistan Upper","W","Abbottabad"],["Kolai-Palas","W","Abbottabad"],["Kurram","?","Kohat"],
+ ["Lakki Marwat","S","Bannu"],["Malakand","?","Malakand"],["Mansehra","W","Abbottabad"],
+ ["Mardan","S","Mardan"],["Mohmand","S","Peshawar"],["North Waziristan","S","Bannu"],
+ ["Nowshera","S","Peshawar"],["Orakzai","?","Kohat"],["Peshawar","S","Peshawar"],
+ ["Shangla","W","Swat"],["South Waziristan Lower","S","D.I. Khan"],
+ ["South Waziristan Upper","?","D.I. Khan"],["Swabi","S","Mardan"],["Swat","W","Swat"],
+ ["Tank","S","D.I. Khan"],["Torghar","W","Abbottabad"]];
+
+const ZONE={
+ S:{name:"Summer Zone",note:"Plains. Long summer break, short winter break.",
+    rows:[["Primary","Closed 1 June – 31 August · reopens 1 September"],
+          ["Middle, high, higher secondary","Closed 15 June – 16 August · reopens 17 August"],
+          ["Summer camps","Held in Summer Zone schools during the break"]]},
+ W:{name:"Winter Zone",note:"Upper and mountainous districts. Short summer break, long winter break.",
+    rows:[["All levels","Closed 1 July – 31 July · reopens 1 August"],
+          ["Summer camps","Heads may adjust subjects and duration; no engagement past 10:00 AM"]]},
+ "?":{name:"Confirm with your office",note:"This district is not consistently listed in one zone, or is split by tehsil. Your DEO office decides which schedule your school follows.",
+    rows:[["What to do","Ring your DEO/SDEO office, then read the notification"]]}};
+
+let lang='en', current=null;
+const grid=document.getElementById('grid'), chipbar=document.getElementById('chips'),
+      sheet=document.getElementById('sheet'), panel=document.getElementById('panel'),
+      body=document.getElementById('sh-body'), backSlot=document.getElementById('sh-back');
+
+function drawTiles(){
+  grid.innerHTML='';
+  TILES.forEach(t=>{
+    const b=document.createElement('button');
+    b.className='tile'; b.type='button';
+    b.innerHTML=`<span class="count">${t.count}</span>${t.ic}<span class="label ${lang==='ur'?'u':''}">${lang==='ur'?t.ur:t.en}</span>`;
+    b.addEventListener('click',()=>openList(t.k));
+    grid.appendChild(b);
+  });
+}
+function drawChips(){
+  chipbar.innerHTML='';
+  CHIPS.forEach(c=>{
+    const b=document.createElement('button');
+    b.className='chip'; b.type='button'; b.textContent=c.t;
+    b.addEventListener('click',()=>{
+      if(c.i<0){ openList(c.k); return; }            // -1 = show the whole section
+      const it=DATA[c.k].items[c.i];
+      if(it && it.detail) openDetail(c.k,c.i);
+      else if(it && it.url) openList(c.k);           // link items open their section, not a surprise tab
+      else openList(c.k);
+    });
+    chipbar.appendChild(b);
+  });
+}
+
+
+/* ================= LIVE NEWS FEED ================= */
+/* news.json is refreshed daily by a GitHub Actions workflow.
+   Same-origin on GitHub Pages, so no CORS proxy is needed.
+   If the fetch fails, the built-in curated news below still shows. */
+let LIVE={state:'loading',items:[],updated:null,digest:null,briefed:false,error:null};
+
+function timeAgo(iso){
+  if(!iso) return '';
+  const s=Math.floor((Date.now()-new Date(iso).getTime())/1000);
+  if(isNaN(s)) return '';
+  if(s<3600) return Math.max(1,Math.floor(s/60))+' min ago';
+  if(s<86400) return Math.floor(s/3600)+' hr ago';
+  const d=Math.floor(s/86400);
+  return d===1?'yesterday':d+' days ago';
+}
+function fmtDate(d){
+  if(!d) return '';
+  const p=d.split('-'); if(p.length!==3) return d;
+  const M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return (+p[2])+' '+M[(+p[1])-1]+' '+p[0];
+}
+function loadLive(force){
+  LIVE.state='loading';
+  return fetch('news.json'+(force?'?t='+Date.now():''),{cache:force?'reload':'default'})
+    .then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(j=>{
+      LIVE.items=Array.isArray(j.items)?j.items:[];
+      LIVE.updated=j.updated||null;
+      LIVE.digest=j.digest||null;
+      LIVE.briefed=!!j.briefed;
+      LIVE.state=LIVE.items.length?'ok':'empty';
+    })
+    .catch(e=>{ LIVE.state='error'; LIVE.error=e.message; })
+    .then(()=>{ if(current==='news') openList('news'); });
+}
+function liveBarHTML(){
+  if(LIVE.state==='loading') return '<div class="livebar"><span class="dotlive"></span>Checking for new notifications…</div>';
+  if(LIVE.state==='ok'){
+    const age=timeAgo(LIVE.updated);
+    const stale=LIVE.updated && (Date.now()-new Date(LIVE.updated).getTime())>3*86400000;
+    return '<div class="livebar'+(stale?' stale':'')+'"><span class="dotlive"></span>'+
+      LIVE.items.length+' live notifications'+(LIVE.briefed?', briefed for teachers':'')+(age?' · '+age:'')+
+      '<button type="button" id="refresh">Refresh</button></div>';
+  }
+  if(LIVE.state==='empty') return '<div class="livebar stale"><span class="dotlive"></span>Live feed is empty — showing saved notices<button type="button" id="refresh">Retry</button></div>';
+  return '<div class="livebar err"><span class="dotlive"></span>Live feed unavailable offline — showing saved notices<button type="button" id="refresh">Retry</button></div>';
+}
+function digestHTML(){
+  if(LIVE.state!=='ok'||!LIVE.digest) return '';
+  return '<div class="digest"><div class="lbl">What matters this week <span>AI brief</span></div><p>'+
+         LIVE.digest+'</p></div>';
+}
+function liveItemsHTML(){
+  if(LIVE.state!=='ok'||!LIVE.items.length) return '';
+  const U_ORDER={action:0,watch:1,info:2};
+  const sorted=LIVE.items.slice().sort((a,b)=>{
+    const ua=U_ORDER[a.urgency]!==undefined?U_ORDER[a.urgency]:3;
+    const ub=U_ORDER[b.urgency]!==undefined?U_ORDER[b.urgency]:3;
+    return ua-ub || String(b.date||'').localeCompare(String(a.date||''));
+  });
+  let s='<div class="grouphead">Straight from kpese.gov.pk</div>';
+  sorted.forEach(it=>{
+    const brief = it.summary ? '<p class="brief">'+it.summary+'</p>' : '';
+    const urdu  = (it.ur && lang==='ur') ? '<p class="brief u">'+it.ur+'</p>' : '';
+    const meta  = (it.who||it.action)
+      ? '<p class="meta">'+(it.who?'<b>Concerns:</b> '+it.who:'')+
+        (it.who&&it.action?' &nbsp;·&nbsp; ':'')+
+        (it.action?'<b>Do:</b> '+it.action:'')+'</p>' : '';
+    const pill  = it.urgency
+      ? '<span class="u-pill u-'+it.urgency+'">'+
+        (it.urgency==='action'?'Action needed':it.urgency==='watch'?'Watch this':'For information')+'</span>' : '';
+    // when a brief exists the official title becomes the sub-line, not the headline
+    const head  = it.summary ? fmtDate(it.date)+' · '+(it.cat||'Notice') : it.title;
+    const raw   = it.summary ? '<p class="raw">'+it.title+'</p>'
+                             : (it.date?'<p>'+fmtDate(it.date)+'</p>':'');
+    s+='<a class="item" href="'+it.url+'" target="_blank" rel="noopener">'+
+       '<div class="dot">'+(it.cat||'•').slice(0,3).toUpperCase()+'</div>'+
+       '<div><h3>'+head+'</h3>'+brief+urdu+meta+raw+pill+
+       (it.summary?'':'<span class="badge live">'+(it.cat||'Notice')+'</span>')+
+       '</div><div class="go">↗</div></a>';
+  });
+  s+='<div class="grouphead">Explained in this app</div>';
+  return s;
+}
+
+
+function districtPickerHTML(){
+  const opts=DISTRICTS.map((d,i)=>'<option value="'+i+'">'+d[0]+'</option>').join('');
+  return '<div class="picker">'+
+    '<label class="pklabel" for="dpick">Choose your district</label>'+
+    '<select id="dpick" class="pksel"><option value="">— select —</option>'+opts+'</select>'+
+    '<div id="dout" class="pkout"></div></div>';
+}
+function renderDistrict(i){
+  const out=document.getElementById('dout');
+  if(!out) return;
+  if(i===''){ out.innerHTML=''; return; }
+  const d=DISTRICTS[+i], z=ZONE[d[1]];
+  let s='<div class="pkcard"><div class="pkzone">'+z.name+'</div><p class="pknote">'+z.note+'</p><div class="facts">';
+  z.rows.forEach(r=>{ s+='<div><b>'+r[0]+'</b><span>'+r[1]+'</span></div>'; });
+  s+='<div><b>Examination board</b><span>BISE '+d[2]+'</span></div>';
+  s+='</div><p class="pkwarn">Zone and board are shown as guidance. Your DEO office and the official notification decide. Check before you plan anything around these dates.</p>'+
+     '<a class="cta" href="'+U.summerVac+'" target="_blank" rel="noopener">Read the vacation notification ↗</a>'+
+     '<a class="cta ghost" href="'+U.deoOffices+'" target="_blank" rel="noopener">Find your District Education Office ↗</a></div>';
+  out.innerHTML=s;
+}
+
+
+function slPickerHTML(){
+  const names=Object.keys(SL_POSTS).sort();
+  return '<div class="picker"><label class="pklabel" for="slpick">Choose a district</label>'+
+    '<select id="slpick" class="pksel"><option value="">— select —</option>'+
+    names.map(n=>'<option value="'+n+'">'+n+'</option>').join('')+
+    '</select><div id="slout" class="pkout"></div></div>';
+}
+function renderSL(name){
+  const out=document.getElementById('slout'); if(!out) return;
+  if(!name){ out.innerHTML=''; return; }
+  const p=SL_POSTS[name];
+  const share=(p[2]/2500*100).toFixed(1);
+  out.innerHTML='<div class="pkcard"><div class="pkzone">'+name+'</div>'+
+    '<p class="pknote">Sanctioned School Leader (BS-16) posts in this district.</p>'+
+    '<div class="facts">'+
+    '<div><b>Total posts</b><span>'+p[2]+'</span></div>'+
+    '<div><b>Male</b><span>'+p[1]+'</span></div>'+
+    '<div><b>Female</b><span>'+p[0]+'</span></div>'+
+    '<div><b>Share of province</b><span>'+share+'% of 2,500</span></div>'+
+    '</div><p class="pkwarn">From the Directorate\'s rationalisation annex dated 10 August 2023. Sanctioned strength, not current vacancies — your DEO office holds the live position.</p>'+
+    '<a class="cta ghost" href="'+U.deoOffices+'" target="_blank" rel="noopener">Find your District Education Office ↗</a></div>';
+}
+
+function openList(key,filter){
+  current=key;
+  const d=DATA[key], meta=lang==='ur'?d.ur:d.en;
+  backSlot.innerHTML='';
+  document.getElementById('sh-title').textContent=meta.title;
+  const desc=document.getElementById('sh-desc');
+  desc.textContent=meta.desc; desc.className='desc '+(lang==='ur'?'u':'');
+  let html='';
+  if(key==='news'&&!filter) html+=digestHTML()+liveBarHTML()+'<div class="plist">'+liveItemsHTML()+'</div>';
+  if(d.stats){
+    html+='<div class="dept-mark"><img src="'+DEPT_MARK+'" alt="KPESED"><div><b>Khyber Pakhtunkhwa Elementary &amp; Secondary Education Department</b>Malgari links to this department\'s services. It is an independent companion app, not an official product. Logo shown for identification only.</div></div>';
+    html+='<div class="stats">'+d.stats.map(s=>`<div class="stat"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join('')+'</div>';
+    html+=`<div class="prose">${d.prose}</div>`;
+  }
+  const items=filter? d.items.filter(i=>(i.h+' '+i.p).toLowerCase().includes(filter)) : d.items;
+  html+='<div class="plist">';
+  if(!items.length){
+    html+='<p style="padding:18px;color:#5c7367;font-size:14px">Nothing matched that word. Try “leave”, “transfer”, “pension”, “attendance”, “document”, “vacation”, “seniority” or “DCTE”.</p>';
+  }else{
+    items.forEach(i=>{
+      const realIdx=d.items.indexOf(i);
+      const tag = i.url ? 'a' : 'button';
+      const attr = i.url ? `href="${i.url}" target="_blank" rel="noopener"` : `type="button" data-open="${realIdx}"`;
+      html+=`<${tag} class="item" ${attr}><div class="dot">${i.n}</div>
+        <div><h3>${i.h}</h3><p>${i.p}</p>${i.b?`<span class="badge ${/live|open|official/i.test(i.b)?'live':''}">${i.b}</span>`:''}</div>
+        <div class="go">${i.url?'↗':'›'}</div></${tag}>`;
+    });
+  }
+  html+='</div>';
+  body.innerHTML=html;
+  body.querySelectorAll('[data-open]').forEach(el=>el.addEventListener('click',()=>openDetail(key,+el.dataset.open)));
+  const rf=body.querySelector('#refresh');
+  if(rf) rf.addEventListener('click',()=>{LIVE.state='loading';openList('news');loadLive(true)});
+  sheet.classList.add('open'); panel.scrollTop=0; document.body.style.overflow='hidden';
+}
+
+function openDetail(key,idx){
+  const d=DATA[key], it=d.items[idx], det=it.detail;
+  if(!det){ if(it&&it.url) window.open(it.url,'_blank','noopener'); return; }
+  current=key;
+  document.getElementById('sh-title').textContent=it.h;
+  const desc=document.getElementById('sh-desc'); desc.textContent=it.p; desc.className='desc';
+  backSlot.innerHTML=`<button class="back" type="button">← ${lang==='ur'?d.ur.title:d.en.title}</button>`;
+  backSlot.querySelector('button').addEventListener('click',()=>openList(key));
+  let html='<div class="detail">';
+  html+=`<p class="lead">${det.lead}</p>`;
+  if(det.picker) html+=districtPickerHTML();
+  if(det.slpicker) html+=slPickerHTML();
+  if(det.facts) html+='<h4>Key facts</h4><div class="facts">'+det.facts.map(f=>`<div><b>${f[0]}</b><span>${f[1]}</span></div>`).join('')+'</div>';
+  if(det.steps) html+='<h4>How to do it</h4><ol class="steps">'+det.steps.map(s=>`<li>${s}</li>`).join('')+'</ol>';
+  if(det.tips&&det.tips.length) html+='<h4>Watch out for</h4><div class="tips">'+det.tips.map(t=>`<p>${t}</p>`).join('')+'</div>';
+  if(det.watch) html+=`<a class="cta watch" href="${U.yt(det.watch)}" target="_blank" rel="noopener"><span class="play">▶</span> Find video guides on YouTube</a><div class="linkurl">Opens a YouTube search for “${det.watch}”</div>`;
+  if(det.cta) html+=`<a class="cta" href="${det.cta.u}" target="_blank" rel="noopener">${det.cta.t} ↗</a><div class="linkurl">${det.cta.u}</div>`;
+  if(det.cta2) html+=`<a class="cta ghost" href="${det.cta2.u}" target="_blank" rel="noopener">${det.cta2.t} ↗</a>`;
+  html+='</div>';
+  body.innerHTML=html; panel.scrollTop=0;
+  const sel=body.querySelector('#dpick');
+  if(sel) sel.addEventListener('change',e=>renderDistrict(e.target.value));
+  const sl=body.querySelector('#slpick');
+  if(sl) sl.addEventListener('change',e=>renderSL(e.target.value));
+  sheet.classList.add('open'); document.body.style.overflow='hidden';
+}
+
+function close(){sheet.classList.remove('open');document.body.style.overflow='';backSlot.innerHTML=''}
+document.querySelectorAll('[data-close]').forEach(e=>e.addEventListener('click',close));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+
+/* ---------- GLOBAL SEARCH across all six sections ---------- */
+function openSearch(term){
+  current=null;
+  backSlot.innerHTML='';
+  document.getElementById('sh-title').textContent='Results for "'+term+'"';
+  const desc=document.getElementById('sh-desc'); desc.className='desc';
+  let html='<div class="plist">', found=0;
+  Object.keys(DATA).forEach(k=>{
+    const d=DATA[k];
+    const hits=d.items.filter(i=>(i.h+' '+i.p+' '+(i.b||'')).toLowerCase().includes(term));
+    if(!hits.length)return;
+    found+=hits.length;
+    html+=`<div class="grouphead">${d.en.title}</div>`;
+    hits.forEach(i=>{
+      const realIdx=d.items.indexOf(i);
+      const tag = i.url ? 'a' : 'button';
+      const attr = i.url ? `href="${i.url}" target="_blank" rel="noopener"` : `type="button" data-sec="${k}" data-open="${realIdx}"`;
+      html+=`<${tag} class="item" ${attr}><div class="dot">${i.n}</div>
+        <div><h3>${i.h}</h3><p>${i.p}</p>${i.b?`<span class="badge ${/live|open|official/i.test(i.b)?'live':''}">${i.b}</span>`:''}</div>
+        <div class="go">${i.url?'↗':'›'}</div></${tag}>`;
+    });
+  });
+  html+='</div>';
+  desc.textContent = found ? found+' service'+(found===1?'':'s')+' found across the app' : 'Nothing matched';
+  if(!found){
+    html='<div class="plist"><p style="padding:18px;color:#5c7367;font-size:14px;line-height:1.7">Nothing matched “'+term+'”.<br><br>Try: leave, transfer, pension, attendance, document, vacation, seniority, induction, DCTE, BISE, QR, talent pool, census, RTI.</p></div>';
+  }
+  body.innerHTML=html;
+  body.querySelectorAll('[data-open]').forEach(el=>el.addEventListener('click',()=>openDetail(el.dataset.sec,+el.dataset.open)));
+  sheet.classList.add('open'); panel.scrollTop=0; document.body.style.overflow='hidden';
+}
+const qbox=document.getElementById('q');
+qbox.addEventListener('keydown',e=>{
+  if(e.key!=='Enter')return;
+  const t=e.target.value.trim().toLowerCase(); if(!t)return;
+  openSearch(t); e.target.blur();
+});
+qbox.addEventListener('search',e=>{ const t=e.target.value.trim().toLowerCase(); if(t) openSearch(t); });
+
+const UR={title:"ملګری",sub:"خیبر پختونخوا کے اساتذہ کا ساتھی",
+ notice:"ای ٹرانسفر پلس 2026 یکم جون 2026 سے ٹیچنگ کیڈر (بی پی ایس 12 تا 18)، مینجمنٹ، آئی ٹی اور منسٹریل کیڈر کے لیے کھلا ہے۔",
+ tag:"اہم اطلاع",foot:"ای ایم آئی ایس سیکشن — محکمہ ابتدائی و ثانوی تعلیم<br>حکومتِ خیبر پختونخوا",q:"تلاش کریں — چھٹی، ٹرانسفر، پنشن"};
+const EN={title:"Malgari",sub:"Teacher’s Companion · KP Schools",
+ notice:"e-Transfer Plus 2026 launched 1 June 2026 for Teaching Cadre (BPS-12 to 18), Education Management, IT and Ministerial cadres. Apply through the eTransfer portal.",
+ tag:"Current notice",foot:"EMIS Section — Elementary and Secondary Education Department<br>Govt of Khyber Pakhtunkhwa",q:"Search — leave, transfer, pension, DCTE…"};
+
+document.getElementById('lang').addEventListener('click',function(){
+  lang = lang==='en'?'ur':'en';
+  const S = lang==='ur'?UR:EN;
+  document.body.classList.toggle('urdu',lang==='ur');
+  document.documentElement.setAttribute('dir',lang==='ur'?'rtl':'ltr');
+  const set=(id,v)=>{const el=document.getElementById(id);el.innerHTML=v;el.classList.toggle('u',lang==='ur')};
+  set('t-title',S.title);set('t-sub',S.sub);set('t-notice',S.notice);set('t-notice-tag',S.tag);set('t-foot',S.foot);
+  document.getElementById('q').placeholder=S.q;
+  this.textContent = lang==='ur'?'English':'اردو';
+  drawTiles();
+  if(sheet.classList.contains('open')&&current) openList(current);
+});
+
+const net=document.getElementById('net');
+const showNet=()=>net.style.display=navigator.onLine?'none':'block';
+addEventListener('online',showNet);addEventListener('offline',showNet);showNet();
+/* Draw the interface FIRST. Nothing below this line may be allowed to stop it.
+   Offline caching is a bonus; the app must render without it. */
+drawTiles(); drawChips(); loadLive();
+
+/* Offline caching. Wrapped because navigator.serviceWorker can exist but throw
+   on file:// and on plain http:// — and an exception here would otherwise kill
+   the rest of the script. */
+try{
+  if('serviceWorker' in navigator && navigator.serviceWorker && location.protocol.indexOf('http')===0){
+    const sw=`self.addEventListener('install',e=>self.skipWaiting());
+    self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;
+    if(e.request.url.indexOf('news.json')>-1){
+      e.respondWith(fetch(e.request).then(r=>{const c=r.clone();caches.open('malgari-v1').then(k=>k.put(e.request,c));return r}).catch(()=>caches.match(e.request)));
+      return;}
+    e.respondWith(caches.open('malgari-v1').then(c=>fetch(e.request).then(r=>{c.put(e.request,r.clone());return r}).catch(()=>c.match(e.request))));});`;
+    navigator.serviceWorker.register(URL.createObjectURL(new Blob([sw],{type:'text/javascript'}))).catch(()=>{});
+  }
+}catch(e){ /* offline caching unavailable — the app still works */ }
+</script>
+</body>
+</html>
