@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Papers — Malgari</title>
+    <meta name="description" content="KP Teacher Induction Program past papers — Phase II, III, and IV — subject-wise, for teachers preparing for their exam.">
+    <meta name="theme-color" content="#0B5D2E">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #0B5D2E 0%, #0d7a3b 100%);
+            color: white;
+            padding: 24px 16px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        header p {
+            font-size: 13px;
+            opacity: 0.95;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+        .controls {
+            display: flex;
+            gap: 12px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .phase-filter {
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .papers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+        .paper-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .paper-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+        .card-header {
+            background: linear-gradient(135deg, #0B5D2E 0%, #0d7a3b 100%);
+            color: white;
+            padding: 16px;
+        }
+        .card-header h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .card-meta {
+            font-size: 12px;
+            opacity: 0.9;
+            display: flex;
+            gap: 12px;
+        }
+        .card-body {
+            padding: 16px;
+        }
+        .card-body p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+        .buttons-group {
+            display: flex;
+            gap: 8px;
+        }
+        .btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+        .btn-view {
+            background: #f0f0f0;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+        .btn-view:hover {
+            background: #e8e8e8;
+        }
+        .btn-download {
+            background: #0B5D2E;
+            color: white;
+        }
+        .btn-download:hover {
+            background: #093d1e;
+        }
+        .coming-soon {
+            background: #f5f5f5;
+            color: #999;
+            padding: 16px;
+            text-align: center;
+            border-radius: 6px;
+            font-size: 13px;
+        }
+        .phase-section {
+            margin-bottom: 40px;
+        }
+        .phase-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #0B5D2E;
+            margin: 30px 0 16px 0;
+            border-bottom: 2px solid #0B5D2E;
+            padding-bottom: 8px;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .modal-header {
+            background: #0B5D2E;
+            color: white;
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .close-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-iframe {
+            flex: 1;
+            border: none;
+        }
+        .no-results {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+        }
+        .lang-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #0B5D2E;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 100;
+        }
+        .lang-toggle:hover {
+            background: #093d1e;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 20px;
+            }
+            .papers-grid {
+                grid-template-columns: 1fr;
+            }
+            .controls {
+                flex-direction: column;
+            }
+            .search-box {
+                min-width: unset;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Past Papers / پرانے پرچے</h1>
+    <p>KP Teacher Induction Program — Phase II, III & IV</p>
+</header>
+
+<div class="container">
+    <div class="controls">
+        <input type="text" id="searchBox" class="search-box" placeholder="Search / تلاش...">
+        <select id="phaseFilter" class="phase-filter">
+            <option value="">All Phases / تمام فیزز</option>
+            <option value="II">Phase II</option>
+            <option value="III">Phase III</option>
+            <option value="IV">Phase IV</option>
+        </select>
+    </div>
+
+    <!-- PHASE II -->
+    <div class="phase-section">
+        <h2 class="phase-title">Phase II</h2>
+        <div class="papers-grid" id="phase2Grid"></div>
+    </div>
+
+    <!-- PHASE III -->
+    <div class="phase-section">
+        <h2 class="phase-title">Phase III</h2>
+        <div class="papers-grid" id="phase3Grid"></div>
+    </div>
+
+    <!-- PHASE IV -->
+    <div class="phase-section">
+        <h2 class="phase-title">Phase IV</h2>
+        <div class="papers-grid" id="phase4Grid"></div>
+    </div>
+</div>
+
+<div id="pdfModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span id="modalTitle">PDF Viewer</span>
+            <button class="close-btn" onclick="closePDFModal()">×</button>
+        </div>
+        <iframe id="pdfFrame" class="modal-iframe"></iframe>
+    </div>
+</div>
+
+<button class="lang-toggle" onclick="toggleLanguage()">اردو</button>
+
+<script>
+const papers = {
+    "Phase II": [
+        {
+            id: "math2",
+            subject: "Teaching of Mathematics / ریاضی",
+            marks: "70",
+            sections: "A: 14 MCQs · B: 7 Short Qs · C: 5 Long Qs",
+            pdf: "assets/papers/phase-ii/math-phase-ii.pdf"
+        },
+        {
+            id: "english2",
+            subject: "Teaching of English / انگریزی",
+            marks: "70",
+            sections: "A: 14 MCQs · B: 9 Short Qs · C: 4 Long Qs",
+            pdf: "assets/papers/phase-ii/english-phase-ii.pdf"
+        },
+        {
+            id: "science2",
+            subject: "General Science / سائنس",
+            marks: "70",
+            sections: "A: 14 MCQs · B: 7 Short Qs · C: 5 Long Qs",
+            pdf: "assets/papers/phase-ii/science-phase-ii.pdf"
+        },
+        {
+            id: "islamiyat2",
+            subject: "Islamiyat / Nazra Quran / اسلامیات",
+            marks: "70",
+            sections: "A: 15 MCQs · B: 9 Short Qs · C: 6 Long Qs",
+            pdf: "assets/papers/phase-ii/islamiyat-phase-ii.pdf"
+        },
+        {
+            id: "ict2",
+            subject: "Use of ICT in Education / آئی سی ٹی",
+            marks: "100",
+            sections: "A: 20 MCQs · B: 5 Short Qs · C: 4 Long Qs",
+            pdf: "assets/papers/phase-ii/ict-phase-ii.pdf"
+        },
+        {
+            id: "classroom2",
+            subject: "Classroom Management & Assessment / کلاس مینجمنٹ",
+            marks: "100",
+            sections: "A: 20 MCQs · B: 8 Short Qs · C: 4 Long Qs",
+            pdf: "assets/papers/phase-ii/classroom-mgmt-phase-ii.pdf"
+        },
+        {
+            id: "edpsych2",
+            subject: "Educational Psychology / تعلیمی نفسیات",
+            marks: "100",
+            sections: "A: 20 MCQs · B: 11 Short Qs · C: 6 Long Qs",
+            pdf: "assets/papers/phase-ii/edpsych-phase-ii.pdf"
+        },
+        {
+            id: "curriculum2",
+            subject: "Curriculum & Instruction / نصاب",
+            marks: "100",
+            sections: "A: 20 MCQs · B: 12 Short Qs · C: 6 Long Qs",
+            pdf: "assets/papers/phase-ii/curriculum-phase-ii.pdf"
+        }
+    ],
+    "Phase III": [
+        {
+            id: "coming-phase3",
+            subject: "Coming Soon / جلد آ رہے ہیں",
+            marks: "—",
+            sections: "All subjects",
+            status: "coming"
+        }
+    ],
+    "Phase IV": [
+        {
+            id: "math4",
+            subject: "Teaching of Mathematics / ریاضی",
+            marks: "70",
+            sections: "A: 14 MCQs · B: 7 Short Qs · C: 5 Long Qs",
+            pdf: "assets/papers/phase-iv/math-phase-iv.pdf"
+        },
+        {
+            id: "english4",
+            subject: "Teaching of English / انگریزی",
+            marks: "70",
+            sections: "A: 14 MCQs · B: 9 Short Qs · C: 4 Long Qs",
+            pdf: "assets/papers/phase-iv/english-phase-iv.pdf"
+        },
+        {
+            id: "science4",
+            subject: "General Science / سائنس",
+            marks: "70",
+            sections: "A: 14 MCQs · B: 7 Short Qs · C: 5 Long Qs",
+            pdf: "assets/papers/phase-iv/science-phase-iv.pdf"
+        },
+        {
+            id: "islamiyat4",
+            subject: "Islamiyat / Nazra Quran / اسلامیات",
+            marks: "70",
+            sections: "A: 15 MCQs · B: 9 Short Qs · C: 6 Long Qs",
+            pdf: "assets/papers/phase-iv/islamiyat-phase-iv.pdf"
+        },
+        {
+            id: "ict4",
+            subject: "Use of ICT in Education / آئی سی ٹی",
+            marks: "100",
+            sections: "A: 20 MCQs · B: 5 Short Qs · C: 4 Long Qs",
+            pdf: "assets/papers/phase-iv/ict-phase-iv.pdf"
+        },
+        {
+            id: "edpsych4",
+            subject: "Educational Psychology / تعلیمی نفسیات",
+            marks: "100",
+            sections: "A: 20 MCQs · B: 11 Short Qs · C: 6 Long Qs",
+            pdf: "assets/papers/phase-iv/edpsych-phase-iv.pdf"
+        },
+        {
+            id: "classroom4",
+            subject: "Classroom Management & Assessment / کلاس مینجمنٹ",
+            marks: "100",
+            sections: "A: 20 MCQs · B: 8 Short Qs · C: 4 Long Qs",
+            pdf: "assets/papers/phase-iv/classroom-mgmt-phase-iv.pdf"
+        },
+        {
+            id: "curriculum4",
+            subject: "Curriculum & Instruction / نصاب",
+            marks: "100",
+            sections: "A: 20 MCQs · B: 12 Short Qs · C: 6 Long Qs",
+            pdf: "assets/papers/phase-iv/curriculum-phase-iv.pdf"
+        }
+    ]
+};
+
+function renderPapers() {
+    const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+    const phaseFilter = document.getElementById('phaseFilter').value;
+
+    Object.keys(papers).forEach(phase => {
+        const gridId = `phase${phase.split(' ')[1]}Grid`;
+        const grid = document.getElementById(gridId);
+        
+        if (phaseFilter && phase !== `Phase ${phaseFilter}`) {
+            grid.parentElement.style.display = 'none';
+            return;
+        }
+        grid.parentElement.style.display = 'block';
+
+        const filtered = papers[phase].filter(paper => {
+            return paper.subject.toLowerCase().includes(searchTerm);
+        });
+
+        grid.innerHTML = filtered.length === 0 
+            ? '<div class="no-results" style="grid-column: 1/-1;">No papers found / کوئی پرچہ نہیں ملا</div>'
+            : filtered.map(paper => createCard(paper)).join('');
+    });
+}
+
+function createCard(paper) {
+    if (paper.status === 'coming') {
+        return `
+            <div class="paper-card">
+                <div class="card-header">
+                    <h3>${paper.subject}</h3>
+                </div>
+                <div class="card-body">
+                    <div class="coming-soon">Coming Soon / جلد آ رہے ہیں</div>
+                </div>
+            </div>
+        `;
+    }
+
+    return `
+        <div class="paper-card">
+            <div class="card-header">
+                <h3>${paper.subject}</h3>
+                <div class="card-meta">
+                    <span>📄 ${paper.marks} marks</span>
+                    <span>⏱️ 3 hrs</span>
+                </div>
+            </div>
+            <div class="card-body">
+                <p>${paper.sections}</p>
+                <div class="buttons-group">
+                    <button class="btn btn-view" onclick="openPDFModal('${paper.pdf}', '${paper.subject}')">👁️ View</button>
+                    <a href="${paper.pdf}" download class="btn btn-download">⬇️ Download</a>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function openPDFModal(pdfUrl, title) {
+    document.getElementById('pdfModal').style.display = 'block';
+    document.getElementById('pdfFrame').src = pdfUrl;
+    document.getElementById('modalTitle').textContent = title;
+}
+
+function closePDFModal() {
+    document.getElementById('pdfModal').style.display = 'none';
+    document.getElementById('pdfFrame').src = '';
+}
+
+document.getElementById('searchBox').addEventListener('input', renderPapers);
+document.getElementById('phaseFilter').addEventListener('change', renderPapers);
+
+window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closePDFModal();
+});
+
+function toggleLanguage() {
+    alert('Language feature coming soon! / زبان کی سہولت جلد آئے گی!');
+}
+
+renderPapers();
+</script>
+
+</body>
+</html>
