@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Seniority Correction Form 2026 — Malgari</title>
+<meta name="description" content="Fill the DEO (Male) D.I.Khan seniority correction proforma on your phone and download a print-ready PDF. Nothing leaves your device.">
+<meta name="theme-color" content="#0E5C3F">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Nastaliq+Urdu:wght@400&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#FBFAF6;
+  --ledger:#F0EEE4;
+  --ink:#16264A;
+  --ink-soft:#5A6478;
+  --green:#0E5C3F;
+  --green-dk:#093D2A;
+  --violet:#6B3FA0;
+  --red:#C1272D;
+  --rule:#C4CDC7;
+  --rule-soft:#E1E5DF;
+  --shadow:0 1px 0 rgba(22,38,74,.06), 0 8px 24px -18px rgba(22,38,74,.5);
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Noto Sans",system-ui,sans-serif;
+  font-size:15px;
+  line-height:1.55;
+  /* faint ledger ruling, like service-book paper */
+  background-image:repeating-linear-gradient(to bottom, transparent 0 31px, rgba(22,38,74,.035) 31px 32px);
+}
+
+.wrap{max-width:940px;margin:0 auto;padding:0 16px 96px}
+
+/* ---------- masthead ---------- */
+.masthead{padding:26px 0 20px;border-bottom:2px solid var(--ink)}
+.crest{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:"Archivo",sans-serif;font-weight:700;font-size:10.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--green);
+}
+.crest::before{content:"";width:18px;height:18px;border:2px solid var(--green);border-radius:50%;
+  background:radial-gradient(circle at 50% 50%, var(--green) 0 3px, transparent 3px)}
+h1{
+  font-family:"Archivo",sans-serif;font-weight:700;
+  font-size:clamp(26px,7.5vw,44px);line-height:1.02;
+  letter-spacing:-.025em;margin:12px 0 6px;
+}
+h1 em{font-style:normal;display:block;color:var(--green)}
+.office{font-size:13.5px;color:var(--ink-soft);margin:0 0 16px}
+.office b{color:var(--ink);font-weight:600}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.02em;
+  padding:5px 10px;border:1px solid var(--rule);background:#fff;border-radius:2px;
+}
+.chip.due{border-color:var(--red);color:var(--red);font-weight:500}
+.chip.due b{font-weight:500}
+
+/* ---------- privacy note ---------- */
+.privacy{
+  margin:18px 0 4px;padding:12px 14px;
+  background:var(--ledger);border-left:3px solid var(--green);
+  font-size:13.5px;color:var(--ink-soft);border-radius:0 3px 3px 0;
+}
+.privacy b{color:var(--ink);font-weight:600}
+.ur{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;line-height:2.1;font-size:14px;display:block;margin-top:4px}
+
+/* ---------- form parts ---------- */
+.part{margin-top:34px}
+.part-head{
+  display:flex;align-items:baseline;gap:12px;
+  padding-bottom:7px;border-bottom:1px solid var(--ink);
+}
+.part-no{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;
+  letter-spacing:.14em;color:#fff;background:var(--green);
+  padding:3px 7px;border-radius:2px;white-space:nowrap;
+}
+.part-head h2{
+  font-family:"Archivo",sans-serif;font-weight:600;font-size:16px;
+  letter-spacing:.01em;margin:0;
+}
+.part-head span{margin-left:auto;font-size:11.5px;color:var(--ink-soft);white-space:nowrap}
+
+.grid{display:grid;grid-template-columns:1fr;gap:16px 20px;padding-top:18px}
+@media(min-width:620px){
+  .grid{grid-template-columns:1fr 1fr}
+  .span2{grid-column:1/-1}
+}
+
+.field label{
+  display:block;font-size:12px;font-weight:600;letter-spacing:.03em;
+  text-transform:uppercase;color:var(--ink-soft);margin-bottom:5px;
+}
+.field label .req{color:var(--red);margin-left:2px}
+.field .hint{
+  display:block;font-family:"Noto Nastaliq Urdu",serif;direction:rtl;text-align:right;
+  font-size:12.5px;line-height:1.9;color:var(--ink-soft);
+  text-transform:none;letter-spacing:0;font-weight:400;margin-top:1px;
+}
+input,select,textarea{
+  width:100%;font:inherit;font-size:15px;color:var(--ink);
+  background:#fff;border:1px solid var(--rule);border-radius:2px;
+  padding:10px 11px;transition:border-color .12s,box-shadow .12s;
+}
+input[data-mono]{font-family:"IBM Plex Mono",monospace;letter-spacing:.02em}
+textarea{resize:vertical;min-height:64px;line-height:1.45}
+input:focus,select:focus,textarea:focus{
+  outline:none;border-color:var(--green);box-shadow:0 0 0 3px rgba(14,92,63,.14);
+}
+select{appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--ink-soft) 50%),linear-gradient(135deg,var(--ink-soft) 50%,transparent 50%);
+  background-position:calc(100% - 17px) 50%,calc(100% - 12px) 50%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat;padding-right:34px;
+}
+
+/* ---------- preview ---------- */
+.preview-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:40px 0 12px}
+.preview-head h2{font-family:"Archivo",sans-serif;font-size:16px;margin:0;font-weight:600}
+.toggle{
+  margin-left:auto;display:inline-flex;align-items:center;gap:7px;
+  font-size:12.5px;color:var(--ink-soft);cursor:pointer;user-select:none;
+}
+.toggle input{width:auto;margin:0;accent-color:var(--green)}
+
+.sheet-scroll{
+  overflow-x:auto;-webkit-overflow-scrolling:touch;
+  border:1px solid var(--rule);background:#fff;box-shadow:var(--shadow);
+  position:relative;border-radius:2px;
+}
+.sheet{min-width:900px;padding:20px 18px;position:relative}
+.sheet-title{
+  font-family:"Archivo",sans-serif;font-weight:700;font-size:12.5px;
+  text-align:center;letter-spacing:.02em;margin:0 0 10px;
+}
+.sheet-sub{
+  font-size:11px;display:flex;gap:22px;flex-wrap:wrap;
+  border-bottom:1px solid var(--ink);padding-bottom:8px;margin-bottom:10px;
+}
+.sheet-sub span{color:var(--ink-soft)}
+.sheet-sub b{font-weight:600;color:var(--ink);border-bottom:1px dotted var(--rule);padding:0 4px}
+
+table.proforma{border-collapse:collapse;width:100%;table-layout:fixed}
+table.proforma th,table.proforma td{
+  border:1px solid var(--rule);padding:5px 4px;vertical-align:top;
+  font-size:9px;line-height:1.3;word-wrap:break-word;
+}
+table.proforma th{
+  background:var(--ledger);font-weight:600;text-align:left;
+  font-family:"Archivo",sans-serif;letter-spacing:.01em;
+}
+table.proforma td{
+  font-family:"IBM Plex Mono",monospace;font-size:9.5px;
+  color:var(--ink);min-height:34px;height:38px;
+}
+td.empty{color:#B3BBC5}
+
+.sheet-foot{margin-top:12px;font-size:10.5px;color:var(--ink-soft);line-height:1.5}
+.sigs{display:flex;gap:16px;margin-top:26px;flex-wrap:wrap}
+.sig{flex:1;min-width:190px;border-top:1px solid var(--ink);padding-top:5px;font-size:9.5px;line-height:1.5}
+.sig b{display:block;font-family:"Archivo",sans-serif;font-size:10px;font-weight:600;color:var(--ink)}
+
+/* the signature element: unverified rubber stamp */
+.stamp{
+  position:absolute;right:26px;bottom:34px;
+  transform:rotate(-11deg);pointer-events:none;
+  border:2.5px solid var(--violet);border-radius:4px;
+  padding:6px 14px 5px;text-align:center;color:var(--violet);
+  opacity:.55;mix-blend-mode:multiply;
+  animation:press .5s cubic-bezier(.2,1.4,.5,1) both;
+}
+.stamp .s1{
+  font-family:"Archivo",sans-serif;font-weight:700;font-size:13px;
+  letter-spacing:.13em;display:block;line-height:1.15;
+}
+.stamp .s2{
+  font-family:"Noto Nastaliq Urdu",serif;font-size:11px;display:block;
+  line-height:1.9;border-top:1px solid var(--violet);margin-top:3px;padding-top:1px;
+}
+@keyframes press{from{transform:rotate(-11deg) scale(1.5);opacity:0}to{transform:rotate(-11deg) scale(1);opacity:.55}}
+@media(prefers-reduced-motion:reduce){.stamp{animation:none}}
+
+.scroll-cue{
+  font-size:11.5px;color:var(--ink-soft);margin-top:7px;
+  font-family:"IBM Plex Mono",monospace;
+}
+@media(min-width:960px){.scroll-cue{display:none}}
+
+/* ---------- actions ---------- */
+.actions{
+  position:sticky;bottom:0;z-index:20;margin-top:28px;
+  padding:12px 0 calc(12px + env(safe-area-inset-bottom));
+  background:linear-gradient(to top,var(--paper) 72%,rgba(251,250,246,0));
+  display:flex;gap:10px;flex-wrap:wrap;
+}
+button{
+  font:inherit;font-family:"Archivo",sans-serif;font-weight:600;font-size:14.5px;
+  border-radius:3px;padding:13px 20px;cursor:pointer;border:1px solid transparent;
+  transition:background .12s,transform .06s;
+}
+button:active{transform:translateY(1px)}
+.btn-main{flex:1 1 220px;background:var(--green);color:#fff;border-color:var(--green-dk)}
+.btn-main:hover{background:var(--green-dk)}
+.btn-ghost{background:#fff;color:var(--ink);border-color:var(--rule)}
+.btn-ghost:hover{border-color:var(--ink-soft)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{
+  outline:2px solid var(--violet);outline-offset:2px}
+
+.status{font-size:13px;color:var(--green);min-height:20px;margin-top:2px;font-weight:600}
+.status.err{color:var(--red)}
+
+/* ---------- footer ---------- */
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);font-size:13px;color:var(--ink-soft)}
+footer a{color:var(--green);font-weight:600}
+footer ul{margin:10px 0 0;padding-left:18px}
+footer li{margin-bottom:5px}
+
+@media print{
+  body{background:#fff;background-image:none}
+  .masthead,.privacy,.part,.actions,footer,.preview-head,.scroll-cue{display:none!important}
+  .sheet-scroll{border:none;box-shadow:none;overflow:visible}
+  .sheet{min-width:0;padding:0}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="crest">KP Elementary &amp; Secondary Education</div>
+  <h1>Seniority correction<em>form 2026</em></h1>
+  <p class="office">Office of the <b>District Education Officer (Male), Dera Ismail Khan</b> — 5th Tentative Seniority List of PSHT / SPST / PST</p>
+  <div class="chips">
+    <span class="chip due">Last date <b>15 / 07 / 2026</b></span>
+    <span class="chip">Submit to concerned SDEO</span>
+    <span class="chip">One teacher, one form</span>
+  </div>
+</header>
+
+<p class="privacy">
+  <b>Aap ka data kahin nahi jaata.</b> Sab kuch aap ke phone ke browser mein hota hai — koi server, koi upload nahi. PDF bhi aap ke device par banti hai.
+  <span class="ur">آپ کی معلومات کسی سرور پر نہیں بھیجی جاتیں</span>
+</p>
+
+<form id="f" novalidate>
+
+  <section class="part">
+    <div class="part-head"><span class="part-no">PART I</span><h2>Teacher &amp; school</h2><span>10 fields</span></div>
+    <div class="grid">
+      <div class="field span2">
+        <label for="schoolName">Name of school <span class="req">*</span><span class="hint">اسکول کا نام</span></label>
+        <input id="schoolName" placeholder="GPS No. 2 Kulachi">
+      </div>
+      <div class="field">
+        <label for="tehsil">Tehsil <span class="req">*</span></label>
+        <select id="tehsil">
+          <option value="">Select tehsil</option>
+          <option>D.I.KHAN</option><option>PAROA</option><option>PAHARPUR</option>
+          <option>KULACHI</option><option>DARABAN KALAN</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="slNo">S.No in seniority list <span class="req">*</span><span class="hint">سینیارٹی لسٹ میں نمبر</span></label>
+        <input id="slNo" data-mono inputmode="numeric" placeholder="1284">
+      </div>
+      <div class="field">
+        <label for="personalNo">Personal number <span class="req">*</span></label>
+        <input id="personalNo" data-mono inputmode="numeric" placeholder="00727302">
+      </div>
+      <div class="field">
+        <label for="designation">Designation &amp; BPS <span class="req">*</span></label>
+        <select id="designation">
+          <option value="">Select post</option>
+          <option>PST (BPS-12)</option><option>PST (BPS-13)</option>
+          <option>SPST (BPS-14)</option><option>PSHT (BPS-15)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="name">Name of teacher <span class="req">*</span></label>
+        <input id="name" autocomplete="name" placeholder="ASMATULLAH KHAN">
+      </div>
+      <div class="field">
+        <label for="fatherName">Father's name <span class="req">*</span><span class="hint">والد کا نام</span></label>
+        <input id="fatherName" placeholder="MUHAMMAD ASLAM">
+      </div>
+      <div class="field">
+        <label for="cnic">CNIC number <span class="req">*</span></label>
+        <input id="cnic" data-mono inputmode="numeric" maxlength="15" placeholder="12102-1234567-1">
+      </div>
+      <div class="field">
+        <label for="domicile">Domicile</label>
+        <input id="domicile" value="D.I.KHAN">
+      </div>
+      <div class="field">
+        <label for="cell">Cell number <span class="req">*</span></label>
+        <input id="cell" data-mono type="tel" inputmode="numeric" maxlength="11" placeholder="03001234567">
+      </div>
+    </div>
+  </section>
+
+  <section class="part">
+    <div class="part-head"><span class="part-no">PART II</span><h2>Qualification</h2><span>3 fields</span></div>
+    <div class="grid">
+      <div class="field">
+        <label for="academic">Academic qualification</label>
+        <input id="academic" placeholder="MA Islamiat / BS Physics">
+      </div>
+      <div class="field">
+        <label for="professional">Professional qualification</label>
+        <input id="professional" placeholder="PTC, CT, B.Ed, M.Ed">
+      </div>
+      <div class="field span2">
+        <label for="subjects">Subjects in BA / B.Sc / BS<span class="hint">بی اے یا بی ایس سی کے مضامین</span></label>
+        <input id="subjects" placeholder="General 2nd / Math-Physics 1st">
+      </div>
+    </div>
+  </section>
+
+  <section class="part">
+    <div class="part-head"><span class="part-no">PART III</span><h2>Service dates &amp; first appointment</h2><span>4 fields</span></div>
+    <div class="grid">
+      <div class="field">
+        <label for="dob">Date of birth <span class="req">*</span></label>
+        <input id="dob" type="date">
+      </div>
+      <div class="field">
+        <label for="ptcDate">PTC result declaration date<span class="hint">پی ٹی سی نتیجہ کی تاریخ</span></label>
+        <input id="ptcDate" type="date">
+      </div>
+      <div class="field">
+        <label for="chargeDate">Date of taking over 1st charge</label>
+        <input id="chargeDate" type="date">
+      </div>
+      <div class="field">
+        <label for="firstAppt">1st appointment order no. &amp; date</label>
+        <textarea id="firstAppt" rows="2" placeholder="Order No. 4521-30 dated 16/09/2022, S.No 14"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="part">
+    <div class="part-head"><span class="part-no">PART IV</span><h2>Promotion &amp; mode of appointment</h2><span>5 fields</span></div>
+    <div class="grid">
+      <div class="field">
+        <label for="spstOrder">SPST promotion order no. &amp; date</label>
+        <textarea id="spstOrder" rows="2" placeholder="Order No. 1122 dated 29/03/2023, S.No 87 — leave blank if not promoted"></textarea>
+      </div>
+      <div class="field">
+        <label for="pshtOrder">PSHT promotion order no. &amp; date</label>
+        <textarea id="pshtOrder" rows="2" placeholder="Order No. 3390 dated 24/05/2025, S.No 12 — leave blank if not promoted"></textarea>
+      </div>
+      <div class="field">
+        <label for="mode">Mode of appointment</label>
+        <select id="mode">
+          <option value="">Select mode</option>
+          <option>OPEN MERIT</option><option>NTS</option><option>FTS</option><option>ETEA</option>
+          <option>DECEASED QUOTA</option><option>MEDICAL BOARD QUOTA</option><option>DISABLED QUOTA</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="merit">Merit score (NTS / FTS / ETEA)</label>
+        <input id="merit" data-mono inputmode="decimal" placeholder="115.46">
+      </div>
+      <div class="field span2">
+        <label for="presentSchool">Place of present school<span class="hint">خالی چھوڑیں تو اوپر والا اسکول لکھا جائے گا</span></label>
+        <input id="presentSchool" placeholder="Same as school above, if blank">
+      </div>
+    </div>
+  </section>
+
+</form>
+
+<div class="preview-head">
+  <h2>Proforma preview</h2>
+  <label class="toggle"><input type="checkbox" id="unmask"> Show full CNIC &amp; number</label>
+</div>
+
+<div class="sheet-scroll">
+  <div class="sheet">
+    <p class="sheet-title">PROFORMA FOR CORRECTION OF SENIORTY LIST OF PST/SPST/PSHT FOR THE YEAR 2026</p>
+    <div class="sheet-sub">
+      <span>NAME OF SCHOOL <b id="pv_school">—</b></span>
+      <span>TEHSIL <b id="pv_tehsil">—</b></span>
+      <span>DISTRICT <b>D.I.KHAN</b></span>
+    </div>
+    <table class="proforma">
+      <thead><tr id="pv_head"></tr></thead>
+      <tbody><tr id="pv_row"></tr></tbody>
+    </table>
+    <p class="sheet-foot">
+      <b>CERTIFICATE:</b> I, solemnly affirm that all information, given above are correct to my Service Record for the purpose of update to Seniority List.
+      &nbsp;&nbsp;Dated <b id="pv_date">____ / ____ / 2026</b>
+    </p>
+    <div class="sigs">
+      <div class="sig"><b>SIGNATURE OF TEACHER</b>(PSHT / SPST / PST)</div>
+      <div class="sig"><b>CHECKED BY</b>Head Teacher — Stamp</div>
+      <div class="sig"><b>VERIFIED BY</b>Sub Divisional Education Officer — Stamp</div>
+    </div>
+    <div class="stamp" aria-hidden="true">
+      <span class="s1">UNVERIFIED</span>
+      <span class="s2">غیر تصدیق شدہ</span>
+    </div>
+  </div>
+</div>
+<p class="scroll-cue">← Table ko side mein scroll karein</p>
+
+<div class="actions">
+  <button type="button" class="btn-main" id="dl">Download PDF</button>
+  <button type="button" class="btn-ghost" id="pr">Print</button>
+  <button type="button" class="btn-ghost" id="clr">Clear form</button>
+</div>
+<p class="status" id="status"></p>
+
+<footer>
+  <p><b>Before you submit</b></p>
+  <ul>
+    <li>PDF print karke <b>khud sign</b> karein, phir Head Teacher se check aur SDEO se verify karwayen — dono stamps zaroori hain.</li>
+    <li>Har entry ke saath <b>service book</b> aur order copies attach karein.</li>
+    <li>Deadline: <b>15 July 2026</b>, concerned SDEO office.</li>
+    <li><a href="assets/5th-seniority-list-2026.pdf" target="_blank" rel="noopener">Open the 5th tentative seniority list (PDF)</a></li>
+    <li><a href="assets/correction-form-blank-2026.pdf" target="_blank" rel="noopener">Blank official proforma (PDF)</a></li>
+  </ul>
+  <p style="margin-top:14px">Malgari — KP teachers ke liye. This is an unofficial helper; the DEO office record is final.</p>
+</footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  // Column order is fixed by the official proforma — do not reorder.
+  var COLS = [
+    {k:"slNo",        h:"S.No as per Seniority List", w:9},
+    {k:"personalNo",  h:"Personal Number",            w:12},
+    {k:"name",        h:"Name of Teacher",            w:18},
+    {k:"fatherName",  h:"Father's Name",              w:18},
+    {k:"designation", h:"Designation & BPS (Present Post)", w:13},
+    {k:"cnic",        h:"CNIC NO",                    w:17},
+    {k:"domicile",    h:"Domicile",                   w:11},
+    {k:"academic",    h:"Academic Qualification",     w:13},
+    {k:"professional",h:"Professional Qualification", w:13},
+    {k:"subjects",    h:"Subjects in BA/B.Sc/BS",     w:12},
+    {k:"dob",         h:"D/O Birth",                  w:11.5},
+    {k:"ptcDate",     h:"D/O Result declaration of PTC", w:11.5},
+    {k:"firstAppt",   h:"1st Appointment Order No & Date with S.No", w:19},
+    {k:"chargeDate",  h:"D/O taking over 1st Charge", w:11.5},
+    {k:"spstOrder",   h:"SPST Promotion Order No & Date with S.No", w:17},
+    {k:"pshtOrder",   h:"PSHT Promotion Order No & Date with S.No", w:17},
+    {k:"merit",       h:"Merit Score In NTS/FTS/ETEA",w:9.5},
+    {k:"presentSchool",h:"Place of Present School",   w:16},
+    {k:"mode",        h:"Mode of Appointment",        w:13},
+    {k:"cell",        h:"Cell No",                    w:13}
+  ];
+
+  var REQUIRED = ["schoolName","tehsil","slNo","personalNo","designation","name","fatherName","cnic","cell","dob"];
+  var LABELS = {schoolName:"Name of school",tehsil:"Tehsil",slNo:"S.No in seniority list",
+    personalNo:"Personal number",designation:"Designation",name:"Name of teacher",
+    fatherName:"Father's name",cnic:"CNIC number",cell:"Cell number",dob:"Date of birth"};
+
+  var DRAFT = "malgari.seniority.2026";
+  var $ = function(id){ return document.getElementById(id); };
+  var statusEl = $("status");
+
+  function fmtDate(v){
+    if(!v) return "";
+    var p = v.split("-");
+    return p.length === 3 ? p[2] + "/" + p[1] + "/" + p[0] : v;
+  }
+  function maskCnic(v){
+    var d = v.replace(/\D/g,"");
+    if(d.length < 13) return v;
+    return d.slice(0,5) + "-*****" + d.slice(10,12) + "-" + d.slice(12);
+  }
+  function maskCell(v){
+    var d = v.replace(/\D/g,"");
+    if(d.length < 11) return v;
+    return d.slice(0,4) + "-***" + d.slice(7);
+  }
+
+  // Collect all values, ready for both preview and PDF.
+  function readForm(){
+    var d = {};
+    ["schoolName","tehsil","slNo","personalNo","designation","name","fatherName","cnic",
+     "domicile","cell","academic","professional","subjects","firstAppt","spstOrder",
+     "pshtOrder","mode","merit","presentSchool"].forEach(function(k){
+      d[k] = ($(k).value || "").trim();
+    });
+    ["dob","ptcDate","chargeDate"].forEach(function(k){ d[k] = fmtDate($(k).value); });
+    if(!d.presentSchool) d.presentSchool = d.schoolName;
+    d.name = d.name.toUpperCase();
+    d.fatherName = d.fatherName.toUpperCase();
+    return d;
+  }
+
+  // ---------- live preview ----------
+  var headRow = $("pv_head"), bodyRow = $("pv_row");
+  COLS.forEach(function(c){
+    var th = document.createElement("th"); th.textContent = c.h; headRow.appendChild(th);
+    var td = document.createElement("td"); td.dataset.k = c.k; bodyRow.appendChild(td);
+  });
+
+  function render(){
+    var d = readForm(), show = $("unmask").checked;
+    $("pv_school").textContent = d.schoolName || "—";
+    $("pv_tehsil").textContent = d.tehsil || "—";
+    var today = new Date();
+    $("pv_date").textContent = String(today.getDate()).padStart(2,"0") + " / " +
+      String(today.getMonth()+1).padStart(2,"0") + " / 2026";
+
+    COLS.forEach(function(c){
+      var td = bodyRow.querySelector('[data-k="'+c.k+'"]');
+      var v = d[c.k] || "";
+      if(!show && c.k === "cnic") v = maskCnic(v);
+      if(!show && c.k === "cell") v = maskCell(v);
+      td.textContent = v || "—";
+      td.className = v ? "" : "empty";
+    });
+  }
+
+  // ---------- input helpers ----------
+  $("cnic").addEventListener("input", function(e){
+    var d = e.target.value.replace(/\D/g,"").slice(0,13), out = d;
+    if(d.length > 5)  out = d.slice(0,5) + "-" + d.slice(5);
+    if(d.length > 12) out = d.slice(0,5) + "-" + d.slice(5,12) + "-" + d.slice(12);
+    e.target.value = out;
+  });
+  $("cell").addEventListener("input", function(e){
+    e.target.value = e.target.value.replace(/\D/g,"").slice(0,11);
+  });
+
+  // ---------- draft (local only, never uploaded) ----------
+  function saveDraft(){
+    try{ localStorage.setItem(DRAFT, JSON.stringify(readForm())); }catch(e){}
+  }
+  function loadDraft(){
+    try{
+      var raw = localStorage.getItem(DRAFT);
+      if(!raw) return;
+      var d = JSON.parse(raw);
+      Object.keys(d).forEach(function(k){
+        var el = $(k);
+        if(!el) return;
+        if(el.type === "date"){
+          var p = String(d[k]).split("/");
+          if(p.length === 3) el.value = p[2]+"-"+p[1]+"-"+p[0];
+        } else { el.value = d[k]; }
+      });
+    }catch(e){}
+  }
+
+  $("f").addEventListener("input", function(){ render(); saveDraft(); });
+  $("f").addEventListener("change", function(){ render(); saveDraft(); });
+  $("unmask").addEventListener("change", render);
+
+  // ---------- validation ----------
+  function validate(){
+    var d = readForm(), missing = [];
+    REQUIRED.forEach(function(k){ if(!d[k]) missing.push(LABELS[k]); });
+    if(d.cnic && d.cnic.replace(/\D/g,"").length !== 13) missing.push("valid CNIC (13 digits)");
+    if(d.cell && d.cell.length !== 11) missing.push("valid cell number (11 digits)");
+    return missing;
+  }
+  function say(msg, isErr){
+    statusEl.textContent = msg;
+    statusEl.className = isErr ? "status err" : "status";
+  }
+
+  // ---------- PDF ----------
+  function buildPdf(){
+    var d = readForm();
+    var jsPDF = window.jspdf && window.jspdf.jsPDF;
+    if(!jsPDF || !window.jspdf.jsPDF.API.autoTable){
+      say("PDF library load nahi hui — internet check karke page refresh karein.", true);
+      return null;
+    }
+    var doc = new jsPDF({orientation:"landscape", unit:"mm", format:"a4"});
+    var W = doc.internal.pageSize.getWidth(), M = 8;
+
+    doc.setFont("helvetica","bold").setFontSize(10.5);
+    doc.text("PROFORMA FOR CORRECTION OF SENIORTY LIST OF PST/SPST/PSHT FOR THE YEAR 2026", W/2, 12, {align:"center"});
+
+    doc.setFont("helvetica","normal").setFontSize(8.5);
+    doc.text("NAME OF SCHOOL: " + (d.schoolName || "________________________"), M, 19);
+    doc.text("TEHSIL: " + (d.tehsil || "____________"), W/2 + 20, 19);
+    doc.text("DISTRICT: D.I.KHAN", W - M, 19, {align:"right"});
+    doc.setLineWidth(0.3).line(M, 21.5, W - M, 21.5);
+
+    var styleW = {};
+    COLS.forEach(function(c,i){ styleW[i] = {cellWidth: c.w}; });
+
+    doc.autoTable({
+      startY: 24,
+      margin: {left:M, right:M},
+      head: [COLS.map(function(c){ return c.h; })],
+      body: [COLS.map(function(c){ return d[c.k] || ""; })],
+      theme: "grid",
+      tableWidth: "wrap",
+      styles: {fontSize:6, cellPadding:1.1, overflow:"linebreak",
+               lineColor:[90,90,90], lineWidth:0.15, valign:"top", textColor:[15,15,15]},
+      headStyles: {fontSize:5.2, fontStyle:"bold", fillColor:[238,238,232],
+                   textColor:[20,20,20], minCellHeight:16},
+      bodyStyles: {minCellHeight:20},
+      columnStyles: styleW
+    });
+
+    var y = doc.lastAutoTable.finalY + 9;
+    var today = new Date();
+    var dated = String(today.getDate()).padStart(2,"0") + " / " + String(today.getMonth()+1).padStart(2,"0") + " / 2026";
+
+    doc.setFontSize(8);
+    doc.text("CERTIFICATE: I, solemnly affirm that all information, given above are correct to my Service Record " +
+             "for the purpose of update to Seniority List.", M, y);
+    doc.text("Dated: " + dated, W - M, y, {align:"right"});
+
+    y += 24;
+    var third = (W - 2*M) / 3, pad = 6;
+    for(var i = 0; i < 3; i++){
+      var x1 = M + third*i, x2 = x1 + third - pad;
+      doc.line(x1, y, x2, y);
+    }
+    doc.setFont("helvetica","bold").setFontSize(7.5);
+    doc.text("SIGNATURE OF TEACHER", M, y + 4);
+    doc.text("CHECKED BY", M + third, y + 4);
+    doc.text("VERIFIED BY", M + third*2, y + 4);
+    doc.setFont("helvetica","normal").setFontSize(7);
+    doc.text("(PSHT / SPST / PST)", M, y + 8);
+    doc.text("Head Teacher — Stamp:", M + third, y + 8);
+    doc.text("Sub Divisional Education Officer — Stamp:", M + third*2, y + 8);
+
+    return doc;
+  }
+
+  $("dl").addEventListener("click", function(){
+    var missing = validate();
+    if(missing.length){
+      say("Ye field bharein: " + missing.join(", "), true);
+      var first = $(REQUIRED.filter(function(k){ return !readForm()[k]; })[0]);
+      if(first){ first.focus(); first.scrollIntoView({block:"center", behavior:"smooth"}); }
+      return;
+    }
+    var doc = buildPdf();
+    if(!doc) return;
+    var d = readForm();
+    var safe = (d.name || "teacher").replace(/[^A-Za-z0-9]+/g,"-").toLowerCase();
+    doc.save("correction-form-2026-" + safe + "-" + (d.personalNo || "") + ".pdf");
+    say("PDF download ho gayi. Ab print karke sign aur stamps karwayen.");
+  });
+
+  $("pr").addEventListener("click", function(){ window.print(); });
+
+  $("clr").addEventListener("click", function(){
+    if(!confirm("Poora form clear kar dein?")) return;
+    $("f").reset();
+    $("domicile").value = "D.I.KHAN";
+    try{ localStorage.removeItem(DRAFT); }catch(e){}
+    render();
+    say("Form clear ho gaya.");
+  });
+
+  loadDraft();
+  render();
+})();
+</script>
+</body>
+</html>
