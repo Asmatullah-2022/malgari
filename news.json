@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-27T13:25:46Z",
+ "updated": "2026-07-28T11:00:52Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -88,6 +88,12 @@
    "cat": "Initiative"
   },
   {
+   "title": "District Performance Scorecard",
+   "url": "https://kpese.gov.pk/district-performance-scorecard/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
    "title": "Education Monitoring Authority",
    "url": "https://kpese.gov.pk/education-monitoring-authority/",
    "date": "2026-05-30",
@@ -102,12 +108,6 @@
   {
    "title": "Capacity Building of DEO Offices",
    "url": "https://kpese.gov.pk/capacity-building-of-deo-offices/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
-   "title": "District Education Plan",
-   "url": "https://kpese.gov.pk/district-education-plan/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
