@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-31T11:13:06Z",
+ "updated": "2026-08-01T09:34:49Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -70,6 +70,12 @@
    "cat": "Notification"
   },
   {
+   "title": "School Self Reporting (SSR)",
+   "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
    "title": "E-Transfer Plus Policy 2026",
    "url": "https://kpese.gov.pk/e-transfer-plus-policy-2026/",
    "date": "2026-05-30",
@@ -82,14 +88,14 @@
    "cat": "Initiative"
   },
   {
-   "title": "School Self Reporting (SSR)",
-   "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
+   "title": "Integrated Education Management Information System (iEMIS)",
+   "url": "https://kpese.gov.pk/integrated-education-management-information-system-iemis/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
   {
-   "title": "Integrated Education Management Information System (iEMIS)",
-   "url": "https://kpese.gov.pk/integrated-education-management-information-system-iemis/",
+   "title": "District Performance Scorecard",
+   "url": "https://kpese.gov.pk/district-performance-scorecard/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
@@ -112,10 +118,10 @@
    "cat": "Initiative"
   },
   {
-   "title": "District Education Plan",
-   "url": "https://kpese.gov.pk/district-education-plan/",
+   "title": "Final Seniority List of Officers (BS-17) Male, Teaching Cadre as stood on 09-01-2026",
+   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-17-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
-   "cat": "Initiative"
+   "cat": "Seniority"
   },
   {
    "title": "Final Seniority List of Officers (BS-18) Male, Teaching Cadre as stood on 09-01-2026",
@@ -132,12 +138,6 @@
   {
    "title": "Tentative Seniority List of Officers (BS-17) Female, Teaching Cadre as stood on 05-09-2025",
    "url": "https://kpese.gov.pk/tentative-seniority-list-of-officers-bs-17-female-teaching-cadre-as-stood-on-05-09-2025/",
-   "date": "2026-05-30",
-   "cat": "Seniority"
-  },
-  {
-   "title": "Final Seniority List of Officers (BS-17) Male, Teaching Cadre as stood on 09-01-2026",
-   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-17-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
    "cat": "Seniority"
   },
