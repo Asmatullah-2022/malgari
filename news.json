@@ -1,8 +1,14 @@
 {
- "updated": "2026-08-02T09:36:30Z",
+ "updated": "2026-08-03T13:24:38Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
+  {
+   "title": "Promotion Orders of IPEs-SIPEs from BS-17 to BS -18",
+   "url": "https://kpese.gov.pk/promotion-orders-of-ipes-sipes-from-bs-17-to-bs-18/",
+   "date": "2026-08-03",
+   "cat": "Notification"
+  },
   {
    "title": "TENTATIVE SENIORITY LIST OF SENIOR LIBRARIANS’ (BS-18) MALE E&SE DEPARTMENT KHYBER ‎PAKHTUNKHWA AS STOOD ON 01.02.2026",
    "url": "https://kpese.gov.pk/tentative-seniority-list-of-senior-librarians-bs-18-male-ese-department-khyber-pakhtunkhwa-as-stood-on-01-02-2026/",
@@ -175,12 +181,6 @@
    "title": "Request for Proposal for Procurement of IT Equipment for Strengthening of Data Systems under ASPIRE Project",
    "url": "https://kpese.gov.pk/rfp-procurement-of-it-equipment-for-strengthening-of-data-systems-aspire-project-ese-department/",
    "date": "2024-04-08",
-   "cat": "Tender"
-  },
-  {
-   "title": "Request for Proposal for Accelerated Foundational Literacy and Numeremacy Policy under ASPIRE Project",
-   "url": "https://kpese.gov.pk/request-for-proposal-aspire-elementary-secondary-education-department/",
-   "date": "2024-02-23",
    "cat": "Tender"
   }
  ]
