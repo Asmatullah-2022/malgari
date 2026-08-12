@@ -1,8 +1,14 @@
 {
- "updated": "2026-08-11T05:40:28Z",
+ "updated": "2026-08-12T06:56:37Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
+  {
+   "title": "Circular Regarding HR Matters and HRMIS-iEMIS Profile Completion",
+   "url": "https://kpese.gov.pk/circular-regarding-hr-matters-and-hrmis-iemis-profile-completion/",
+   "date": "2026-08-11",
+   "cat": "Notification"
+  },
   {
    "title": "Promotion Orders of IPEs-SIPEs from BS-17 to BS -18",
    "url": "https://kpese.gov.pk/promotion-orders-of-ipes-sipes-from-bs-17-to-bs-18/",
@@ -175,12 +181,6 @@
    "title": "Request for Bids for Civil Works Package-07 to Package-21 under KP-HCIP",
    "url": "https://kpese.gov.pk/request-for-bids-for-civil-works-package-07-to-package-21-under-kp-hcip/",
    "date": "2024-05-08",
-   "cat": "Tender"
-  },
-  {
-   "title": "Request for Proposal for Procurement of IT Equipment for Strengthening of Data Systems under ASPIRE Project",
-   "url": "https://kpese.gov.pk/rfp-procurement-of-it-equipment-for-strengthening-of-data-systems-aspire-project-ese-department/",
-   "date": "2024-04-08",
    "cat": "Tender"
   }
  ]
