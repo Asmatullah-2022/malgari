@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20T03:04:37Z",
+ "updated": "2026-08-21T03:10:29Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -112,12 +112,6 @@
    "cat": "Initiative"
   },
   {
-   "title": "Education Monitoring Authority",
-   "url": "https://kpese.gov.pk/education-monitoring-authority/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
    "title": "School Bag Weight Limit (Halka Basta Act-2020)",
    "url": "https://kpese.gov.pk/school-bag-weight-limit-halka-basta-act-2020/",
    "date": "2026-05-30",
@@ -132,6 +126,12 @@
   {
    "title": "District Education Plan",
    "url": "https://kpese.gov.pk/district-education-plan/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "District Performance Scorecard",
+   "url": "https://kpese.gov.pk/district-performance-scorecard/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
