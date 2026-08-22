@@ -1,8 +1,20 @@
 {
- "updated": "2026-08-21T03:10:29Z",
+ "updated": "2026-08-22T03:01:39Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
+  {
+   "title": "Advertisement – RFP InterTech in E&SED KP",
+   "url": "https://kpese.gov.pk/advertisement-rfp-intertech-in-esed-kp/",
+   "date": "2026-08-21",
+   "cat": "Tender"
+  },
+  {
+   "title": "RFP-Introduction of Inter-Tech in E&SED KP 2026-27",
+   "url": "https://kpese.gov.pk/rfp-introduction-of-inter-tech-in-esed-kp-2026-27/",
+   "date": "2026-08-21",
+   "cat": "Tender"
+  },
   {
    "title": "Deputy District Education Officers-Deputy Directors (Male) Promotion to BS-18 on Regulat Basis",
    "url": "https://kpese.gov.pk/deputy-district-education-officers-deputy-directors-male-promotion-to-bs-18-on-regulat-basis/",
@@ -112,6 +124,12 @@
    "cat": "Initiative"
   },
   {
+   "title": "Education Monitoring Authority",
+   "url": "https://kpese.gov.pk/education-monitoring-authority/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
    "title": "School Bag Weight Limit (Halka Basta Act-2020)",
    "url": "https://kpese.gov.pk/school-bag-weight-limit-halka-basta-act-2020/",
    "date": "2026-05-30",
@@ -126,12 +144,6 @@
   {
    "title": "District Education Plan",
    "url": "https://kpese.gov.pk/district-education-plan/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
-   "title": "District Performance Scorecard",
-   "url": "https://kpese.gov.pk/district-performance-scorecard/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
@@ -170,18 +182,6 @@
    "url": "https://kpese.gov.pk/rfp-for-procurement-of-it-items-for-strenghtening-of-emis-under-dli-11-1-aspire/",
    "date": "2024-06-12",
    "cat": "Tender"
-  },
-  {
-   "title": "Request for Expression of Interest for Hiring Consulting Services to Support Prevention of Gender Based Violence (GBV) , Sexual Exploitation & Abuse (SEA) and Sexual Harassment (SH) for the Khyber Pakhtunkhwa Rural Accessibility Project (KP-RAP)",
-   "url": "https://kpese.gov.pk/request-for-expression-of-interest-for-hiring-consulting-servicse-to-support-gbv-prevention-of-gender-based-violence-gbv-sexual-exploitation-abuse-sea-and-sexual-harassment-sh-for-the-khyber/",
-   "date": "2024-06-06",
-   "cat": "Tender"
-  },
-  {
-   "title": "Applications are invited for positions in Education Sector Reforms Unit (ESRU) under E&SE Department on Contract Basis",
-   "url": "https://kpese.gov.pk/applications-are-invited-for-positions-in-education-sector-reforms-unit-esru-under-ese-department-on-contract-basis/",
-   "date": "2024-05-12",
-   "cat": "Careers"
   }
  ]
 }
