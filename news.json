@@ -1,8 +1,14 @@
 {
- "updated": "2026-08-24T03:11:37Z",
+ "updated": "2026-08-25T03:07:07Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
+  {
+   "title": "Transfer/Posting of Management Cadre Officers",
+   "url": "https://kpese.gov.pk/transfer-posting-of-management-cadre-officers/",
+   "date": "2026-08-24",
+   "cat": "Notification"
+  },
   {
    "title": "Advertisement – RFP InterTech in E&SED KP",
    "url": "https://kpese.gov.pk/advertisement-rfp-intertech-in-esed-kp/",
@@ -148,18 +154,6 @@
    "cat": "Initiative"
   },
   {
-   "title": "Final Seniority List of Officers (BS-17) Male, Teaching Cadre as stood on 09-01-2026",
-   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-17-male-teaching-cadre-as-stood-on-09-01-2026/",
-   "date": "2026-05-30",
-   "cat": "Seniority"
-  },
-  {
-   "title": "Final Seniority List of Officers (BS-18) Male, Teaching Cadre as stood on 09-01-2026",
-   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-18-male-teaching-cadre-as-stood-on-09-01-2026/",
-   "date": "2026-05-30",
-   "cat": "Seniority"
-  },
-  {
    "title": "Final Seniority List of Officers (BS-19) Male, Teaching Cadre as stood on 09-01-2026",
    "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-19-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
@@ -172,16 +166,22 @@
    "cat": "Seniority"
   },
   {
+   "title": "Final Seniority List of Officers (BS-17) Male, Teaching Cadre as stood on 09-01-2026",
+   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-17-male-teaching-cadre-as-stood-on-09-01-2026/",
+   "date": "2026-05-30",
+   "cat": "Seniority"
+  },
+  {
+   "title": "Final Seniority List of Officers (BS-18) Male, Teaching Cadre as stood on 09-01-2026",
+   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-18-male-teaching-cadre-as-stood-on-09-01-2026/",
+   "date": "2026-05-30",
+   "cat": "Seniority"
+  },
+  {
    "title": "Request for Expression of Interest for Hiring of Junior Education Specialist for the Khyber Pakhtunkhwa – Rural Accessibility Project (KP-RAP)",
    "url": "https://kpese.gov.pk/request-for-expression-of-interest-for-hiring-of-junior-education-specialist-for-the-khyber-pakhtunkhwa-rural-accessibility-project-kp-rap/",
    "date": "2024-06-21",
    "cat": "Careers"
-  },
-  {
-   "title": "Request for Proposal for Procurement of IT items for Strenghtening of EMIS under DLI 11.1 of ASPIRE Project",
-   "url": "https://kpese.gov.pk/rfp-for-procurement-of-it-items-for-strenghtening-of-emis-under-dli-11-1-aspire/",
-   "date": "2024-06-12",
-   "cat": "Tender"
   }
  ]
 }
