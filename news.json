@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T08:56:14Z",
+ "updated": "2026-08-31T08:33:57Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -154,18 +154,6 @@
    "cat": "Initiative"
   },
   {
-   "title": "Final Seniority List of Officers (BS-19) Male, Teaching Cadre as stood on 09-01-2026",
-   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-19-male-teaching-cadre-as-stood-on-09-01-2026/",
-   "date": "2026-05-30",
-   "cat": "Seniority"
-  },
-  {
-   "title": "Tentative Seniority List of Officers (BS-17) Female, Teaching Cadre as stood on 05-09-2025",
-   "url": "https://kpese.gov.pk/tentative-seniority-list-of-officers-bs-17-female-teaching-cadre-as-stood-on-05-09-2025/",
-   "date": "2026-05-30",
-   "cat": "Seniority"
-  },
-  {
    "title": "Final Seniority List of Officers (BS-17) Male, Teaching Cadre as stood on 09-01-2026",
    "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-17-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
@@ -174,6 +162,18 @@
   {
    "title": "Final Seniority List of Officers (BS-18) Male, Teaching Cadre as stood on 09-01-2026",
    "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-18-male-teaching-cadre-as-stood-on-09-01-2026/",
+   "date": "2026-05-30",
+   "cat": "Seniority"
+  },
+  {
+   "title": "Final Seniority List of Officers (BS-19) Male, Teaching Cadre as stood on 09-01-2026",
+   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-19-male-teaching-cadre-as-stood-on-09-01-2026/",
+   "date": "2026-05-30",
+   "cat": "Seniority"
+  },
+  {
+   "title": "Tentative Seniority List of Officers (BS-17) Female, Teaching Cadre as stood on 05-09-2025",
+   "url": "https://kpese.gov.pk/tentative-seniority-list-of-officers-bs-17-female-teaching-cadre-as-stood-on-05-09-2025/",
    "date": "2026-05-30",
    "cat": "Seniority"
   },
