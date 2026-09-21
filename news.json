@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T07:41:27Z",
+ "updated": "2026-09-21T07:53:48Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -106,12 +106,6 @@
    "cat": "Notification"
   },
   {
-   "title": "School Self Reporting (SSR)",
-   "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
    "title": "E-Transfer Plus Policy 2026",
    "url": "https://kpese.gov.pk/e-transfer-plus-policy-2026/",
    "date": "2026-05-30",
@@ -120,6 +114,12 @@
   {
    "title": "E-Notification",
    "url": "https://kpese.gov.pk/e-notification/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "School Self Reporting (SSR)",
+   "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
