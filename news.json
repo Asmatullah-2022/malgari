@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T07:53:48Z",
+ "updated": "2026-09-22T07:38:15Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -106,6 +106,12 @@
    "cat": "Notification"
   },
   {
+   "title": "School Self Reporting (SSR)",
+   "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
    "title": "E-Transfer Plus Policy 2026",
    "url": "https://kpese.gov.pk/e-transfer-plus-policy-2026/",
    "date": "2026-05-30",
@@ -118,14 +124,20 @@
    "cat": "Initiative"
   },
   {
-   "title": "School Self Reporting (SSR)",
-   "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
+   "title": "Integrated Education Management Information System (iEMIS)",
+   "url": "https://kpese.gov.pk/integrated-education-management-information-system-iemis/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
   {
-   "title": "Integrated Education Management Information System (iEMIS)",
-   "url": "https://kpese.gov.pk/integrated-education-management-information-system-iemis/",
+   "title": "District Education Plan",
+   "url": "https://kpese.gov.pk/district-education-plan/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "District Performance Scorecard",
+   "url": "https://kpese.gov.pk/district-performance-scorecard/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
@@ -138,18 +150,6 @@
   {
    "title": "School Bag Weight Limit (Halka Basta Act-2020)",
    "url": "https://kpese.gov.pk/school-bag-weight-limit-halka-basta-act-2020/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
-   "title": "Capacity Building of DEO Offices",
-   "url": "https://kpese.gov.pk/capacity-building-of-deo-offices/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
-   "title": "District Education Plan",
-   "url": "https://kpese.gov.pk/district-education-plan/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
