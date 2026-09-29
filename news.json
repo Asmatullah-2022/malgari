@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T08:35:38Z",
+ "updated": "2026-09-29T08:18:29Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -142,6 +142,12 @@
    "cat": "Initiative"
   },
   {
+   "title": "District Performance Scorecard",
+   "url": "https://kpese.gov.pk/district-performance-scorecard/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
    "title": "Education Monitoring Authority",
    "url": "https://kpese.gov.pk/education-monitoring-authority/",
    "date": "2026-05-30",
@@ -160,18 +166,6 @@
    "cat": "Initiative"
   },
   {
-   "title": "District Education Plan",
-   "url": "https://kpese.gov.pk/district-education-plan/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
-   "title": "Tentative Seniority List of Officers (BS-17) Female, Teaching Cadre as stood on 05-09-2025",
-   "url": "https://kpese.gov.pk/tentative-seniority-list-of-officers-bs-17-female-teaching-cadre-as-stood-on-05-09-2025/",
-   "date": "2026-05-30",
-   "cat": "Seniority"
-  },
-  {
    "title": "Final Seniority List of Officers (BS-17) Male, Teaching Cadre as stood on 09-01-2026",
    "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-17-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
@@ -180,6 +174,12 @@
   {
    "title": "Final Seniority List of Officers (BS-18) Male, Teaching Cadre as stood on 09-01-2026",
    "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-18-male-teaching-cadre-as-stood-on-09-01-2026/",
+   "date": "2026-05-30",
+   "cat": "Seniority"
+  },
+  {
+   "title": "Final Seniority List of Officers (BS-19) Male, Teaching Cadre as stood on 09-01-2026",
+   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-19-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
    "cat": "Seniority"
   }
