@@ -1,8 +1,14 @@
 {
- "updated": "2026-10-06T08:52:08Z",
+ "updated": "2026-10-07T08:31:03Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
+  {
+   "title": "Tender Notice for Procurement of I.T Equipments",
+   "url": "https://kpese.gov.pk/tender-notice-for-procurement-of-i-t-equipments/",
+   "date": "2026-10-07",
+   "cat": "Tender"
+  },
   {
    "title": "Invitation of Bids – I.T Equipment & Allied Accessories 2026-27",
    "url": "https://kpese.gov.pk/invitation-of-bids-i-t-equipment-allied-accessories-2026-27/",
@@ -118,12 +124,6 @@
    "cat": "Notification"
   },
   {
-   "title": "School Self Reporting (SSR)",
-   "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
    "title": "E-Transfer Plus Policy 2026",
    "url": "https://kpese.gov.pk/e-transfer-plus-policy-2026/",
    "date": "2026-05-30",
@@ -132,6 +132,12 @@
   {
    "title": "E-Notification",
    "url": "https://kpese.gov.pk/e-notification/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "School Self Reporting (SSR)",
+   "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
@@ -174,12 +180,6 @@
   {
    "title": "Final Seniority List of Officers (BS-18) Male, Teaching Cadre as stood on 09-01-2026",
    "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-18-male-teaching-cadre-as-stood-on-09-01-2026/",
-   "date": "2026-05-30",
-   "cat": "Seniority"
-  },
-  {
-   "title": "Final Seniority List of Officers (BS-19) Male, Teaching Cadre as stood on 09-01-2026",
-   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-19-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
    "cat": "Seniority"
   }
