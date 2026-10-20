@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T07:38:57Z",
+ "updated": "2026-10-20T07:24:20Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -124,6 +124,12 @@
    "cat": "Notification"
   },
   {
+   "title": "E-Notification",
+   "url": "https://kpese.gov.pk/e-notification/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
    "title": "School Self Reporting (SSR)",
    "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
    "date": "2026-05-30",
@@ -136,14 +142,14 @@
    "cat": "Initiative"
   },
   {
-   "title": "E-Notification",
-   "url": "https://kpese.gov.pk/e-notification/",
+   "title": "Integrated Education Management Information System (iEMIS)",
+   "url": "https://kpese.gov.pk/integrated-education-management-information-system-iemis/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
   {
-   "title": "Integrated Education Management Information System (iEMIS)",
-   "url": "https://kpese.gov.pk/integrated-education-management-information-system-iemis/",
+   "title": "Education Monitoring Authority",
+   "url": "https://kpese.gov.pk/education-monitoring-authority/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
@@ -162,12 +168,6 @@
   {
    "title": "District Education Plan",
    "url": "https://kpese.gov.pk/district-education-plan/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
-   "title": "District Performance Scorecard",
-   "url": "https://kpese.gov.pk/district-performance-scorecard/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
