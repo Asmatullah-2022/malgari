@@ -1,8 +1,14 @@
 {
- "updated": "2026-10-21T07:26:03Z",
+ "updated": "2026-10-22T07:26:11Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
+  {
+   "title": "NOTIFICATION – National Curricula of Pakistan 2026 KP text book board.",
+   "url": "https://kpese.gov.pk/notification-national-curricula-of-pakistan-2026-kp-text-book-board/",
+   "date": "2026-10-22",
+   "cat": "Notification"
+  },
   {
    "title": "Tender Notice for Procurement of I.T Equipments",
    "url": "https://kpese.gov.pk/tender-notice-for-procurement-of-i-t-equipments/",
@@ -118,18 +124,6 @@
    "cat": "Seniority"
   },
   {
-   "title": "Notification – Guidelines/ Instructions of Summer Camp in all Summer Zone Schools (Public & Private) of Khyber Pakhtunkhwa",
-   "url": "https://kpese.gov.pk/notification-guidelines-instructions-of-summer-camp-in-all-summer-zone-schools-public-private-of-khyber-pakhtunkhwa/",
-   "date": "2026-05-31",
-   "cat": "Notification"
-  },
-  {
-   "title": "E-Notification",
-   "url": "https://kpese.gov.pk/e-notification/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
    "title": "School Self Reporting (SSR)",
    "url": "https://kpese.gov.pk/school-self-reporting-ssr/",
    "date": "2026-05-30",
@@ -138,6 +132,12 @@
   {
    "title": "E-Transfer Plus Policy 2026",
    "url": "https://kpese.gov.pk/e-transfer-plus-policy-2026/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "E-Notification",
+   "url": "https://kpese.gov.pk/e-notification/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
