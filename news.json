@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:30:49Z",
+ "updated": "2026-10-26T07:41:54Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -148,18 +148,6 @@
    "cat": "Initiative"
   },
   {
-   "title": "Education Monitoring Authority",
-   "url": "https://kpese.gov.pk/education-monitoring-authority/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
-   "title": "School Bag Weight Limit (Halka Basta Act-2020)",
-   "url": "https://kpese.gov.pk/school-bag-weight-limit-halka-basta-act-2020/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
    "title": "Capacity Building of DEO Offices",
    "url": "https://kpese.gov.pk/capacity-building-of-deo-offices/",
    "date": "2026-05-30",
@@ -172,14 +160,26 @@
    "cat": "Initiative"
   },
   {
-   "title": "Final Seniority List of Officers (BS-18) Male, Teaching Cadre as stood on 09-01-2026",
-   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-18-male-teaching-cadre-as-stood-on-09-01-2026/",
+   "title": "District Performance Scorecard",
+   "url": "https://kpese.gov.pk/district-performance-scorecard/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "Education Monitoring Authority",
+   "url": "https://kpese.gov.pk/education-monitoring-authority/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "Final Seniority List of Officers (BS-17) Male, Teaching Cadre as stood on 09-01-2026",
+   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-17-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
    "cat": "Seniority"
   },
   {
-   "title": "Final Seniority List of Officers (BS-19) Male, Teaching Cadre as stood on 09-01-2026",
-   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-19-male-teaching-cadre-as-stood-on-09-01-2026/",
+   "title": "Final Seniority List of Officers (BS-18) Male, Teaching Cadre as stood on 09-01-2026",
+   "url": "https://kpese.gov.pk/final-seniority-list-of-officers-bs-18-male-teaching-cadre-as-stood-on-09-01-2026/",
    "date": "2026-05-30",
    "cat": "Seniority"
   }
