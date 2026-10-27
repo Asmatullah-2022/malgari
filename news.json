@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T07:41:54Z",
+ "updated": "2026-10-27T07:39:30Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
@@ -148,12 +148,6 @@
    "cat": "Initiative"
   },
   {
-   "title": "Capacity Building of DEO Offices",
-   "url": "https://kpese.gov.pk/capacity-building-of-deo-offices/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
    "title": "District Education Plan",
    "url": "https://kpese.gov.pk/district-education-plan/",
    "date": "2026-05-30",
@@ -168,6 +162,12 @@
   {
    "title": "Education Monitoring Authority",
    "url": "https://kpese.gov.pk/education-monitoring-authority/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "School Bag Weight Limit (Halka Basta Act-2020)",
+   "url": "https://kpese.gov.pk/school-bag-weight-limit-halka-basta-act-2020/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
