@@ -1,8 +1,14 @@
 {
- "updated": "2026-10-28T08:16:10Z",
+ "updated": "2026-10-29T08:19:53Z",
  "source": "https://kpese.gov.pk",
  "count": 30,
  "items": [
+  {
+   "title": "NOTIFICATION – POSTING OF CHAIRMAN (BPS-20) BOARDS OF INTERMEDIATE & SECONDARY EDUCATION ABBOTABAD",
+   "url": "https://kpese.gov.pk/notification-posting-of-chairman-bps-20-boards-of-intermediate-secondary-education-abbotabad/",
+   "date": "2026-10-29",
+   "cat": "Notification"
+  },
   {
    "title": "NOTIFICATION – National Curricula of Pakistan 2026 KP text book board.",
    "url": "https://kpese.gov.pk/notification-national-curricula-of-pakistan-2026-kp-text-book-board/",
@@ -94,12 +100,6 @@
    "cat": "Tender"
   },
   {
-   "title": "NOTIFICATION – Promotion of ASDEOs/ADEOs (EMC BS-16) to SDEOS/Assistant Directors (Female EMC BPS-17) on Regular basis.",
-   "url": "https://kpese.gov.pk/notification-promotion-of-asdeos-adeos-emc-bs-16-to-sdeos-assistant-directors-female-emc-bps-17-on-regular-basis/",
-   "date": "2026-07-09",
-   "cat": "Notification"
-  },
-  {
    "title": "Advertisement – Filling of the Post of Chairman (BS-20) at BISE Bannu on a deputation basis",
    "url": "https://kpese.gov.pk/advertisement-filling-of-the-post-of-chairman-bs-20-at-bise-bannu-on-a-deputation-basis/",
    "date": "2026-07-08",
@@ -148,12 +148,6 @@
    "cat": "Initiative"
   },
   {
-   "title": "District Performance Scorecard",
-   "url": "https://kpese.gov.pk/district-performance-scorecard/",
-   "date": "2026-05-30",
-   "cat": "Initiative"
-  },
-  {
    "title": "Education Monitoring Authority",
    "url": "https://kpese.gov.pk/education-monitoring-authority/",
    "date": "2026-05-30",
@@ -168,6 +162,12 @@
   {
    "title": "Capacity Building of DEO Offices",
    "url": "https://kpese.gov.pk/capacity-building-of-deo-offices/",
+   "date": "2026-05-30",
+   "cat": "Initiative"
+  },
+  {
+   "title": "District Education Plan",
+   "url": "https://kpese.gov.pk/district-education-plan/",
    "date": "2026-05-30",
    "cat": "Initiative"
   },
